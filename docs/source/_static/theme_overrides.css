@@ -1,7 +1,7 @@
 /* override table width restrictions as found on https://github.com/getpelican/pelican/issues/1311 */
 a { color:#6b9080; }
 a:hover { color:#6b9080; }
-a:visited { color:#8c9db1; }
+a:visited { color:#6b9080; }
 
 .highlight { background: #fffae4; }
 
