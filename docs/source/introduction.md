@@ -26,15 +26,16 @@ Below there is a video generated with **Biomovies** software. More videos availa
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/-cEe-mtP2VU?si=7cT5b4eUvOxmbubg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
+
 ## Documentation & help
 
 All the documentation is accessible through [**Read the Docs**](https://biomovies-documentation.readthedocs.io).
 
-## Hardware requirements
+## Software / Hardware requirements
 
-**Mac:** Mac OSX 10.12+ supported, 16GB of RAM recommended
-**Ubuntu:** Ubuntu 18.04 or greater, 16GB of RAM recommended
-**Windows:** Windows 10, 16GB of RAM recommended
+* **macOS:** Mac OSX 10.12+ supported, 16GB of RAM recommended
+* **Linux:** Ubuntu 18.04 or greater, 16GB of RAM recommended
+* **Windows:** Windows 10, 16GB of RAM recommended
 
 ## Installation
 
@@ -44,7 +45,11 @@ Please take a look at the [**installation section**](https://biomovies-documenta
 
 Though we have put all our effort in making **Biomovies** a fully **cross-platform** software, there are a few **features** not available in some of the operating systems:
 
-<TODO> Table of incompatibilities (ie, Open recent working in mac but not in Ubuntu)
+| Feature | <i class="fa-brands fa-apple"></i> macOS | <i class="fa-brands fa-linux"></i> Linux | <i class="fa-brands fa-windows"></i> Windows
+| :-: | :-: | :-: | :-: |
+| **Open recent** | ✅ | ❌ | ✅
+| **Dock menu / JumpList** | ✅ | ❌ | ✅
+| **Open file on double click** |  ✅ | ❌ | ❌
 
 ## Technology
 
