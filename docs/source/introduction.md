@@ -43,7 +43,7 @@ Please take a look at the [**installation section**](https://biomovies-documenta
 
 ## Incompatibilities
 
-Though we have put all our effort in making **Biomovies** a fully **cross-platform** software, there are a few **features** not available in some of the operating systems:
+Though we have put all our effort in making **Biomovies** a fully **cross-platform** software, there are a few **minor features** not available in some of the operating systems:
 
 | Feature | <i class="fa-brands fa-apple"></i> macOS | <i class="fa-brands fa-linux"></i> Linux | <i class="fa-brands fa-windows"></i> Windows
 | :-: | :-: | :-: | :-: |
@@ -53,11 +53,11 @@ Though we have put all our effort in making **Biomovies** a fully **cross-platfo
 
 ## Technology
 
-This project has been built using [**Vue JS**](https://vuejs.org/) on top [**Electron JS**](https://www.electronjs.org/) using the [**PrimeVue**](https://primevue.org/)  components library to enhance the user experience.
+This project has been built using [**Vue JS**](https://vuejs.org/) on top of [**Electron JS**](https://www.electronjs.org/), using the [**PrimeVue**](https://primevue.org/)  components library to enhance the user experience.
 
 ## Acknowledgements
 
-This project has been developed on top different JavaScript libraries:
+This project has been developed on top of different JavaScript libraries:
 
 * [**NGL viewer: web-based molecular graphics for large complexes**](http://dx.doi.org/10.1093/bioinformatics/bty419)
 * [**NGL Viewer: a web application for molecular visualization**](http://dx.doi.org/10.1093/nar/gkv402)
