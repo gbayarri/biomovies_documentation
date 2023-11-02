@@ -19,3 +19,50 @@ Thanks to its simplicity and the intuitive interface, users can build videos **e
 The projects can be saved into **.biomovies** files for the sake of **sharing** or **editing** them later. Templates can be **exported** too, allowing to apply the same edition to different biological structures.
 
 Visit the [**official website**](https://gbayarri.github.io/biomovies/) for watching demonstration **videos** and **tutorials**.
+
+## Demo
+
+Below there is a video generated with **Biomovies** software. More videos available in the [**website gallery**](https://gbayarri.github.io/biomovies/#gallery).
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/-cEe-mtP2VU?si=7cT5b4eUvOxmbubg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+## Documentation & help
+
+All the documentation is accessible through [**Read the Docs**](https://biomovies-documentation.readthedocs.io).
+
+## Hardware requirements
+
+**Mac:** Mac OSX 10.12+ supported, 16GB of RAM recommended
+**Ubuntu:** Ubuntu 18.04 or greater, 16GB of RAM recommended
+**Windows:** Windows 10, 16GB of RAM recommended
+
+## Installation
+
+Please take a look at the [**installation section**](https://biomovies-documentation.readthedocs.io/en/latest/installation.html) in this same documentation.
+
+## Incompatibilities
+
+Though we have put all our effort in making **Biomovies** a fully **cross-platform** software, there are a few **features** not available in some of the operating systems:
+
+<TODO> Table of incompatibilities (ie, Open recent working in mac but not in Ubuntu)
+
+## Technology
+
+This project has been built using [**Vue JS**](https://vuejs.org/) on top [**Electron JS**](https://www.electronjs.org/) using the [**PrimeVue**](https://primevue.org/)  components library to enhance the user experience.
+
+## Acknowledgements
+
+This project has been developed on top different JavaScript libraries:
+
+* [**NGL viewer: web-based molecular graphics for large complexes**](http://dx.doi.org/10.1093/bioinformatics/bty419)
+* [**NGL Viewer: a web application for molecular visualization**](http://dx.doi.org/10.1093/nar/gkv402)
+* [**FFMPEG WASM**](https://ffmpegwasm.netlify.app/)
+* [**Animation Timeline Control**](https://github.com/ievgennaida/animation-timeline-control)
+
+## Copyright & licensing
+
+This software has been developed by the [**MMB group**](https://mmb.irbbarcelona.org/) at the [**IRB Barcelona**](https://irbbarcelona.org/).
+
+© 2023 **Institute for Research in Biomedicine**
+
+Licensed under the **GPL-3.0 license**
