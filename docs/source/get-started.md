@@ -31,7 +31,7 @@ Clicking the _Import template_ button (or via menu: _Project > Import Template_)
 
 ## Help
 
-A broad documentation has been written and is available in this same [**Read the Docs**](#introduction). Besides, there are several video examples available in the [**Gallery**](https://gbayarri.github.io/biomovies/#gallery) as well as some [**Tutorials**](https://gbayarri.github.io/biomovies/#tutorials) in the [**official website**](https://gbayarri.github.io/biomovies).
+A broad documentation has been written and is available in this same [**Read the Docs**](introduction.html). Besides, there are several video examples available in the [**Gallery**](https://gbayarri.github.io/biomovies/#gallery) as well as some [**Tutorials**](https://gbayarri.github.io/biomovies/#tutorials) in the [**official website**](https://gbayarri.github.io/biomovies).
 
 ## Common shortcuts
 
