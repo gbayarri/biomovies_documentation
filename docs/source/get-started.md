@@ -35,4 +35,4 @@ A broad documentation has been written and is available in this same [**Read the
 
 ## Common shortcuts
 
-When launching the application, a list of **common shortcuts** is shown (see Figure _Application home screen_ in this same section). However, a list with all the shortcuts available can be found in the **Utilities**(LINK TO SHORTCUTS TODO) section.
+When launching the application, a list of **common shortcuts** is shown (see Figure _Application home screen_ in this same section). However, a list with all the shortcuts available can be found in the [**Utilities**](utilities.html#shortcuts) section.
