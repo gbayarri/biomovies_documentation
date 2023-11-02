@@ -1,5 +1,5 @@
 
-biomovies DOCUMENTATION
+Biomovies documentation
 ------------------------
 
 Contents
