@@ -37,6 +37,7 @@ extensions = [
     'sphinx.ext.napoleon',
     'sphinx_rtd_theme',
     'recommonmark'
+    
 ]
 
 # Using Google docstring style
