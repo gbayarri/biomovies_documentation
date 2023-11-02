@@ -36,6 +36,8 @@ Now the application should work properly.
 
 ## Ubuntu
 
+For downloading the **Ubuntu** version of **Biomovies**, go to the [**website download**](https://gbayarri.github.io/biomovies/#download) section and click the _Ubuntu x64_ button. At the moment of launching the current release, there is only a **x64 architecture** binary for **Ubuntu**.
+
 ### Command line
 
 Open the Terminal and **type the following code**:
@@ -54,6 +56,8 @@ Right click on **.deb** file, select **Open With Other Application** and select 
 
 Now the application is installed in your computer.
 
-## Windows
+## Windows
+
+For downloading the **Windows** version of **Biomovies**, go to the [**website download**](https://gbayarri.github.io/biomovies/#download) section and click the _Windows x64_ button. At the moment of launching the current release, there is only a **x64 architecture** binary for **Windows**.
 
 TODO

@@ -45,7 +45,7 @@ Please take a look at the [**installation section**](https://biomovies-documenta
 
 Though we have put all our effort in making **Biomovies** a fully **cross-platform** software, there are a few **minor features** not available in some of the operating systems:
 
-| Feature | <i class="fa-brands fa-apple"></i> macOS | <i class="fa-brands fa-linux"></i> Linux | <i class="fa-brands fa-windows"></i> Windows
+| Feature | <i class="fa-brands fa-apple"></i> macOS | <i class="fa-brands fa-ubuntu"></i> Ubuntu | <i class="fa-brands fa-windows"></i> Windows
 | :-: | :-: | :-: | :-: |
 | **Open recent** | ✅ | ❌ | ✅
 | **Dock menu / JumpList** | ✅ | ❌ | ✅
