@@ -6,29 +6,135 @@
 
 ## Representation
 
-<img src="_static/interface/representations.png" style="max-width:800px;" />
+<img src="_static/interface/representations/representations.png" style="max-width:800px;" />
 
 The **stage** is the area where the 3D biological structure is represented, the **tools bar** allows to apply actions to the stage.
 
 ### Tools
 
+The tools menu is at the top left of the **stage** and allows users to make some actions over it.
+
+<img src="_static/interface/representations/tools/tools.png" />
+
+This menu is **draggable** around all the stage and can be **collapsed / expanded** by clicking twice on the handler. For **hiding** it completely, go to _View > Tools_ in the menu. Click in the same menu for **showing** it again.
+
 #### Center
+
+<img src="_static/interface/representations/tools/tools01.png" />
+
+Clicking this button **centers** the structure(s) position on the **stage**. This button is active only if **one single keyframe** of the timeline has been selected.
 
 #### Background
 
+<img src="_static/interface/representations/tools/tools02.png" />
+
+Clicking this button opens a **color picker** that allows users to change the **background color** of the **stage**.
+
+<img src="_static/interface/representations/tools/tools02b.png" />
+
+Click **again** on the button for **hiding** the color picker.
+
 #### Measurements
+
+<img src="_static/interface/representations/tools/tools03.png" />
+
+Clicking this button **opens a modal dialog** to edit the **distances and angles** created by users in the stage. For remembering how to draw them, please go to the [**Mouse click actions section**](#mouse-click-actions).
+
+**Measurements** with size and color **by default**:
+
+<img src="_static/interface/representations/tools/tools03a.png" style="max-width:500px;" />
+
+**Distances** editor before editing size and color:
+
+<img src="_static/interface/representations/tools/tools03b.png" style="max-width:500px;" />
+
+**Distances** editor after editing size and color:
+
+<img src="_static/interface/representations/tools/tools03c.png" style="max-width:525px;" />
+
+If **only a distance** is needed (**without label**), please set **0 as Label siz**e.
+
+**Angles** editor before editing size and color:
+
+<img src="_static/interface/representations/tools/tools03d.png" style="max-width:500px;" />
+
+**Angles** editor after editing size and color:
+
+<img src="_static/interface/representations/tools/tools03e.png" style="max-width:525px;" />
+
+If **only the lines** are needed (**without label**), please set **0 as Label size**.
+
+**Measurements** after **size and color edition**:
+
+<img src="_static/interface/representations/tools/tools03f.png" style="max-width:500px;" />
 
 #### Labels
 
+<img src="_static/interface/representations/tools/tools04.png" />
+
+Clicking this button **opens a modal dialog** to edit the **labels** created by users in the stage. For remembering how to draw them, please go to the [**Mouse click actions section**](#mouse-click-actions).
+
+**Labels** with size, text and color **by default**:
+
+<img src="_static/interface/representations/tools/tools04a.png" style="max-width:500px;" />
+
+**Labels** editor before editing text, size color and background:
+
+<img src="_static/interface/representations/tools/tools04b.png" style="max-width:500px;" />
+
+**Labels** editor after editing text, size color and background:
+
+<img src="_static/interface/representations/tools/tools04c.png" style="max-width:500px;" />
+
+Label **background** can be modified. Moreover, it can be **disabled** as well with the switch beside the background color **selector**.
+
+**Labels** after **size, text and color edition**:
+
+<img src="_static/interface/representations/tools/tools04d.png" style="max-width:500px;" />
+
 #### Camera type
+
+<img src="_static/interface/representations/tools/tools05.png" />
+
+Switches camera type between **orthographic** and **perspective**.
 
 #### Center view in atom
 
+<img src="_static/interface/representations/tools/tools06.png" />
+
+Click this button and then, **select an atom** of the structure, the view will be **focused** into this atom position. This button is active only if **one single keyframe** of the timeline has been selected.
+
 #### Enable / Disable legend
+
+<img src="_static/interface/representations/tools/tools07.png" />
+
+Enables / disables a **legend** on the bottom right of the **stage**. This **legend** shows information for the molecule the mouse has hovered over in the next format:
+
+> Model **number** | Chain **ID** | **Residue name (Residue long name) Residue number** Atom name (or Bond)
+
+<img src="_static/interface/representations/tools/tools07b.png" />
 
 #### Open keyframe editor
 
+<img src="_static/interface/representations/tools/tools08.png" />
+
+Clicking this button **opens a keyframe editor**. 
+
+<img src="_static/interface/representations/tools/tools08b.png" />
+
+In this editor, users can change the **rotation** and **translation** of the biological structure.
+
+This button is active only if **one single keyframe** of the timeline has been selected.
+
 #### Enable / Disable letterboxing
+
+<img src="_static/interface/representations/tools/tools09.png" />
+
+Enables / disables letterboxing on the **stage**. Two **stripes** will appear showing to the user which parts of the stage will be **rendered** and which not in case of **HD rendering**. In some cases (depending on the screen **aspect ratio**) these stripes won’t appear.
+
+<img src="_static/interface/representations/tools/tools09b.png" style="max-width:500px" />
+
+Click **again** on the button for **removing** the stripes from the stage.
 
 ### Stage
 
