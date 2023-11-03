@@ -12,6 +12,7 @@ Contents
    Installation <installation>
    Getting started <get-started>
    Interface <interface>
+   Inertface <interface>
    Create Videos <create_videos>
    Utilities <utilities>
    Changelog <changelog>
