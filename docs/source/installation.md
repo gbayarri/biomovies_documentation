@@ -10,7 +10,7 @@ A universal binary runs natively on **both Apple silicon and Intel-based Mac** c
 
 Download the dmg file, install the application dragging the icon to the Applications folder, and, before opening the application, open **Settings > Security and Privacy** and click **Anywhere** under the _Allow apps downloaded from_ section:
 
-<img src="_static/installation/image4.jpg" style="max-width:600px;" />
+<img src="_static/installation/image4.jpg" style="max-width:600px; margin-bottom:0;" />
 
 Note that this option has disappeared from **Mac OS High Sierra** onwards, so in this case, select _App Store and identified developers_. After that, try to open the application and this message will be shown:
 
