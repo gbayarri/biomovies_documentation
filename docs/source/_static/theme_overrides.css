@@ -50,7 +50,7 @@ p.rubric:after {
 }
 
 span.rst-current-version span { font-family: 'Lato';}
-.rst-content h2 .headerlink { font-family: 'FontAwesome'!important; }
+.headerlink { font-family: 'FontAwesome'!important; }
 
 @media not all and (min-resolution:.001dpcm)
 { @supports (-webkit-appearance:none) {

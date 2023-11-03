@@ -1,11 +1,12 @@
 # Interface
 
 <img src="_static/interface/interface.png" style="margin-bottom:0;" />
+
 <span style="font-size:12px;display:flex;justify-content:center;">Video Editor</span>
 
 ## Representation
 
-<img src="_static/interface/representations.png" style="max-width:800px; margin-bottom:0;" />
+<img src="_static/interface/representations.png" style="max-width:800px;" />
 
 The **stage** is the area where the 3D biological structure is represented, the **tools bar** allows to apply actions to the stage.
 
