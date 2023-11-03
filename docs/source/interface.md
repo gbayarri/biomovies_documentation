@@ -138,6 +138,8 @@ Click **again** on the button for **removing** the stripes from the stage.
 
 ### Stage
 
+The **stage** covers the main part of the screen. In the stage the **structure is loaded** and represented, and users can interact with it in several ways.
+
 #### Zoom / Drag
 
 #### Mouse actions
