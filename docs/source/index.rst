@@ -11,6 +11,8 @@ Contents
    Introduction <introduction>
    Installation <installation>
    Getting started <get-started>
+   Interface <interface>
+   Create Videos <create_videos>
    Utilities <utilities>
    Changelog <changelog>
 

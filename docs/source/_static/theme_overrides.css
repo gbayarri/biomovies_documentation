@@ -1,5 +1,5 @@
 /* override table width restrictions as found on https://github.com/getpelican/pelican/issues/1311 */
-a { color:#6b9080; }
+a { color:#6b9080; font-family: 'Lato'!important; }
 a:hover { color:#6b9080; }
 a:visited { color:#6b9080; }
 
@@ -48,6 +48,8 @@ dl.docutils dt {
 p.rubric:after {
     content: ":";
 }
+
+span.rst-current-version span { font-family: 'Lato';}
 
 @media not all and (min-resolution:.001dpcm)
 { @supports (-webkit-appearance:none) {
