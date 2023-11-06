@@ -41,7 +41,7 @@ All the documentation is accessible through [**Read the Docs**](https://biomovie
 
 Please take a look at the [**installation section**](https://biomovies-documentation.readthedocs.io/en/latest/installation.html) in this same documentation.
 
-## Incompatibilities
+## Features
 
 Though we have put all our effort in making **Biomovies** a fully **cross-platform** software, there are a few **minor features** not available in some of the operating systems:
 

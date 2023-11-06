@@ -38,7 +38,7 @@ Now the application should work properly.
 
 For downloading the **Ubuntu** version of **Biomovies**, go to the [**website download**](https://gbayarri.github.io/biomovies/#download) section and click the _Ubuntu x64_ button. At the moment of launching the current release, there is only a **x64 architecture** binary for **Ubuntu**.
 
-### deb
+### deb
 
 #### Command line
 
