@@ -270,6 +270,8 @@ latex_documents = [
 # If false, no module index is generated.
 # latex_domain_indices = True
 
+panels_add_fontawesome_latex = True
+
 
 # -- Options for manual page output ---------------------------------------
 
