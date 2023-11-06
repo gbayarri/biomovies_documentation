@@ -47,6 +47,12 @@ Though we have put all our effort in making **Biomovies** a fully **cross-platfo
 
 | Feature | <i class="fa-brands fa-apple"></i> macOS | <i class="fa-brands fa-ubuntu"></i> Ubuntu | <i class="fa-brands fa-windows"></i> Windows
 | :-: | :-: | :-: | :-: |
+| **Create projects** | ✅ | ✅ | ✅
+| **Run trajectories** | ✅ | ✅ | ✅
+| **Export videos** | ✅ | ✅ | ✅
+| **Export HD videos** | ✅ | ✅ | ✅
+| **Export animated GIFs** | ✅ | ✅ | ✅
+| **Create templates** | ✅ | ✅ | ✅
 | **Open recent** | ✅ | ❌ | ✅
 | **Dock menu / JumpList** | ✅ | ❌ | ✅
 | **Open file on double click** |  ✅ | ❌ | ❌
