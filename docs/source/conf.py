@@ -270,6 +270,7 @@ latex_documents = [
 # If false, no module index is generated.
 # latex_domain_indices = True
 
+html_css_files = ["https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"]
 panels_add_fontawesome_latex = True
 
 
