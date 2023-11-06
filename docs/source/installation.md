@@ -38,7 +38,9 @@ Now the application should work properly.
 
 For downloading the **Ubuntu** version of **Biomovies**, go to the [**website download**](https://gbayarri.github.io/biomovies/#download) section and click the _Ubuntu x64_ button. At the moment of launching the current release, there is only a **x64 architecture** binary for **Ubuntu**.
 
-### Command line
+### deb
+
+#### Command line
 
 Open the Terminal and **type the following code**:
 
@@ -48,13 +50,37 @@ sudo apt install path_to_deb_file
 
 Be sure to put the absolute / relative path, not just the file name.
 
-### Graphical User Interface
+#### Graphical User Interface
 
 Right click on **.deb** file, select **Open With Other Application** and select **Software Install**. This opens **Ubuntu Software**. Click Install button:
 
 <img src="_static/installation/image1.png" style="max-width:600px;" />
 
 Now the application is installed in your computer.
+
+### AppImage
+
+First off, be sure to have **FUSE** installed in your coumputer. If not, please, type on terminal:
+
+```bash
+sudo apt-get install fuse libfuse2  # Ubuntu < 22.04
+sudo apt install libfuse2 # Ubuntu >= 22.04
+```
+
+#### Command line
+
+Open the Terminal and **type the following code**:
+
+```bash
+chmod +x path_to_AppImage_file
+./path_to_AppImage_file
+```
+
+Be sure to put the absolute / relative path, not just the file name.
+
+#### Graphical User Interface
+
+Double click **.AppImage** file.
 
 ## Windows
 
