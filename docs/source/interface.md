@@ -1,4 +1,4 @@
-# Interface
+# Video Editor
 
 <img src="_static/interface/interface.png" style="margin-bottom:0;" />
 
@@ -148,7 +148,7 @@ The **stage** covers the main part of the screen. In the stage the **structure i
 
 #### Zoom / Drag
 
-Before applying **rotation**, **translation** or **zoom** to the stage, a [**keyframe must be selected in the timeline**](TODOOOO).
+Before applying **rotation**, **translation** or **zoom** to the stage, a [**keyframe must be selected in the timeline**](#timeline-editor).
 
 Actions of **zoom in** and **zoom out** can be done with the **scroll mouse or the trackpad** of a laptop:
 
@@ -244,9 +244,73 @@ Passing the mouse over the molecules of the structure will **highlight** them an
 
 ### Keyframes / Clips
 
-### Descriptions
+#### Menu
+
+##### Create new representation
+
+##### Hide all
+
+##### Collapse all
+
+#### Edit representation
+
+##### Representation menu
+
+###### Representation name
+
+###### Hide representation
+
+###### Clone representation
+
+###### Center in this representation
+
+###### Remove representation
+
+###### Collapse representation editor
+
+##### Selection
+
+###### Standard selection
+
+###### Custom selection
+
+##### Opacity
+
+##### Molecular representation
+
+##### Color
+
+##### Radius
 
 ### Trajectories
+
+#### Enable / Disable trajectory
+
+#### Range
+
+#### Step
+
+#### Timeout
+
+#### Play in reverse
+
+#### Fit clip in timeline
+
+### Descriptions
+
+#### Description text
+
+#### Font size
+
+#### Font family
+
+#### Font Color
+
+#### Background Color
+
+#### Background Visibility
+
+#### Description position
 
 ## Status Bar
 
