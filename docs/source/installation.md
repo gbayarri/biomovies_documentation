@@ -2,7 +2,14 @@
 
 ## macOS
 
-At the moment of launching the current release, the **Biomovies** macOS binaries are **unsigned**. That means that macOS treats them as untrusted software. Here they are the workarounds for make working both the **universal (Intel)** and **Apple silicon (arm64)** version of **Biomovies**: 
+At the moment of launching the current release, the **Biomovies** macOS binaries are **unsigned**. That means that macOS treats them as untrusted software. So, for executing it, please follow the next steps: 
+
+* Open the **Finder**.
+* Locate the **app** (it might be in the **Applications** folder, or it might still be in your **Downloads** folder).
+* **Ctrl-Click** or **right-click** on the app. 
+* Select **Open** from the resultant menu and the app will be opened anyway, and an **exception** will be created for opening it normally (i.e. by double-clicking) in future.
+
+If the above steps don't work, here they are the workarounds for make working both the **universal (Intel)** and **Apple silicon (arm64)** version of **Biomovies**: 
 
 ### Universal / Intel 
 
@@ -36,7 +43,7 @@ Now the application should work properly.
 
 ## Ubuntu
 
-For downloading the **Ubuntu** version of **Biomovies**, go to the [**website download**](https://gbayarri.github.io/biomovies/#download) section and click the _Ubuntu x64_ button. At the moment of launching the current release, there is only a **x64 architecture** binary for **Ubuntu**.
+For downloading the **Ubuntu** version of **Biomovies**, go to the [**website download**](https://gbayarri.github.io/biomovies/#download) section and click the _Ubuntu_ button (**.deb** and **.AppImage** binaries available). At the moment of launching the current release, there is only a **x64 architecture** binary for **Ubuntu**.
 
 ### deb
 
@@ -84,6 +91,14 @@ Double click **.AppImage** file.
 
 ## Windows
 
-For downloading the **Windows** version of **Biomovies**, go to the [**website download**](https://gbayarri.github.io/biomovies/#download) section and click the _Windows x64_ button. At the moment of launching the current release, there is only a **x64 architecture** binary for **Windows**.
+For downloading the **Windows** version of **Biomovies**, go to the [**website download**](https://gbayarri.github.io/biomovies/#download) section and click the _Windows_ button. At the moment of launching the current release, there is only a **x64 architecture** binary for **Windows**.
 
-TODO
+Windows treats the **Biomovies** executable file as an unrecognized app. So, after double clicking the **.exe** file, Windows will open the following window:
+
+<img src="_static/installation/image5.png" style="max-width:400px;" />
+
+Click on _More info_ and then, on _Run anyway_ button for starting the installation.
+
+
+
+

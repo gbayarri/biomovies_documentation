@@ -1,7 +1,7 @@
 # Create Videos
 
-## Create New Movie 
+## Create New Preview 
 
-## Create New HD Movie  
+## Create New Movie  
 
-## Create New Animated GIF  
+## Create New GIF  

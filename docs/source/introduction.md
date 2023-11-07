@@ -49,12 +49,12 @@ Though we have put all our effort in making **Biomovies** a fully **cross-platfo
 | :-: | :-: | :-: | :-: |
 | **Create projects** | ✅ | ✅ | ✅
 | **Run trajectories** | ✅ | ✅ | ✅
-| **Export videos** | ✅ | ✅ | ✅
+| **Export preview videos** | ✅ | ✅ | ✅
 | **Export HD videos** | ✅ | ✅ | ✅
 | **Export animated GIFs** | ✅ | ✅ | ✅
 | **Create templates** | ✅ | ✅ | ✅
-| **Open recent** | ✅ | ❌ | ✅
-| **Dock menu / JumpList** | ✅ | ❌ | ✅
+| **Open recent** | ✅ | ❌ | ❌
+| **Dock menu / JumpList** | ✅ | ❌ | ❌
 | **Open file on double click** |  ✅ | ❌ | ❌
 
 ## Technology

@@ -44,6 +44,8 @@ Clicking this button **opens a modal dialog** to edit the **distances and angles
 
 <img src="_static/interface/representations/tools/tools03a.png" style="max-width:500px;" />
 
+##### Distances
+
 **Distances** editor before editing size and color:
 
 <img src="_static/interface/representations/tools/tools03b.png" style="max-width:500px;" />
@@ -53,6 +55,8 @@ Clicking this button **opens a modal dialog** to edit the **distances and angles
 <img src="_static/interface/representations/tools/tools03c.png" style="max-width:525px;" />
 
 If **only a distance** is needed (**without label**), please set **0 as Label siz**e.
+
+##### Angles
 
 **Angles** editor before editing size and color:
 
@@ -138,15 +142,41 @@ Click **again** on the button for **removing** the stripes from the stage.
 
 ### Stage
 
+<img src="_static/interface/representations/stage/stage.png" style="max-width:600px;" />
+
 The **stage** covers the main part of the screen. In the stage the **structure is loaded** and **represented**, and users can interact with it in several ways.
 
 #### Zoom / Drag
+
+Before applying **rotation**, **translation** or **zoom** to the stage, a [**keyframe must be selected in the timeline**](TODOOOO).
+
+Actions of **zoom in** and **zoom out** can be done with the **scroll mouse or the trackpad** of a laptop:
+
+* Clicking on the stage with the **left button** and **dragging will rotate the view**.
+
+* Clicking on the stage with the **right button** and **dragging will translate the view**.
+
+* Mouse wheel (or using the trackpad with two fingers) on the stage will **zoom in** or **zoom out**.
+
+All these modifications in the **general orientation** of the structure will be applied to the **selected keyframe**. That means that, in a **clip**, the **first** and the **last frame** can have different **rotation**, **translation** or **zoom**. **Biomovies** will take care of the **interpolation** between frames.
+
+<img src="_static/interface/representations/stage/stage01.gif" style="margin-bottom:0;" />
+
+<span style="font-size:12px;">Automatic transition between two frames with different orientations</span>
 
 #### Mouse actions
 
 ##### Mouse over actions
 
+Passing the mouse over the molecules of the structure will **highlight** them and show **their information** in the **legend** on the bottom right of the stage. [**Click here**](#enable-disable-legend) to see how to enable the legend.
+
 ##### Mouse click actions
+
+* Clicking with the mouse **left button** on an atom while pressing the **Alt or ⌥ key** will **place a Label** close to this atom. [**Click here**](#labels) to see how to edit labels.
+
+* Clicking **consecutively on two atoms** with the mouse **left button** will draw and calculate the **distance** in **ångströms** between these two atoms. [**Click here**](#distances) to see how to edit distances.
+
+* Clicking **consecutively on three atoms** with the mouse **right button** while pressing the **Ctrl key** will draw and calculate the **angle** in **degrees** between these three atoms. [**Click here**](#angles) to see how to edit angles.
 
 ## Timeline
 
