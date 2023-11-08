@@ -53,9 +53,9 @@ Though we have put all our effort in making **Biomovies** a fully **cross-platfo
 | **Export HD videos** | ✅ | ✅ | ✅
 | **Export animated GIFs** | ✅ | ✅ | ✅
 | **Create templates** | ✅ | ✅ | ✅
-| **Open recent** | ✅ | ❌ | ❌
-| **Dock menu / JumpList** | ✅ | ❌ | ❌
-| **Open file on double click** |  ✅ | ❌ | ❌
+| **Dock menu / JumpList** | ✅ | ❌ | ✅
+| **Open project on double click** |  ✅ | ❌ | ✅
+| **Open recent projects** | ✅ | ❌ | ❌
 
 ## Technology
 

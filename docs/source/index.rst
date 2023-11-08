@@ -12,7 +12,7 @@ Contents
    Installation <installation>
    Getting started <get-started>
    Video Editor <interface>
-   Create Videos <create_videos>
+   Create Videos <create-videos>
    Utilities <utilities>
    Gallery ➚ <https://gbayarri.github.io/biomovies/#gallery>
    Tutorials ➚ <https://gbayarri.github.io/biomovies/#tutorials>
