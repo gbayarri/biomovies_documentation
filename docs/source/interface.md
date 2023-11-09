@@ -261,7 +261,7 @@ The **Representations** panel is located at right of the stage and is used for:
 
 ### Keyframes / Clips
 
-<img src="_static/interface/representations/clips/clips01.png" style="margin-bottom:0; max-width:300px;height:auto;" />
+<img src="_static/interface/representations/clips/clips01.png" style="max-width:300px;height:auto;" />
 
 When [**selecting a clip or a keyframe**](#timeline-editor) in the **Timeline**, the above **editor** module appears on the **Representations** area.
 
@@ -378,7 +378,7 @@ By default, **Biomovies** provide a list of predefined selections:
 
 Additionally, a **custom selection** is provided as well. When selected, the dropdown menu described below changes to a **new structure**:
 
-<img src="_static/interface/representations/clips/clips12.png" />
+<img src="_static/interface/representations/clips/clips12.png" style="max-width:300px" />
 
 The custom selection is divided into three sections:
 
@@ -402,7 +402,7 @@ In this text field, users can add a custom selection written in [**NGL viewer Se
 
 When clicked, gets the atoms that are within a certain distance of the selection. 
 
-<img src="_static/interface/representations/clips/clips15.png" />
+<img src="_static/interface/representations/clips/clips15.png" style="max-width:300px"  />
 
 It adds two new fields as well: **Whole residues** and **Distance**.
 
