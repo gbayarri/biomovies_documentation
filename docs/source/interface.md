@@ -4,9 +4,9 @@
 
 <span style="font-size:12px;display:flex;justify-content:center;">Video Editor</span>
 
-## Representation
+## Stage
 
-<img src="_static/interface/representations/representations.png" style="max-width:800px;" />
+<img src="_static/interface/stage/stage.png" style="max-width:800px;" />
 
 The **stage** is the area where the 3D biological structure is represented, the **tools bar** allows to apply actions to the stage.
 
@@ -14,45 +14,45 @@ The **stage** is the area where the 3D biological structure is represented, the 
 
 The tools menu is at the top left of the **stage** and allows users to make some actions over it.
 
-<img src="_static/interface/representations/tools/tools.png" />
+<img src="_static/interface/stage/tools/tools.png" />
 
 This menu is **draggable** around all the stage and can be **collapsed / expanded** by clicking twice on the handler. For **hiding** it completely, go to _View > Tools_ in the menu. Click in the same menu for **showing** it again.
 
 #### Center
 
-<img src="_static/interface/representations/tools/tools01.png" />
+<img src="_static/interface/stage/tools/tools01.png" />
 
 Clicking this button **centers** the structure(s) position on the **stage**. This button is active only if **one single keyframe** of the timeline has been selected.
 
 #### Background
 
-<img src="_static/interface/representations/tools/tools02.png" />
+<img src="_static/interface/stage/tools/tools02.png" />
 
 Clicking this button opens a **color picker** that allows users to change the **background color** of the **stage**.
 
-<img src="_static/interface/representations/tools/tools02b.png" />
+<img src="_static/interface/stage/tools/tools02b.png" />
 
 Click **again** on the button for **hiding** the color picker.
 
 #### Measurements
 
-<img src="_static/interface/representations/tools/tools03.png" />
+<img src="_static/interface/stage/tools/tools03.png" />
 
 Clicking this button **opens a modal dialog** to edit the **distances and angles** created by users in the stage. For remembering how to draw them, please go to the [**Mouse click actions section**](#mouse-click-actions).
 
 **Measurements** with size and color **by default**:
 
-<img src="_static/interface/representations/tools/tools03a.png" style="max-width:500px;" />
+<img src="_static/interface/stage/tools/tools03a.png" style="max-width:500px;" />
 
 ##### Distances
 
 **Distances** editor before editing size and color:
 
-<img src="_static/interface/representations/tools/tools03b.png" style="max-width:500px;" />
+<img src="_static/interface/stage/tools/tools03b.png" style="max-width:500px;" />
 
 **Distances** editor after editing size and color:
 
-<img src="_static/interface/representations/tools/tools03c.png" style="max-width:525px;" />
+<img src="_static/interface/stage/tools/tools03c.png" style="max-width:525px;" />
 
 If **only a distance** is needed (**without label**), please set **0 as Label siz**e.
 
@@ -60,71 +60,71 @@ If **only a distance** is needed (**without label**), please set **0 as Label si
 
 **Angles** editor before editing size and color:
 
-<img src="_static/interface/representations/tools/tools03d.png" style="max-width:500px;" />
+<img src="_static/interface/stage/tools/tools03d.png" style="max-width:500px;" />
 
 **Angles** editor after editing size and color:
 
-<img src="_static/interface/representations/tools/tools03e.png" style="max-width:525px;" />
+<img src="_static/interface/stage/tools/tools03e.png" style="max-width:525px;" />
 
 If **only the lines** are needed (**without label**), please set **0 as Label size**.
 
 **Measurements** after **size and color edition**:
 
-<img src="_static/interface/representations/tools/tools03f.png" style="max-width:500px;" />
+<img src="_static/interface/stage/tools/tools03f.png" style="max-width:500px;" />
 
 #### Labels
 
-<img src="_static/interface/representations/tools/tools04.png" />
+<img src="_static/interface/stage/tools/tools04.png" />
 
 Clicking this button **opens a modal dialog** to edit the **labels** created by users in the stage. For remembering how to draw them, please go to the [**Mouse click actions section**](#mouse-click-actions).
 
 **Labels** with size, text and color **by default**:
 
-<img src="_static/interface/representations/tools/tools04a.png" style="max-width:500px;" />
+<img src="_static/interface/stage/tools/tools04a.png" style="max-width:500px;" />
 
 **Labels** editor before editing text, size color and background:
 
-<img src="_static/interface/representations/tools/tools04b.png" style="max-width:500px;" />
+<img src="_static/interface/stage/tools/tools04b.png" style="max-width:500px;" />
 
 **Labels** editor after editing text, size color and background:
 
-<img src="_static/interface/representations/tools/tools04c.png" style="max-width:500px;" />
+<img src="_static/interface/stage/tools/tools04c.png" style="max-width:500px;" />
 
 Label **background** can be modified. Moreover, it can be **disabled** as well with the switch beside the background color **selector**.
 
 **Labels** after **size, text and color edition**:
 
-<img src="_static/interface/representations/tools/tools04d.png" style="max-width:500px;" />
+<img src="_static/interface/stage/tools/tools04d.png" style="max-width:500px;" />
 
 #### Camera type
 
-<img src="_static/interface/representations/tools/tools05.png" />
+<img src="_static/interface/stage/tools/tools05.png" />
 
 Switches camera type between **orthographic** and **perspective**.
 
 #### Center view in atom
 
-<img src="_static/interface/representations/tools/tools06.png" />
+<img src="_static/interface/stage/tools/tools06.png" />
 
 Click this button and then, **select an atom** of the structure, the view will be **focused** into this atom position. This button is active only if **one single keyframe** of the timeline has been selected.
 
 #### Enable / Disable legend
 
-<img src="_static/interface/representations/tools/tools07.png" />
+<img src="_static/interface/stage/tools/tools07.png" />
 
 Enables / disables a **legend** on the bottom right of the **stage**. This **legend** shows information for the molecule the mouse has hovered over in the next format:
 
 > Model **number** | Chain **ID** | **Residue name (Residue long name) Residue number** Atom name (or Bond)
 
-<img src="_static/interface/representations/tools/tools07b.png" />
+<img src="_static/interface/stage/tools/tools07b.png" />
 
 #### Open keyframe editor
 
-<img src="_static/interface/representations/tools/tools08.png" />
+<img src="_static/interface/stage/tools/tools08.png" />
 
 Clicking this button **opens a keyframe editor**. 
 
-<img src="_static/interface/representations/tools/tools08b.png" />
+<img src="_static/interface/stage/tools/tools08b.png" />
 
 In this editor, users can change the **rotation** and **translation** of the biological structure.
 
@@ -132,17 +132,17 @@ This button is active only if **one single keyframe** of the timeline has been s
 
 #### Enable / Disable letterboxing
 
-<img src="_static/interface/representations/tools/tools09.png" />
+<img src="_static/interface/stage/tools/tools09.png" />
 
 Enables / disables letterboxing on the **stage**. Two **stripes** will appear showing to the user which parts of the stage will be **rendered** and which not in case of **HD rendering**. In some cases (depending on the screen **aspect ratio**) these stripes won’t appear.
 
-<img src="_static/interface/representations/tools/tools09b.png" style="max-width:500px" />
+<img src="_static/interface/stage/tools/tools09b.png" style="max-width:500px" />
 
 Click **again** on the button for **removing** the stripes from the stage.
 
-### Stage
+### Structure Stage
 
-<img src="_static/interface/representations/stage/stage.png" style="max-width:600px;" />
+<img src="_static/interface/stage/stage/stage.png" style="max-width:600px;" />
 
 The **stage** covers the main part of the screen. In the stage the **structure is loaded** and **represented**, and users can interact with it in several ways.
 
@@ -160,7 +160,7 @@ Actions of **zoom in** and **zoom out** can be done with the **scroll mouse or t
 
 All these modifications in the **general orientation** of the structure will be applied to the **selected keyframe**. That means that, in a **clip**, the **first** and the **last frame** can have different **rotation**, **translation** or **zoom**. **Biomovies** will take care of the **interpolation** between frames.
 
-<img src="_static/interface/representations/stage/stage01.gif" style="margin-bottom:0;" />
+<img src="_static/interface/stage/stage/stage01.gif" style="margin-bottom:0;" />
 
 <span style="font-size:12px;">Automatic transition between two frames with different orientations</span>
 
@@ -240,43 +240,253 @@ Passing the mouse over the molecules of the structure will **highlight** them an
 
 ### Tips
 
-## Controls
+## Representations
+
+The **Representations** panel is located at right of the stage and is used for:
+
+* Changing the **representation** properties of the **structure** [**selecting a clip or a keyframe**](#timeline-editor) in the **Timeline**. That means that **each clip** can have different **representations**.
+* Modifying the **settings** of a trajectory for each [**selected clip or keyframe**](#timeline-editor) in the **Timeline**. That means that the **trajectory** can have different **settings** for **each clip**.
+* Adjusting the features for each [**selected description text**](#timeline-editor) in the **Timeline**.
+ That means that **each description** text can have different **features**.
+
+<div style="display:flex; justify-content:space-evenly;align-items:flex-start;">
+<img src="_static/interface/representations/representations01.png" style="margin-bottom:0; max-width:300px;" />
+<img src="_static/interface/representations/representations02.png" style="margin-bottom:0; max-width:300px;height:auto;" />
+</div>
+
+<div style="display:flex; justify-content:space-evenly;">
+<span style="width:300px; font-size:12px;">Representations for clips and Trajectory settings</span>
+<span style="width:300px; font-size:12px;">Description settings</span>
+</div>
 
 ### Keyframes / Clips
 
+<img src="_static/interface/representations/clips/clips01.png" style="margin-bottom:0; max-width:300px;height:auto;" />
+
+When [**selecting a clip or a keyframe**](#timeline-editor) in the **Timeline**, the above **editor** module appears on the **Representations** area.
+
 #### Menu
+
+This menu is **common** for all the representations of the selected **clip**.
 
 ##### Create new representation
 
+<img src="_static/interface/representations/clips/clips02.png" />
+
+Clicking this button will create a **new representation** for the **structure** in the **selected clip**.
+
 ##### Hide all
+
+<img src="_static/interface/representations/clips/clips03.png" />
+
+Clicking this button will **hide** in the stage **all the representations** for the **structure** in the **selected clip**.
 
 ##### Collapse all
 
+<img src="_static/interface/representations/clips/clips04.png" />
+
+Clicking this button will collapse **all the representations editor** modules for the **structure** in the **selected clip**. It doesn't affect the representation.
+
 #### Edit representation
+
+Each time we click the [**Create new representation**](#create-new-representation) a **new representation** is created and, therefore, a new **Edit representation module** is added. Each one of these **representations** are applied to the **selected clip**. For applying **different** representations to a different **clip**, click on this other **clip** in the **Timeline**.
 
 ##### Representation menu
 
+<img src="_static/interface/representations/clips/clips05.png" />
+
+The first line of the editor holds several **actions** related with the **representation**.
+
 ###### Representation name
+
+<img src="_static/interface/representations/clips/clips06.png" />
+
+Clicking this box allows to **edit the name** of the **representation**.
 
 ###### Hide representation
 
+<img src="_static/interface/representations/clips/clips07.png" />
+
+Clicking this button will **hide** this **representation** in the **stage**.
+
 ###### Clone representation
+
+<img src="_static/interface/representations/clips/clips08.png" />
+
+Clicking this button will **clone** this **representation**.
 
 ###### Center in this representation
 
+<img src="_static/interface/representations/clips/clips09.png" />
+
+Clicking this button will **center** the stage view in the molecules selected in this **representation**.
+
 ###### Remove representation
+
+<img src="_static/interface/representations/clips/clips10.png" />
+
+Clicking this button will **remove** completely this **representation**.
 
 ###### Collapse representation editor
 
+<img src="_static/interface/representations/clips/clips11.png" />
+
+Clicking this button will collapse this **representation** editor. It doesn't affect the representation.
+
 ##### Selection
+
+The **Selections** are used for applying **molecular selections** to the selected **representation**.
 
 ###### Standard selection
 
+By default, **Biomovies** provide a list of predefined selections:
+
+* All
+* Side Chain
+* Side Chain Attached
+* Backbone
+* Protein
+* Nucleic
+* RNA
+* DNA
+* Hetero
+* Ligand
+* Ion
+* Saccharide / Sugar
+* Polymer
+* Water
+* Hydrogen
+* Helix
+* Sheet
+* Turn
+* Small
+* Nucleophilic
+* Hydrophobic
+* Aromatic
+* Amid
+* Acidic
+* Basic
+* Charged
+* Polar
+* Non Polar
+* Cyclic
+* Aliphatic
+* Bonded
+* Ring
+
 ###### Custom selection
+
+Additionally, a **custom selection** is provided as well. When selected, the dropdown menu described below changes to a **new structure**:
+
+<img src="_static/interface/representations/clips/clips12.png" />
+
+The custom selection is divided into three sections:
+
+**Back to standard selection button**
+
+<img src="_static/interface/representations/clips/clips12a.png" />
+
+Clicking this button backs to the **dropdown menu** with the list of **predefined selections**.
+
+**Selection input text**
+
+In this text field, users can add a custom selection written in [**NGL viewer Selection Language**](https://nglviewer.org/ngl/api/manual/usage/selection-language.html). Please visit the [**Selection language section**](https://nglviewer.org/ngl/api/manual/usage/selection-language.html) of the NGL Viewer manual **before starting** with this section.
+
+<img src="_static/interface/representations/clips/clips13.png" style="max-width:500px;margin-bottom:0;" />
+
+<span style="font-size:12px;">Two different chains selected via custom selection</span>
+
+**Distance-based selection button**
+
+<img src="_static/interface/representations/clips/clips12b.png" />
+
+When clicked, gets the atoms that are within a certain distance of the selection. 
+
+<img src="_static/interface/representations/clips/clips15.png" />
+
+It adds two new fields as well: **Whole residues** and **Distance**.
+
+<img src="_static/interface/representations/clips/clips14.png" style="max-width:500px;margin-bottom:0;" />
+
+<span style="font-size:12px;">Common custom selection: all the molecules of the chain D are represented</span>
+
+When clicking this button, **all the atoms** that are within a certain **distance** of the selection will be given instead of the selection itself.
+
+<img src="_static/interface/representations/clips/clips16.png" style="max-width:500px;margin-bottom:0;" />
+
+<span style="font-size:12px;">Distance-based custom selection: all the <strong>atoms</strong> within a distance of 7Å of the chain D are represented</span>
+
+If the **Whole residues** switch button is enabled, **all the molecules** that have **at least one atom** within a **distance** of the selection will be given instead of the selection itself.
+
+<img src="_static/interface/representations/clips/clips17.png" style="max-width:500px;margin-bottom:0;" />
+
+<span style="font-size:12px;">Distance-based custom selection: all the <strong>molecules</strong> that have at least one atom within a distance of 7Å of the chain D are represented</span>
 
 ##### Opacity
 
+Through this slider, the **opacity** of the representation varies. Note that due to an incompatibility of NGL Viewer, opacity in multilayer projects can generate some **issues**. So creating multiple representations with different degrees of opacity can give **non desired outcomes**.
+
 ##### Molecular representation
+
+The structure can be displayed using a variety of molecular representations:
+
+###### Backbone
+
+Cylinders connect successive residues of unbroken chains by their main backbone atoms, which are **.CA** atoms in case of proteins and **C4’/C3’** atoms for RNA/DNA, respectively. The main backbone atoms are displayed as spheres.
+
+###### Ball and stick
+
+Atoms are displayed as spheres (balls) and bonds as cylinders (sticks).
+
+###### Cartoon
+
+The main backbone atoms (see backbone) of successive residues in unbroken chains are connected by a smooth trace. The trace is expanded perpendicular to its tangent with an elliptical cross-section. The major axis points from **.CA** in the direction of the **.O** in case of proteins and from the **C1’/C3’** to **C2’/O4’** for RNA/DNA, respectively.
+
+
+Due to a shortcoming of NGL Viewer, the **cartoon** and **ribbon** representations only can show **four or more** consecutive residues.
+
+###### Hyperball
+
+A derivate of the [**ball+stick **](#ball-and-stick) representation (pioneered by [HyperBalls](http://sourceforge.net/projects/hyperballs/) project) in which atoms are smoothly connected by an elliptic hyperboloid.
+
+###### Licorice
+
+A variant of the [**ball+stick **](#ball-and-stick) representation where balls and sticks have the same radius.
+
+###### Line
+
+Bonds are displayed by a flat, unshaded line.
+
+###### Ribbon
+
+A thin ribbon is displayed along the main backbone trace. 
+
+
+Due to a shortcoming of NGL Viewer, the **cartoon** and **ribbon** representations only can show **four or more** consecutive residues.
+
+###### Rope
+
+A rope-like protein fold abstraction well suited for coarse-grained structures. In this representation a tube follows the center points of local axes. The result is similar to what is shown by the [Bendix tool](http://sbcb.bioch.ox.ac.uk/Bendix/).
+
+###### Spacefill
+
+Atoms are displayed as a set of space-filling spheres.
+
+###### Surface
+
+Displays the molecular surface and its variants.
+
+###### Trace
+
+A flat, unshaded line is displayed along the main backbone trace.
+
+###### Tube
+
+Essentially like cartoon but with the aspectRatio fixed at a value of 1.0.
+
+###### Base
+
+Simplified display of RNA/DNA nucleotides, best used in conjunction with a cartoon representation. Here, a stick is drawn connecting the sugar backbone with a nitrogen in the base (**.N1** in case of adenine or guanine, **.N3** in case of thymine or cytosine).
 
 ##### Color
 
@@ -314,7 +524,7 @@ Passing the mouse over the molecules of the structure will **highlight** them an
 
 ## Status Bar
 
-<img src="_static/interface/representations/statusbar/statusbar.png" style="margin-bottom:0;" />
+<img src="_static/interface/stage/statusbar/statusbar.png" style="margin-bottom:0;" />
 
 <span style="font-size:12px;">Status bar</span>
 
@@ -322,7 +532,7 @@ The **status bar** is at the **bottom** of the application. It can be **enabled*
 
 ### Tips
 
-<img src="_static/interface/representations/statusbar/statusbar01.png" />
+<img src="_static/interface/stage/statusbar/statusbar01.png" />
 
 This section of the **status bar** shows **tips** depending on the area of the application where the mouse is located. There are tips for:
 
@@ -334,22 +544,22 @@ This section of the **status bar** shows **tips** depending on the area of the a
 
 ### Project status
 
-<img src="_static/interface/representations/statusbar/statusbar02.png" />
+<img src="_static/interface/stage/statusbar/statusbar02.png" />
 
 This section of the **status bar** shows the current **status** of the project: either the last time it was saved or a prompt warning that the project hasn't been saved yet.
 
 ### Version
 
-<img src="_static/interface/representations/statusbar/statusbar03.png" />
+<img src="_static/interface/stage/statusbar/statusbar03.png" />
 
 This section of the **status bar** shows the current **version** of the application.
 
 ### Theme
 
-<img src="_static/interface/representations/statusbar/statusbar04.png" />
+<img src="_static/interface/stage/statusbar/statusbar04.png" />
 
 Clicking on this section of the **status bar** the application theme will toggle between **dark** and **light**. This option can be toggled as well via menu (_View > Light Theme_ or _View > Dark Theme_)
 
-<img src="_static/interface/representations/statusbar/statusbar05.gif" style="margin-bottom:0;" />
+<img src="_static/interface/stage/statusbar/statusbar05.gif" style="margin-bottom:0;" />
 
 <span style="font-size:12px;">Toggling between themes</span>
