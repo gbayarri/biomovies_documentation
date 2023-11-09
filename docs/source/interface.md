@@ -293,13 +293,13 @@ Each time we click the [**Create new representation**](#create-new-representatio
 
 ##### Representation menu
 
-<img src="_static/interface/representations/clips/clips05.png" />
+<img src="_static/interface/representations/clips/clips05.png" style="max-width:300px" />
 
 The first line of the editor holds several **actions** related with the **representation**.
 
 ###### Representation name
 
-<img src="_static/interface/representations/clips/clips06.png" />
+<img src="_static/interface/representations/clips/clips06.png" style="max-width:120px" />
 
 Clicking this box allows to **edit the name** of the **representation**.
 
