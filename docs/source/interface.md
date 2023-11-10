@@ -643,6 +643,51 @@ Through this slider, the **radius** can be modified in the next molecular repres
 * Spacefill
 * Base
 
+### Trajectories
+
+<img src="_static/interface/representations/trajectories/trajectories01.png" style="max-width:300px;height:auto;" />
+
+When working with a project with a [**topology and a trajectory**](get-started.html#new-project-with-trajectory) and [**selecting a clip or a keyframe**](#timeline-editor) in the **Timeline**, the above **editor** module appears on the **Representations** area. 
+
+By default it's disabled. That means that, when we start a new project with a **trajectory**, this trajectory is not **applied** to the **structure** until the **Play trajectory for this clip** switch button is **enabled**.
+
+#### Enable / Disable trajectory
+
+<img src="_static/interface/representations/trajectories/trajectories02.png" style="max-width:300px;height:auto;" />
+
+When enabling the **Play trajectory for this clip** switch button, the editor **expands** all the **settings**. From now on, the **trajectory** is **active** for the clip selected in the **Timeline** and we can check it by clicking for example the [**Play**](#play-pause) button in the **Timeline**, 
+
+#### Range
+
+Initially set from the first to the last frame of the trajectory, defines a **range of frames** with which the trajectory will be played.
+
+Taking into account that for **long trajectories**, the modification of the range can be annoying, a couple of **features** have been introduced:
+
+* On the one hand, **both of the numbers** at the right top of the range are **editable**. Click on both of them in order to introduce the desired frame.
+* On the other hand, **range values** can be adjusted via **keyboard**:
+    * ⌘/Ctrl + ⌥/Alt + 1 **decreases initial** frame
+    * ⌘/Ctrl + ⌥/Alt + 2 **increases initial** frame
+    * ⌘/Ctrl + ⌥/Alt + 3 **decreases final** frame
+    * ⌘/Ctrl + ⌥/Alt + 4 **increases final** frame
+
+For more tips, see the [**tips section**](utilities.html#tips). For more shortcuts, see the [**shortcuts section**](utilities.html#shortcuts).
+
+#### Step
+
+Defines the **number of frames** between playing **steps**.
+
+#### Timeout
+
+**Timeout** between playing frames (40ms per unit).
+
+#### Play in reverse
+
+If enabled plays the trajectory **backwards**.
+
+#### Fit clip in timeline
+
+Adjust the selected clip in **Timeline** size with the **trajectory lenght**. Beside the switch button there is a **text** that, dynamically, updates the **number of frames** of the trajectory after modifying the **range** and the **time of the clip** in ms after modifying **step** and / or **timeout**.
+
 
 
 ## Status Bar
