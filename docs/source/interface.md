@@ -392,7 +392,7 @@ Clicking this button backs to the **dropdown menu** with the list of **predefine
 
 In this text field, users can add a custom selection written in [**NGL viewer Selection Language**](https://nglviewer.org/ngl/api/manual/usage/selection-language.html). Please visit the [**Selection language section**](https://nglviewer.org/ngl/api/manual/usage/selection-language.html) of the NGL Viewer manual **before starting** with this section.
 
-<img src="_static/interface/representations/clips/clips13.png" style="max-width:500px;margin-bottom:0;" />
+<img src="_static/interface/representations/clips/clips13.png" style="max-width:600px;margin-bottom:0;" />
 
 <span style="font-size:12px;">Two different chains selected via custom selection</span>
 
@@ -406,19 +406,19 @@ When clicked, gets the atoms that are within a certain distance of the selection
 
 It adds two new fields as well: **Whole residues** and **Distance**.
 
-<img src="_static/interface/representations/clips/clips14.png" style="max-width:500px;margin-bottom:0;" />
+<img src="_static/interface/representations/clips/clips14.png" style="max-width:600px;margin-bottom:0;" />
 
 <span style="font-size:12px;">Common custom selection: all the molecules of the chain D are represented</span>
 
 When clicking this button, **all the atoms** that are within a certain **distance** of the selection will be given instead of the selection itself.
 
-<img src="_static/interface/representations/clips/clips16.png" style="max-width:500px;margin-bottom:0;" />
+<img src="_static/interface/representations/clips/clips16.png" style="max-width:600px;margin-bottom:0;" />
 
 <span style="font-size:12px;">Distance-based custom selection: all the <strong>atoms</strong> within a distance of 7Å of the chain D are represented</span>
 
 If the **Whole residues** switch button is enabled, **all the molecules** that have **at least one atom** within a **distance** of the selection will be given instead of the selection itself.
 
-<img src="_static/interface/representations/clips/clips17.png" style="max-width:500px;margin-bottom:0;" />
+<img src="_static/interface/representations/clips/clips17.png" style="max-width:600px;margin-bottom:0;" />
 
 <span style="font-size:12px;">Distance-based custom selection: all the <strong>molecules</strong> that have at least one atom within a distance of 7Å of the chain D are represented</span>
 
@@ -428,20 +428,31 @@ Through this slider, the **opacity** of the representation varies. Note that due
 
 ##### Molecular representation
 
-The structure can be displayed using a variety of molecular representations:
+The structure can be displayed using a variety of **molecular representations**:
 
 ###### Backbone
 
 Cylinders connect successive residues of unbroken chains by their main backbone atoms, which are **.CA** atoms in case of proteins and **C4’/C3’** atoms for RNA/DNA, respectively. The main backbone atoms are displayed as spheres.
 
+<img src="_static/interface/representations/clips/clips18.png" style="max-width:600px;" />
+
+The **Backbone** representation allows to modify the **radius** of the backbone.
+
 ###### Ball and stick
 
 Atoms are displayed as spheres (balls) and bonds as cylinders (sticks).
+
+<img src="_static/interface/representations/clips/clips19.png" style="max-width:600px;" />
+
+The **Ball and stick** representation allows to modify the **radius** of the balls (atoms) and the sticks (bonds).
 
 ###### Cartoon
 
 The main backbone atoms (see backbone) of successive residues in unbroken chains are connected by a smooth trace. The trace is expanded perpendicular to its tangent with an elliptical cross-section. The major axis points from **.CA** in the direction of the **.O** in case of proteins and from the **C1’/C3’** to **C2’/O4’** for RNA/DNA, respectively.
 
+<img src="_static/interface/representations/clips/clips20.png" style="max-width:600px;" />
+
+The **Cartoon** representation allows to modify the **radius** of the trace.
 
 Due to a shortcoming of NGL Viewer, the **cartoon** and **ribbon** representations only can show **four or more** consecutive residues.
 
@@ -449,18 +460,27 @@ Due to a shortcoming of NGL Viewer, the **cartoon** and **ribbon** representatio
 
 A derivate of the [**ball+stick **](#ball-and-stick) representation (pioneered by [HyperBalls](http://sourceforge.net/projects/hyperballs/) project) in which atoms are smoothly connected by an elliptic hyperboloid.
 
+<img src="_static/interface/representations/clips/clips21.png" style="max-width:600px;" />
+
 ###### Licorice
 
 A variant of the [**ball+stick **](#ball-and-stick) representation where balls and sticks have the same radius.
+
+<img src="_static/interface/representations/clips/clips22.png" style="max-width:600px;" />
+
+The **Licorice** representation allows to modify the **radius** of the balls (atoms) and the sticks (bonds).
 
 ###### Line
 
 Bonds are displayed by a flat, unshaded line.
 
+<img src="_static/interface/representations/clips/clips23.png" style="max-width:600px;" />
+
 ###### Ribbon
 
 A thin ribbon is displayed along the main backbone trace. 
 
+<img src="_static/interface/representations/clips/clips24.png" style="max-width:600px;" />
 
 Due to a shortcoming of NGL Viewer, the **cartoon** and **ribbon** representations only can show **four or more** consecutive residues.
 
@@ -468,29 +488,129 @@ Due to a shortcoming of NGL Viewer, the **cartoon** and **ribbon** representatio
 
 A rope-like protein fold abstraction well suited for coarse-grained structures. In this representation a tube follows the center points of local axes. The result is similar to what is shown by the [Bendix tool](http://sbcb.bioch.ox.ac.uk/Bendix/).
 
+<img src="_static/interface/representations/clips/clips25.png" style="max-width:600px;" />
+
 ###### Spacefill
 
 Atoms are displayed as a set of space-filling spheres.
+
+<img src="_static/interface/representations/clips/clips26.png" style="max-width:600px;" />
+
+The **Spacefill** representation allows to modify the **radius** of the spheres.
 
 ###### Surface
 
 Displays the molecular surface and its variants.
 
+<img src="_static/interface/representations/clips/clips27.png" style="max-width:600px;" />
+
 ###### Trace
 
 A flat, unshaded line is displayed along the main backbone trace.
+
+<img src="_static/interface/representations/clips/clips28.png" style="max-width:600px;" />
 
 ###### Tube
 
 Essentially like cartoon but with the aspectRatio fixed at a value of 1.0.
 
+<img src="_static/interface/representations/clips/clips30.png" style="max-width:600px;" />
+
 ###### Base
 
-Simplified display of RNA/DNA nucleotides, best used in conjunction with a cartoon representation. Here, a stick is drawn connecting the sugar backbone with a nitrogen in the base (**.N1** in case of adenine or guanine, **.N3** in case of thymine or cytosine).
+Simplified display of **RNA/DNA nucleotides**, best used in conjunction with a cartoon representation. Here, a stick is drawn connecting the sugar backbone with a nitrogen in the base (**.N1** in case of adenine or guanine, **.N3** in case of thymine or cytosine).
 
-##### Color
+<img src="_static/interface/representations/clips/clips31.png" style="max-width:600px;" />
+
+The **Base** representation allows to modify the **radius** of the sticks.
+
+##### Color scheme
+
+Each loaded structure can be displayed using a variety of **color schemes**:
+
+###### Atom index
+
+Color by atom index.
+
+<img src="_static/interface/representations/clips/clips32.png" style="max-width:600px;" />
+
+###### B-factor
+
+Color by b-factor.
+
+<img src="_static/interface/representations/clips/clips33.png" style="max-width:600px;" />
+
+###### Chain id
+
+Color by chain id.
+
+<img src="_static/interface/representations/clips/clips34.png" style="max-width:600px;" />
+
+###### Chain index
+
+Color by chain index.
+
+<img src="_static/interface/representations/clips/clips35.png" style="max-width:600px;" />
+
+###### Element
+
+Color by chemical element.
+
+<img src="_static/interface/representations/clips/clips36.png" style="max-width:600px;" />
+
+###### Hydrophobicity
+
+Color by hydrophobicity.
+
+<img src="_static/interface/representations/clips/clips37.png" style="max-width:600px;" />
+
+###### Model index
+
+Color by model index.
+
+<img src="_static/interface/representations/clips/clips38.png" style="max-width:600px;" />
+
+###### Random
+
+Class by random color.
+
+<img src="_static/interface/representations/clips/clips39.png" style="max-width:600px;" />
+
+###### Residue index
+
+Color by residue index.
+
+<img src="_static/interface/representations/clips/clips40.png" style="max-width:600px;" />
+
+###### Residue name
+
+Color by residue name.
+
+<img src="_static/interface/representations/clips/clips41.png" style="max-width:600px;" />
+
+###### Secondary structure
+
+Color by secondary structure.
+
+<img src="_static/interface/representations/clips/clips42.png" style="max-width:600px;" />
+
+###### Uniform
+
+Color by uniform color selected from the **color picker** that appears at right of the dropdown menu when this option is selected.
+
+<img src="_static/interface/representations/clips/clips43.png" style="max-width:150px;" />
+
+<img src="_static/interface/representations/clips/clips44.png" style="max-width:600px;" />
 
 ##### Radius
+
+Through this slider, the radius can be modified in the next molecular representations:
+
+* Backbone
+* Ball and stick
+* Cartoon
+* Licorice
+* Spacefill
 
 ### Trajectories
 
