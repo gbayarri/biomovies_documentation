@@ -688,6 +688,34 @@ If enabled plays the trajectory **backwards**.
 
 Adjust the selected clip in **Timeline** size with the **trajectory lenght**. Beside the switch button there is a **text** that, dynamically, updates the **number of frames** of the trajectory after modifying the **range** and the **time of the clip** in ms after modifying **step** and / or **timeout**.
 
+### Descriptions
+
+<img src="_static/interface/representations/representations02.png" style="max-width:300px;" />
+</div>
+
+As explained in the [**Descriptions**](#descriptions) section, users can add **descriptive texts** to the Timeline. Clicking on a [**keyframe or a description**](#timeline-editor) in the Timeline, the above **editor** module appears on the **Representations** area.
+
+#### Description text
+
+This text box allows to **edit** the text shown in the **Timeline**.
+
+#### Font size
+
+Font **size** of the text shown in the **Timeline**.
+
+#### Font family
+
+<img src="_static/interface/representations/descriptions/descriptions01.png" />
+
+Font **family** for the text shown in the **Timeline**. List of available fonts:
+
+* Anton
+* Arial
+* Avenir
+* Caveat
+* Merriweather
+* Quicksand
+
 
 
 ## Status Bar
