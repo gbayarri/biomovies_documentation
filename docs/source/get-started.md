@@ -14,7 +14,7 @@ Creating a new project with **Biomovies** is as easy as clicking the _Create new
 
 <img src="_static/get_started/img02.png" style="max-width:200px;" />
 
-The process of creating a new project with a **trajectory** starts by clicking the _Create new project with trajectory_ button (or via menu: _Project > New Project with Trajectory_) and selecting a 3D biological structure file (in **PDB** or **MMCIF** format) as a topology and its corresponding trajectory (in **NETCDF**, **XTC** or **DCD** format) from the user’s computer.
+The process of creating a new project with a **trajectory** starts by clicking the _Create new project with trajectory_ button (or via menu: _Project > New Project with Trajectory_) and selecting a 3D biological structure file (in **PDB** or **MMCIF** format) as a topology and its corresponding trajectory (in **NETCDF**, **XTC** or **DCD** format) from the user’s computer. Note that both files must be selected at the **same time**, so it's recommended to have them in the **same folder** at the time of creating the new project.
 
 Be aware that, if the **trajectory** doesn’t fit the **topology**, **errors** will happen in the representation of the structure. It is very important too that the trajectory is **well created** and **tested** with its corresponding topology in a visualization program such as [**VMD**](https://www.ks.uiuc.edu/Research/vmd/).
 
@@ -36,7 +36,7 @@ Recent projects can be opened as well from the **JumpList** in **Windows** and f
 
 Templates are a very interesting option for applying the **same video edition** to **different structures**. They are worth considering too for sharing a project, since a **template** only saves the project information (but not the structure and the trajectory) and, therefore, the **file size** is really **small**. 
 
-Clicking the _Import template_ button (or via menu: _Project > Import Template_) will ask to select a **.tbiomovies** file from the user’s computer. As the **.tbiomovies** file only contains the necessary information to create a new project but **not** the **3D structure** file and the **trajectory** file (if necessary), after loading it, a new dialog window will ask for this **3D structure** file and the **trajectory** file (if it is a trajectory template).
+Clicking the _Import template_ button (or via menu: _Project > Import Template_) will ask to select a **.tbiomovies** file from the user’s computer. As the **.tbiomovies** file only contains the necessary information to create a new project but **not** the **3D structure** file and the **trajectory** file (if necessary), after loading it, a new dialog window will ask for this **3D structure** file and the **trajectory** file (if it is a trajectory template). After these two steps, a **new project** is created applying the **actions** of the template on the new **3D structure** (and the **trajectory** if provided).
 
 ## Help
 
