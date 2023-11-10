@@ -691,7 +691,6 @@ Adjust the selected clip in **Timeline** size with the **trajectory lenght**. Be
 ### Descriptions
 
 <img src="_static/interface/representations/representations02.png" style="max-width:300px;" />
-</div>
 
 As explained in the [**Descriptions**](#descriptions) section, users can add **descriptive texts** to the Timeline. Clicking on a [**keyframe or a description**](#timeline-editor) in the Timeline, the above **editor** module appears on the **Representations** area.
 
@@ -709,7 +708,12 @@ Font **size** of the text shown in the **Timeline**.
 
 Font **family** for the text shown in the **Timeline**. List of available fonts:
 
-
+* Anton
+* Arial
+* Avenir
+* Caveat
+* Merriweather
+* Quicksand
 
 #### Font Color
 
@@ -727,7 +731,15 @@ Wheter or not to **show** the background of the text shown in the **Timeline**.
 
 **Ubication** of the text in the stage. There is a list of available predefined positions. The **first** parameter is about **vertical** position while the **second** is about the **horizontal** one:
 
-
+* Top Left
+* Top Center
+* Top Right
+* Middle Left
+* Middle Center
+* Middle Right
+* Bottom Left
+* Bottom Center
+* Bottom Right
 
 ## Status Bar
 
