@@ -690,7 +690,7 @@ Adjust the selected clip in **Timeline** size with the **trajectory lenght**. Be
 
 ### Descriptions
 
-<img src="_static/interface/representations/representations02.png" style="max-width:300px;height:auto;" />
+<img src="_static/interface/representations/representations02.png" style="max-width:300px;" />
 </div>
 
 As explained in the [**Descriptions**](#descriptions) section, users can add **descriptive texts** to the Timeline. Clicking on a [**keyframe or a description**](#timeline-editor) in the Timeline, the above **editor** module appears on the **Representations** area.
@@ -705,7 +705,7 @@ Font **size** of the text shown in the **Timeline**.
 
 #### Font family
 
-<img src="_static/interface/representations/descriptions/descriptions01.png" style="margin-bottom:0;" />
+<img src="_static/interface/representations/descriptions/descriptions01.png" />
 
 Font **family** for the text shown in the **Timeline**. List of available fonts:
 
