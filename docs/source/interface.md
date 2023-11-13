@@ -694,52 +694,72 @@ Adjust the selected clip in **Timeline** size with the **trajectory lenght**. Be
 
 As explained in the [**Descriptions**](#descriptions) section, users can add **descriptive texts** to the Timeline. Clicking on a [**keyframe or a description**](#timeline-editor) in the Timeline, the above **editor** module appears on the **Representations** area.
 
+<img src="_static/interface/representations/descriptions/descriptions02.png" style="max-width:300px;" />
+
 #### Description text
 
 This text box allows to **edit** the text shown in the **Timeline**.
+
+<img src="_static/interface/representations/descriptions/descriptions03.png" style="max-width:300px;" />
 
 #### Font size
 
 Font **size** of the text shown in the **Timeline**.
 
+<img src="_static/interface/representations/descriptions/descriptions04.png" style="max-width:300px;" />
+
 #### Font family
 
 <img src="_static/interface/representations/descriptions/descriptions01.png" />
 
-Font **family** for the text shown in the **Timeline**. List of available fonts:
+Font **family** for the text shown in the **Timeline**. 
 
-* Anton
-* Arial
-* Avenir
-* Caveat
-* Merriweather
-* Quicksand
+<img src="_static/interface/representations/descriptions/descriptions05.png" style="max-width:300px;" />
+
+List of available fonts:
+
+* [Anton <i class="fa-solid fa-up-right-from-square"></i>](https://fonts.google.com/specimen/Anton)
+* [Arial <i class="fa-solid fa-up-right-from-square"></i>](https://www.cufonfonts.com/font/arial)
+* [Avenir <i class="fa-solid fa-up-right-from-square"></i>](https://fontsgeek.com/avenir-font)
+* [Caveat <i class="fa-solid fa-up-right-from-square"></i>](https://fonts.google.com/specimen/Caveat)
+* [Merriweather <i class="fa-solid fa-up-right-from-square"></i>](https://fonts.google.com/specimen/Merriweather)
+* [Quicksand <i class="fa-solid fa-up-right-from-square"></i>](https://fonts.google.com/specimen/Quicksand)
 
 #### Font Color
 
 Font **color** of the text shown in the **Timeline**.
 
+<img src="_static/interface/representations/descriptions/descriptions06.png" style="max-width:300px;" />
+
 #### Background Color
 
 Background **color** of the text shown in the **Timeline**.
+
+<img src="_static/interface/representations/descriptions/descriptions07.png" style="max-width:300px;" />
 
 #### Background Visibility
 
 Wheter or not to **show** the background of the text shown in the **Timeline**.
 
+<img src="_static/interface/representations/descriptions/descriptions08.png" style="max-width:300px;" />
+
 #### Description position
 
-**Ubication** of the text in the stage. There is a list of available predefined positions. The **first** parameter is about **vertical** position while the **second** is about the **horizontal** one:
+**Ubication** of the text in the stage. 
 
-* Top Left
-* Top Center
-* Top Right
-* Middle Left
-* Middle Center
-* Middle Right
-* Bottom Left
-* Bottom Center
-* Bottom Right
+<img src="_static/interface/representations/descriptions/descriptions09.png" style="max-width:300px;" />
+
+There is a list of available predefined positions. The **first** parameter is about **vertical** position while the **second** is about the **horizontal** one:
+
+* Top Left <i class="fa-solid fa-chevron-left fa-rotate-by" style="--fa-rotate-angle: 45deg;"></i>
+* Top Center <i class="fa-solid fa-t" style="height:10px; overflow:hidden;"></i>
+* Top Right <i class="fa-solid fa-chevron-right fa-rotate-by" style="--fa-rotate-angle: -45deg;"></i>
+* Middle Left <i class="fa-solid fa-t fa-rotate-270" style="height:10px; overflow:hidden;"></i>
+* Middle Center <i class="fa-solid fa-plus"></i>
+* Middle Right <i class="fa-solid fa-t fa-rotate-90" style="height:10px; overflow:hidden;"></i>
+* Bottom Left <i class="fa-solid fa-chevron-left fa-rotate-by" style="--fa-rotate-angle: -45deg;"></i>
+* Bottom Center <i class="fa-solid fa-t fa-flip-vertical" style="height:10px; overflow:hidden;"></i>
+* Bottom Right <i class="fa-solid fa-chevron-right fa-rotate-by" style="--fa-rotate-angle: 45deg;"></i>
 
 ## Status Bar
 
