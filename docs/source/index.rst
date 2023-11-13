@@ -16,7 +16,7 @@ Contents
    Utilities <utilities>
    Gallery ➚ <https://gbayarri.github.io/biomovies/#gallery>
    Tutorials ➚ <https://gbayarri.github.io/biomovies/#tutorials>
-   Changelog <changelog>
+   Changelog <changelog.html>
 
 `Github repository <https://github.com/gbayarri/biomovies-src>`_.
 ======================================================================
