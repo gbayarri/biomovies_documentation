@@ -180,13 +180,19 @@ Passing the mouse over the molecules of the structure will **highlight** them an
 
 ## Timeline
 
+<img src="_static/interface/timeline/timeline01.png" />
+
 The **Timeline**, placed at the bottom part of the application, allows the users to control and edit the **clips** and the **keyframes** that shape the representation.
 
 ### Timer
 
+<img src="_static/interface/timeline/timeline02.png" />
+
 Placed at the top left corner of the **Timeline**, indicates the **exact time** where the cursor is.
 
 ### Create new timeline item
+
+<img src="_static/interface/timeline/timeline03.png" />
 
 This menu allows to **create new items** in the timeline:
 
@@ -194,81 +200,206 @@ This menu allows to **create new items** in the timeline:
 
 Creates a **new clip** in the timeline. Note that for creating a new clip an existing one must be selected. The new clip will be added **after this selected clip**. If there is not enough space, the new clip will be added at **the end of the timeline**.
 
+Shortcut: ⌘/Ctrl + ⇧ + C
+
 #### Cloned Clip
 
 Clones an **existing clip** from the timeline. Note that for cloning a new clip an existing one must be **already selected** in order to clone it. The new clip will be added **after this selected clip**. If there is not enough space, the new clip will be added at **the end of the timeline**.
+
+Shortcut: ⌘/Ctrl + ⌥/Alt + C
 
 #### Transition
 
 Creates a **transition between two clips**. Two **consecutive keyframes** of **different clips** with a minimum gap of 400ms between them must be selected before performing this action.
 
+Shortcut: ⌘/Ctrl + ⇧ + T
+
 #### Fade In
 
 Creates a **Fade In transition before a clip**. The **initial keyframe** of the clip must be selected before performing this action. There must be a minimum gap of 480ms between the previous keyframe and the one selected. 
+
+Shortcut: ⌘ + ⇧ + I for **macOS**, Ctrl + Alt + I for **Windows** / **Ubuntu**
 
 #### Fade Out
 
 Creates a **Fade Out transition after a clip**. The **final keyframe** of the clip must be selected before performing this action. There must be a minimum gap of 480ms between the next keyframe and the one selected.
 
+Shortcut: ⌘/Ctrl + ⇧ + O
+
 #### Description
 
 Creates a new **description** in the timeline.
 
+Shortcut: ⌘/Ctrl + ⇧ + D
+
 ### Timeline menu
+
+<img src="_static/interface/timeline/timeline04.png" />
 
 In this **menu**, divided into **four areas**, there can be found all the possible actions to apply to the **Timeline**.
 
 #### Remove
 
+<img src="_static/interface/timeline/timeline05.png" />
+
 The remove button allows the user to **remove** the selected **clip** or **transition**. For the sake of security, the button must be **clicked twice**.
 
 #### Timeline controls
 
+<img src="_static/interface/timeline/timeline06.png" />
+
+This submenu has the actions for controlling the **Timeline** area.
+
 ##### Reset timeline
+
+<img src="_static/interface/timeline/timeline09.png" />
+
+Clicking this button **resets** the **Timeline editor**: disables the **Pan Mode** (if enabled), resets the **Zoom** to the initial value (if changed) and moves the **cursor** to the beginning.
+
+Shortcut: ⌘/Ctrl + ⌥/Alt + R
 
 ##### Pan mode
 
+<img src="_static/interface/timeline/timeline10.png" />
+
+Clicking this button enables / disables the **Pan Mode**, which allows to **drag the whole Timeline editor**.
+
+<img src="_static/interface/timeline/timeline10b.gif" style="max-width:600px" />
+
+Shortcut: ⌘/Ctrl + ⌥/Alt + A
+
 ##### Zoom
+
+<img src="_static/interface/timeline/timeline11.png" />
+
+Clicking this button enables / disables the **Zoom Mode**, which allows to **zoom into the Timeline editor**.
+
+<img src="_static/interface/timeline/timeline11b.gif" style="max-width:600px" />
+
+Shortcut: ⌘/Ctrl + ⌥/Alt + Z
+
+Tip: Once the zoom mode is enabled, the **default** zoom type is **Zoom In**. For doing **Zoom Out**, click **⌘/Ctrl**.
 
 #### Keyframes actions
 
+<img src="_static/interface/timeline/timeline07.png" />
+
+This submenu has the actions for controlling the **keyframes** of the **Timeline**.
+
 ##### Align last keyframe
+
+<img src="_static/interface/timeline/timeline12.png" />
+
+Only works with **two keyframes** selected: aligns the **last** keyframe of the selection with the **first** one.
+
+Shortcut: ⌘/Ctrl + ⌥/Alt + ⇧ + ◄ / Left for **macOS** / **Windows**, Ctrl + Left for **Ubuntu**
 
 ##### Align first keyframe
 
+<img src="_static/interface/timeline/timeline13.png" />
+
+Only works with **two keyframes** selected: aligns the **firstt** keyframe of the selection with the **las** one.
+
+Shortcut: ⌘/Ctrl + ⌥/Alt + ⇧ + ► / Right for **macOS** / **Windows**, Ctrl + Right for **Ubuntu**
+
 ##### Select all keyframes
+
+<img src="_static/interface/timeline/timeline14.png" />
+
+Clicking this button select **all the keyframes of the Timeline editor**.
+
+Shortcut: ⌘/Ctrl + ⇧ + K
 
 ##### Move keyframes left
 
+<img src="_static/interface/timeline/timeline15.png" />
+
+Only works with **two or more keyframes** selected: moves **all the selected keyframes to left** in the **Timeline editor**.
+
+<img src="_static/interface/timeline/timeline15b.gif" style="max-width:600px" />
+
+Shortcut: ⌘/Ctrl + ⇧ + ◄ / Left
+
 ##### Move keyframes right
+
+<img src="_static/interface/timeline/timeline16.png" />
+
+Only works with **two or more keyframes** selected: moves **all the selected keyframes to right** in the **Timeline editor**.
+
+<img src="_static/interface/timeline/timeline16b.gif" style="max-width:600px" />
+
+Shortcut: ⌘/Ctrl + ⇧ + ► / Right
 
 #### Player
 
+<img src="_static/interface/timeline/timeline08.png" />
+
+This submenu has the actions for controlling the **cursor** of the **Timeline**.
+
 ##### Go to first frame
+
+<img src="_static/interface/timeline/timeline17.png" />
+
+Clicking this button moves the **cursor** to the **first frame** of the **Timeline**.
+
+Shortcut: ⇧ + ▲ / Up
 
 ##### Go to previous frame
 
+<img src="_static/interface/timeline/timeline18.png" />
+
+Clicking this button moves the **cursor** to the **previous frame** in the **Timeline**.
+
+Shortcut: ⇧ + ◄ / Left
+
 ##### Play / Pause
+
+<img src="_static/interface/timeline/timeline19.png" />
+
+Clicing this button **plays / pauses the Timeline**.
 
 ##### Go to next frame
 
+<img src="_static/interface/timeline/timeline20.png" />
+
+Clicking this button moves the **cursor** to the **next frame** in the **Timeline**.
+
+Shortcut: ⇧ + ► / Right
+
 ##### Go to last frame
+
+<img src="_static/interface/timeline/timeline21.png" />
+
+Clicking this button moves the **cursor** to the **last frame** of the **Timeline**.
+
+Shortcut: ⇧ + ▼ / Down
 
 #### Trajectory frames
 
+<img src="_static/interface/timeline/timeline22.png" />
+
+TODO
+
 ### Main structure
+
+In the first row of the **Timeline**, the **main structure** can be edited creating / modiying new **clips** and **transitions**.
 
 ### Descriptions
 
+In the second row of the **Timeline**, **Descriptions** can be introduced. They can be treated and edited **as clips** with their corresponding **keyframes**. 
+
 ### Timeline editor
+
+<img src="_static/interface/timeline/timeline23.png" />
 
 The main timeline area or editor, is the place where all the actions related to **Timeline** such as select **clip** / **transition**, **move** them, select **keyframes** and so on.
 
 ### Tips
 
-The timeline **zoom** can also be applied via **scroll mouse** or **trackpad** and pressing the **Ctrl** key at the **same time**. For more tips, see the [**tips section**](utilities.html#tips).
- 
-For more shortcuts such as how to **create** new timeline items via **keyboard** or how to control the **timeline menu**, see the [**shortcuts section**](utilities.html#shortcuts).
+* The timeline **zoom** can also be applied via **scroll mouse** or **trackpad** and pressing the **Ctrl** key at the **same time**. 
+* **Multiple keyframes** can be selected just **clicking** and **dragging** over the **Timeline Editor**.
+
+For more tips, see the [**tips section**](utilities.html#tips).
 
 ## Representations
 
@@ -718,12 +849,12 @@ Font **family** for the text shown in the **Timeline**.
 
 List of available fonts:
 
-* [Anton <i class="fa-solid fa-up-right-from-square"></i>](https://fonts.google.com/specimen/Anton)
-* [Arial <i class="fa-solid fa-up-right-from-square"></i>](https://www.cufonfonts.com/font/arial)
-* [Avenir <i class="fa-solid fa-up-right-from-square"></i>](https://fontsgeek.com/avenir-font)
-* [Caveat <i class="fa-solid fa-up-right-from-square"></i>](https://fonts.google.com/specimen/Caveat)
-* [Merriweather <i class="fa-solid fa-up-right-from-square"></i>](https://fonts.google.com/specimen/Merriweather)
-* [Quicksand <i class="fa-solid fa-up-right-from-square"></i>](https://fonts.google.com/specimen/Quicksand)
+* [Anton <i class="fa-solid fa-up-right-from-square" style="font-size: 12px;"></i>](https://fonts.google.com/specimen/Anton)
+* [Arial <i class="fa-solid fa-up-right-from-square" style="font-size: 12px;"></i>](https://www.cufonfonts.com/font/arial)
+* [Avenir <i class="fa-solid fa-up-right-from-square" style="font-size: 12px;"></i>](https://fontsgeek.com/avenir-font)
+* [Caveat <i class="fa-solid fa-up-right-from-square" style="font-size: 12px;"></i>](https://fonts.google.com/specimen/Caveat)
+* [Merriweather <i class="fa-solid fa-up-right-from-square" style="font-size: 12px;"></i>](https://fonts.google.com/specimen/Merriweather)
+* [Quicksand <i class="fa-solid fa-up-right-from-square" style="font-size: 12px;"></i>](https://fonts.google.com/specimen/Quicksand)
 
 #### Font Color
 
