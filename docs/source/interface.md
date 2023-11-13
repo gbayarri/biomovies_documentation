@@ -356,7 +356,9 @@ Shortcut: ⇧ + ◄ / Left
 
 <img src="_static/interface/timeline/timeline19.png" />
 
-Clicing this button **plays / pauses the Timeline**.
+Clicking this button **plays / pauses the Timeline**.
+
+Shortcut: ⇧ + P
 
 ##### Go to next frame
 
@@ -625,13 +627,13 @@ Due to a shortcoming of NGL Viewer, the **cartoon** and **ribbon** representatio
 
 ###### Hyperball
 
-A derivate of the [**ball+stick **](#ball-and-stick) representation (pioneered by [HyperBalls](http://sourceforge.net/projects/hyperballs/) project) in which atoms are smoothly connected by an elliptic hyperboloid.
+A derivate of the [**ball+stick**](#ball-and-stick) representation (pioneered by [HyperBalls](http://sourceforge.net/projects/hyperballs/) project) in which atoms are smoothly connected by an elliptic hyperboloid.
 
 <img src="_static/interface/representations/clips/clips21.png" style="max-width:600px;" />
 
 ###### Licorice
 
-A variant of the [**ball+stick **](#ball-and-stick) representation where balls and sticks have the same radius.
+A variant of the [**ball+stick**](#ball-and-stick) representation where balls and sticks have the same radius.
 
 <img src="_static/interface/representations/clips/clips22.png" style="max-width:600px;" />
 
