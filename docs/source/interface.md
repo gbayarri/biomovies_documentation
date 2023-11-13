@@ -378,7 +378,9 @@ Shortcut: ⇧ + ▼ / Down
 
 <img src="_static/interface/timeline/timeline22.png" />
 
-TODO
+Only when working with a **trajectory**, this section appears at the top right corner of the **Timeline**. It indicates in the first place the **position of the cursor** and the **total frames** of the trajectory, and in the second place, between brackets, the **range of frames** with which the trajectory will be played. [**Click here**](#range) to see how to select this range in the **Trajectory editor**. So, in the above image, the cursor is in the frame number 3792 of a total of 10000 for the whole trajectory, but only the framesw between the 3602 and the 6563 will be played. 
+
+> **Cursor / Total frames** [ initial range frame - final range frame ]
 
 ### Main structure
 
