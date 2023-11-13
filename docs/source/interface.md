@@ -384,9 +384,13 @@ Only when working with a **trajectory**, this section appears at the top right c
 
 ### Main structure
 
+<img src="_static/interface/timeline/timeline24.png" />
+
 In the first row of the **Timeline**, the **main structure** can be edited creating / modiying new **clips** and **transitions**.
 
 ### Descriptions
+
+<img src="_static/interface/timeline/timeline25.png" />
 
 In the second row of the **Timeline**, **Descriptions** can be introduced. They can be treated and edited **as clips** with their corresponding **keyframes**. 
 
@@ -935,3 +939,5 @@ Clicking on this section of the **status bar** the application theme will toggle
 <img src="_static/interface/stage/statusbar/statusbar05.gif" style="margin-bottom:0;" />
 
 <span style="font-size:12px;">Toggling between themes</span>
+
+Shortcut: ⌥/Alt + ⇧ + H
