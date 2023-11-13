@@ -751,15 +751,15 @@ Wheter or not to **show** the background of the text shown in the **Timeline**.
 
 There is a list of available predefined positions. The **first** parameter is about **vertical** position while the **second** is about the **horizontal** one:
 
-* Top Left <i class="fa-solid fa-chevron-left fa-rotate-by" style="--fa-rotate-angle: 45deg;"></i>
+* Top Left <i class="fa-solid fa-chevron-left fa-rotate-by" style="--fa-rotate-angle: 45deg; margin-left: 2px;"></i>
 * Top Center <i class="fa-solid fa-t" style="height:10px; overflow:hidden;"></i>
-* Top Right <i class="fa-solid fa-chevron-right fa-rotate-by" style="--fa-rotate-angle: -45deg;"></i>
+* Top Right <i class="fa-solid fa-chevron-right fa-rotate-by" style="--fa-rotate-angle: -45deg; margin-left: 2px;"></i>
 * Middle Left <i class="fa-solid fa-t fa-rotate-270" style="height:10px; overflow:hidden;"></i>
 * Middle Center <i class="fa-solid fa-plus"></i>
 * Middle Right <i class="fa-solid fa-t fa-rotate-90" style="height:10px; overflow:hidden;"></i>
-* Bottom Left <i class="fa-solid fa-chevron-left fa-rotate-by" style="--fa-rotate-angle: -45deg;"></i>
+* Bottom Left <i class="fa-solid fa-chevron-left fa-rotate-by" style="--fa-rotate-angle: -45deg; margin-left: 2px; vertical-align: middle;"></i>
 * Bottom Center <i class="fa-solid fa-t fa-flip-vertical" style="height:10px; overflow:hidden;"></i>
-* Bottom Right <i class="fa-solid fa-chevron-right fa-rotate-by" style="--fa-rotate-angle: 45deg;"></i>
+* Bottom Right <i class="fa-solid fa-chevron-right fa-rotate-by" style="--fa-rotate-angle: 45deg; margin-left: 2px; vertical-align: middle;"></i>
 
 ## Status Bar
 
