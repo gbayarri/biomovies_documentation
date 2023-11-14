@@ -52,6 +52,9 @@ p.rubric:after {
 span.rst-current-version span { font-family: 'Lato';}
 .headerlink { font-family: 'FontAwesome'!important; }
 
+details summary { margin-bottom: 10px; font-size: 18px; }
+details p { padding-left: 20px; }
+
 @media not all and (min-resolution:.001dpcm)
 { @supports (-webkit-appearance:none) {
 
