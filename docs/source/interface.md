@@ -134,7 +134,7 @@ This button is active only if **one single keyframe** of the timeline has been s
 
 <img src="_static/interface/stage/tools/tools09.png" />
 
-Enables / disables letterboxing on the **stage**. Two **stripes** will appear showing to the user which parts of the stage will be **rendered** and which not in case of **HD rendering**. In some cases (depending on the screen **aspect ratio**) these stripes won’t appear.
+Enables / disables letterboxing on the **stage**. Two **stripes** will appear showing to the user which parts of the stage will be **rendered** and which not in case of [**Creating a New Movie**](create-videos.html#create-new-movie). In some cases (when the screen **aspect ratio** is **16:9**) these stripes won’t appear.
 
 <img src="_static/interface/stage/tools/tools09b.png" style="max-width:500px" />
 
