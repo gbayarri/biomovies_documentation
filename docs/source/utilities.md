@@ -92,8 +92,8 @@
 | **Pan Mode** | ⌥⌘A | Ctrl+Alt+A | Ctrl+Alt+A
 | **Zoom Mode** | ⌥⌘Z | Ctrl+Alt+Z | Ctrl+Alt+Z
 | **Timeline > Keyframes Actions**
-| **Align to First** | ⌥⌘⇧► | Ctrl+Right | Ctrl+Alt+Shift+Right   
-| **Align to Last** | ⌥⌘⇧◄ | Ctrl+Left | Ctrl+Alt+Shift+Left 
+| **Align to First** | ⌥⌘⇧◄ | Ctrl+Left | Ctrl+Alt+Shift+Left   
+| **Align to Last** | ⌥⌘⇧► | Ctrl+Right | Ctrl+Alt+Shift+Right 
 | **Select all Keyframes** | ⇧⌘K | Ctrl+Shift+K | Ctrl+Shift+K
 | **Move to Left** | ⇧⌘◄ | Ctrl+Shift+Left | Ctrl+Shift+Left
 | **Move to Right** | ⇧⌘► | Ctrl+Shift+Right | Ctrl+Shift+Right
@@ -102,7 +102,7 @@
 | **Go to Previous Frame** | ⇧◄ | Shift+Left | Shift+Left 
 | **Play / Pause** | ⇧P | Shift+P | Shift+P
 | **Go to Next Frame** | ⇧► | Shift+Right | Shift+Right
-| **Go to Last Framet** | ⇧▼ | Shift+Down | Shift+Down
+| **Go to Last Frame** | ⇧▼ | Shift+Down | Shift+Down
 | **Create Video** 
 | **New Preview** | ⌘P | Ctrl+P | Ctrl+P
 | **New Movie** | ⌘M | Ctrl+M | Ctrl+M
