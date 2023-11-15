@@ -48,7 +48,7 @@ Shortcut: ⌘ + ⇧ + I for **macOS**, Ctrl + Alt + I for **Windows** / **Ubuntu
 
 ## Help
 
-A broad documentation has been written and is available in this same [**Read the Docs**](introduction.html). Besides, there are several video examples available in the [**Gallery**](https://gbayarri.github.io/biomovies/#gallery) as well as some [**Tutorials**](https://gbayarri.github.io/biomovies/#tutorials) in the [**official website**](https://gbayarri.github.io/biomovies).
+A broad documentation has been written and is available in this same [**Read the Docs**](introduction.html). Besides, there are several video examples available in the [**Gallery** <i class="fa-solid fa-up-right-from-square" style="font-size: 12px;"></i>](https://gbayarri.github.io/biomovies/#gallery) as well as some [**Tutorials** <i class="fa-solid fa-up-right-from-square" style="font-size: 12px;"></i>](https://gbayarri.github.io/biomovies/#tutorials) in the [**official website** <i class="fa-solid fa-up-right-from-square" style="font-size: 12px;"></i>](https://gbayarri.github.io/biomovies).
 
 ## Common shortcuts
 

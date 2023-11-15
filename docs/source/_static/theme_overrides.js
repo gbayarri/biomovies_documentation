@@ -50,11 +50,11 @@ $(document).ready(function() {
 					$( "h1" ).after(`
 						<section id="id${count}">
 						<h2>${item.tag_name}<a class="headerlink" href="#id${count}" title="Link to this heading"></a></h2>
-						<p>${publish_date} - <a class="reference external" href="${item.html_url}">${type}  <i class="fa-solid fa-up-right-from-square" style="font-size: 12px;"></i></a></p>
+						<p>${publish_date} - <a class="reference external" href="${item.html_url}">${type} <i class="fa-solid fa-up-right-from-square" style="font-size: 12px;"></i></a></p>
 						<ul class="simple">
 							${list_body.join('')}
 						</ul>
-						<p><a href="${full_changelog[1]}"><strong>Full Changelog</strong>  <i class="fa-solid fa-up-right-from-square" style="font-size: 12px;"></i></a></p>
+						<p><a href="${full_changelog[1]}"><strong>Full Changelog</strong> <i class="fa-solid fa-up-right-from-square" style="font-size: 12px;"></i></a></p>
 						</section>
 					`);
 

@@ -13,7 +13,7 @@ If the above steps don't work, here they are the workarounds for make working bo
 
 ### Universal / Intel 
 
-A universal binary runs natively on **both Apple silicon and Intel-based Mac** computers, because it contains executable code for both architectures. For downloading the **Universal** version of **Biomovies**, go to the [**website download**](https://gbayarri.github.io/biomovies/#download) section and click the _macOS Universal_ button. Note that, though this version works as well with an Apple silicon computer, the [**ARM64**](#apple-silicon-arm64) version is recommended for being more **optimized** for this kind of **architecture**.
+A universal binary runs natively on **both Apple silicon and Intel-based Mac** computers, because it contains executable code for both architectures. For downloading the **Universal** version of **Biomovies**, go to the [**website download** <i class="fa-solid fa-up-right-from-square" style="font-size: 12px;"></i>](https://gbayarri.github.io/biomovies/#download) section and click the _macOS Universal_ button. Note that, though this version works as well with an Apple silicon computer, the [**ARM64**](#apple-silicon-arm64) version is recommended for being more **optimized** for this kind of **architecture**.
 
 Download the dmg file, install the application dragging the icon to the Applications folder, and, before opening the application, open **Settings > Security and Privacy** and click **Anywhere** under the _Allow apps downloaded from_ section:
 
@@ -31,7 +31,7 @@ Go back to **Settings > Security and Privacy** and, below _App Store and identif
 
 ### Apple silicon / ARM64
 
-An **Apple silicon** binary runs only in Apple silicon computers. For downloading the **Apple silicon** version of **Biomovies**, go to the [**website download**](https://gbayarri.github.io/biomovies/#download) section and click the _macOS Apple Silicon_ button.
+An **Apple silicon** binary runs only in Apple silicon computers. For downloading the **Apple silicon** version of **Biomovies**, go to the [**website download** <i class="fa-solid fa-up-right-from-square" style="font-size: 12px;"></i>](https://gbayarri.github.io/biomovies/#download) section and click the _macOS Apple Silicon_ button.
 
 Download the dmg file, install the application dragging the icon to the Applications folder, and, before opening the application, open the Terminal, **type the following code** and press Enter:
 
@@ -43,7 +43,7 @@ Now the application should work properly.
 
 ## Ubuntu
 
-For downloading the **Ubuntu** version of **Biomovies**, go to the [**website download**](https://gbayarri.github.io/biomovies/#download) section and click the _Ubuntu_ button (**.deb** and **.AppImage** binaries available). At the moment of launching the current release, there is only a **x64 architecture** binary for **Ubuntu**.
+For downloading the **Ubuntu** version of **Biomovies**, go to the [**website download** <i class="fa-solid fa-up-right-from-square" style="font-size: 12px;"></i>](https://gbayarri.github.io/biomovies/#download) section and click the _Ubuntu_ button (**.deb** and **.AppImage** binaries available). At the moment of launching the current release, there is only a **x64 architecture** binary for **Ubuntu**.
 
 ### deb
 
@@ -91,7 +91,7 @@ Double click **.AppImage** file.
 
 ## Windows
 
-For downloading the **Windows** version of **Biomovies**, go to the [**website download**](https://gbayarri.github.io/biomovies/#download) section and click the _Windows_ button. At the moment of launching the current release, there is only a **x64 architecture** binary for **Windows**.
+For downloading the **Windows** version of **Biomovies**, go to the [**website download** <i class="fa-solid fa-up-right-from-square" style="font-size: 12px;"></i>](https://gbayarri.github.io/biomovies/#download) section and click the _Windows_ button. At the moment of launching the current release, there is only a **x64 architecture** binary for **Windows**.
 
 Windows treats the **Biomovies** executable file as an unrecognized app. So, after double clicking the **.exe** file, Windows will open the following window:
 

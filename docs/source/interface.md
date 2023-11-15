@@ -560,7 +560,7 @@ Clicking this button backs to the **dropdown menu** with the list of **predefine
 
 **Selection input text**
 
-In this text field, users can add a custom selection written in [**NGL viewer Selection Language**](https://nglviewer.org/ngl/api/manual/usage/selection-language.html). Please visit the [**Selection language section**](https://nglviewer.org/ngl/api/manual/usage/selection-language.html) of the NGL Viewer manual **before starting** with this section.
+In this text field, users can add a custom selection written in [**NGL viewer Selection Language** <i class="fa-solid fa-up-right-from-square" style="font-size: 12px;"></i>](https://nglviewer.org/ngl/api/manual/usage/selection-language.html). Please visit the [**Selection language section** <i class="fa-solid fa-up-right-from-square" style="font-size: 12px;"></i>](https://nglviewer.org/ngl/api/manual/usage/selection-language.html) of the NGL Viewer manual **before starting** with this section.
 
 <img src="_static/interface/representations/clips/clips13.png" style="max-width:600px;margin-bottom:0;" />
 
@@ -628,7 +628,7 @@ Due to a shortcoming of NGL Viewer, the **cartoon** and **ribbon** representatio
 
 ###### Hyperball
 
-A derivate of the [**ball+stick**](#ball-and-stick) representation (pioneered by [HyperBalls](http://sourceforge.net/projects/hyperballs/) project) in which atoms are smoothly connected by an elliptic hyperboloid.
+A derivate of the [**ball+stick**](#ball-and-stick) representation (pioneered by [HyperBalls <i class="fa-solid fa-up-right-from-square" style="font-size: 12px;"></i>](http://sourceforge.net/projects/hyperballs/) project) in which atoms are smoothly connected by an elliptic hyperboloid.
 
 <img src="_static/interface/representations/clips/clips21.png" style="max-width:600px;" />
 
@@ -656,7 +656,7 @@ Due to a shortcoming of NGL Viewer, the **cartoon** and **ribbon** representatio
 
 ###### Rope
 
-A rope-like protein fold abstraction well suited for coarse-grained structures. In this representation a tube follows the center points of local axes. The result is similar to what is shown by the [Bendix tool](http://sbcb.bioch.ox.ac.uk/Bendix/).
+A rope-like protein fold abstraction well suited for coarse-grained structures. In this representation a tube follows the center points of local axes. The result is similar to what is shown by the [Bendix tool <i class="fa-solid fa-up-right-from-square" style="font-size: 12px;"></i>](http://sbcb.bioch.ox.ac.uk/Bendix/).
 
 <img src="_static/interface/representations/clips/clips25.png" style="max-width:600px;" />
 

@@ -18,11 +18,11 @@ Thanks to its simplicity and the intuitive interface, users can build videos **e
 
 The projects can be saved into **.biomovies** files for the sake of **sharing** or **editing** them later. Templates can be **exported** too, allowing to apply the same edition to different biological structures.
 
-Visit the [**official website**](https://gbayarri.github.io/biomovies/) for watching demonstration **videos** and **tutorials**.
+Visit the [**official website** <i class="fa-solid fa-up-right-from-square" style="font-size: 12px;"></i>](https://gbayarri.github.io/biomovies/) for watching demonstration **videos** and **tutorials**.
 
 ## Demo
 
-Below there is a video generated with **Biomovies** software. More videos available in the [**website gallery**](https://gbayarri.github.io/biomovies/#gallery).
+Below there is a video generated with **Biomovies** software. More videos available in the [**website gallery** <i class="fa-solid fa-up-right-from-square" style="font-size: 12px;"></i>](https://gbayarri.github.io/biomovies/#gallery).
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/-cEe-mtP2VU?si=7cT5b4eUvOxmbubg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="margin-bottom: 30px;"></iframe>
 
@@ -39,7 +39,7 @@ All the documentation is accessible through [**Read the Docs**](https://biomovie
 
 ## Installation
 
-Please take a look at the [**installation section**](https://biomovies-documentation.readthedocs.io/en/latest/installation.html) in this same documentation.
+Please take a look at the [**installation section**](installation.html) in this same documentation.
 
 ## Features
 
@@ -58,20 +58,20 @@ Though we have put all our effort in making **Biomovies** a fully **cross-platfo
 
 ## Technology
 
-This project has been built using [**Vue JS**](https://vuejs.org/) on top of [**Electron JS**](https://www.electronjs.org/), using the [**PrimeVue**](https://primevue.org/)  components library to enhance the user experience.
+This project has been built using [**Vue JS** <i class="fa-solid fa-up-right-from-square" style="font-size: 12px;"></i>](https://vuejs.org/) on top of [**Electron JS** <i class="fa-solid fa-up-right-from-square" style="font-size: 12px;"></i>](https://www.electronjs.org/), using the [**PrimeVue** <i class="fa-solid fa-up-right-from-square" style="font-size: 12px;"></i>](https://primevue.org/)  components library to enhance the user experience.
 
 ## Acknowledgements
 
 This project has been developed on top of different JavaScript libraries:
 
-* [**NGL viewer: web-based molecular graphics for large complexes**](http://dx.doi.org/10.1093/bioinformatics/bty419)
-* [**NGL Viewer: a web application for molecular visualization**](http://dx.doi.org/10.1093/nar/gkv402)
-* [**FFMPEG WASM**](https://ffmpegwasm.netlify.app/)
-* [**Animation Timeline Control**](https://github.com/ievgennaida/animation-timeline-control)
+* [**NGL viewer: web-based molecular graphics for large complexes** <i class="fa-solid fa-up-right-from-square" style="font-size: 12px;"></i>](http://dx.doi.org/10.1093/bioinformatics/bty419)
+* [**NGL Viewer: a web application for molecular visualization** <i class="fa-solid fa-up-right-from-square" style="font-size: 12px;"></i>](http://dx.doi.org/10.1093/nar/gkv402)
+* [**FFMPEG WASM** <i class="fa-solid fa-up-right-from-square" style="font-size: 12px;"></i>](https://ffmpegwasm.netlify.app/)
+* [**Animation Timeline Control** <i class="fa-solid fa-up-right-from-square" style="font-size: 12px;"></i>](https://github.com/ievgennaida/animation-timeline-control)
 
 ## Copyright & licensing
 
-This software has been developed by the [**MMB group**](https://mmb.irbbarcelona.org/) at the [**IRB Barcelona**](https://irbbarcelona.org/).
+This software has been developed by the [**MMB group** <i class="fa-solid fa-up-right-from-square" style="font-size: 12px;"></i>](https://mmb.irbbarcelona.org/) at the [**IRB Barcelona** <i class="fa-solid fa-up-right-from-square" style="font-size: 12px;"></i>](https://irbbarcelona.org/).
 
 © 2023 **Institute for Research in Biomedicine**
 
