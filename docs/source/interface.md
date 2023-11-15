@@ -278,7 +278,7 @@ Clicking this button enables / disables the **Zoom Mode**, which allows to **zoo
 
 Shortcut: ⌘/Ctrl + ⌥/Alt + Z
 
-Tip: Once the zoom mode is enabled, the **default** zoom type is **Zoom In**. For doing **Zoom Out**, click **⌘/Ctrl**.
+Tips: Once the zoom mode is enabled, the **default** zoom type is **Zoom In**. For doing **Zoom Out**, click **⌘/Ctrl**. Zoom can be applied as well just clicking **Ctrl** (any OS) and scrolling the **mouse wheel**.
 
 #### Keyframes actions
 
@@ -404,6 +404,7 @@ The main timeline area or editor, is the place where all the actions related to 
 
 ### Tips
 
+* For **selecting a clip**, click with the **left mouse** button on the clip clicking **Ctrl** (for any OS) at the same time.
 * The timeline **zoom** can also be applied via **scroll mouse** or **trackpad** and pressing the **Ctrl** key at the **same time**. 
 * **Multiple keyframes** can be selected just **clicking** and **dragging** over the **Timeline Editor**.
 
@@ -803,7 +804,7 @@ Initially set from the first to the last frame of the trajectory, defines a **ra
 Taking into account that for **long trajectories**, the modification of the range can be annoying, a couple of **features** have been introduced:
 
 * On the one hand, **both of the numbers** at the right top of the range are **editable**. Click on both of them in order to introduce the desired frame.
-* On the other hand, **range values** can be adjusted via **keyboard**:
+* On the other hand, **range values** can be adjusted via **keyboard** with the following shortcuts:
     * ⌘/Ctrl + ⌥/Alt + 1 **decreases initial** frame
     * ⌘/Ctrl + ⌥/Alt + 2 **increases initial** frame
     * ⌘/Ctrl + ⌥/Alt + 3 **decreases final** frame

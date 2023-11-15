@@ -17,7 +17,7 @@ dl.simple dt { border: none!important; background: transparent!important; }
 .wy-table-responsive table td, .wy-table-responsive table th { white-space: normal !important; }
 .wy-table-responsive { overflow: visible !important; }
 .rst-content table.docutils thead th { font-size: 18px; color: #6b9080; }
-span.table-shortcuts-title { font-size: 16px!important; font-weight: 700; }
+span.table-shortcuts-title { font-size: 16px!important; font-weight: 700; color: #777; }
 td:first-child, th:first-child { text-align: left!important; }
 
 .wy-menu-vertical a:active { background-color: #6b9080; }
