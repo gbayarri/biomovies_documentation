@@ -16,6 +16,7 @@ dl.simple dt { border: none!important; background: transparent!important; }
 
 .wy-table-responsive table td, .wy-table-responsive table th { white-space: normal !important; }
 .wy-table-responsive { overflow: visible !important; }
+.wy-table-responsive table th { font-size: 18px; }
 
 .wy-menu-vertical a:active { background-color: #6b9080; }
 

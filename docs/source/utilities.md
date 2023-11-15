@@ -42,7 +42,7 @@
 
 | Feature | <i class="fa-brands fa-apple"></i> macOS | <i class="fa-brands fa-ubuntu"></i> Ubuntu | <i class="fa-brands fa-windows"></i> Windows
 | :-: | :-: | :-: | :-: |
-| <td colspan=4 class="table-shortcuts-title">About</td>
+|<td colspan=4 class="table-shortcuts-title">About
 | **Hide biomovies** | ⌘H |  | 
 | **Hide Others** | ⌥⌘H |  | 
 | **Quit biomovies** | ⌘Q | Ctrl+Q | Ctrl+Q
