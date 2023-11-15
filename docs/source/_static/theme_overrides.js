@@ -46,6 +46,34 @@ $(document).ready(function() {
 						}
 					})
 
+					// get assets
+					let assets = ''
+					let label = ''
+					let icon = ''
+					item.assets.forEach(asset => {
+						if(asset.name.indexOf('dmg') !== -1 && asset.name.indexOf('arm64') !== -1) {
+							label = 'Apple Silicon'
+							icon = '<i class="fa-brands fa-apple"></i>'
+						}
+						else if(asset.name.indexOf('dmg') !== -1 && asset.name.indexOf('arm64') === -1) {
+							label = 'Apple Universal'
+							icon = '<i class="fa-brands fa-apple"></i>'
+						}
+						else if(asset.name.indexOf('exe') !== -1) {
+							label = 'Windows'
+							icon = '<i class="fa-brands fa-windows"></i>'
+						}
+						else if(asset.name.indexOf('AppImage') !== -1) {
+							label = 'Linux AppImage'
+							icon = '<i class="fa-brands fa-linux"></i>'
+						} else if(asset.name.indexOf('deb') !== -1) {
+							label = 'Linux Deb'
+							icon = '<i class="fa-brands fa-linux"></i>'
+						}
+
+						assets += `<a class="btn btn-primary" data-toggle="collapse" href="${asset.browser_download_url}">${icon} ${label}</a>`
+					})
+
 					// add release section
 					$( "h1" ).after(`
 						<section id="id${count}">
@@ -56,6 +84,8 @@ $(document).ready(function() {
 						</ul>
 						<p><a href="${full_changelog[1]}"><strong>Full Changelog</strong> <i class="fa-solid fa-up-right-from-square" style="font-size: 12px;"></i></a></p>
 						</section>
+
+						<div class="downloads-container">${assets}</div>
 					`);
 
 					// add link to sidebar

@@ -18,7 +18,7 @@ Shortcut: ⌘/Ctrl + ⇧ + N
 
 The process of creating a new project with a **trajectory** starts by clicking the _Create new project with trajectory_ button (or via menu: _Project > New Project with Trajectory_) and selecting a 3D biological structure file (in **PDB** or **MMCIF** format) as a topology and its corresponding trajectory (in **NETCDF**, **XTC** or **DCD** format) from the user’s computer. Note that both files must be selected at the **same time**, so it's recommended to have them in the **same folder** at the time of creating the new project.
 
-Be aware that, if the **trajectory** doesn’t fit the **topology**, **errors** will happen in the representation of the structure. It is very important too that the trajectory is **well created** and **tested** with its corresponding topology in a visualization program such as [**VMD**](https://www.ks.uiuc.edu/Research/vmd/).
+Be aware that, if the **trajectory** doesn’t fit the **topology**, **errors** will happen in the representation of the structure. It is very important too that the trajectory is **well created** and **tested** with its corresponding topology in a visualization program such as [**VMD** <i class="fa-solid fa-up-right-from-square" style="font-size: 12px;"></i>](https://www.ks.uiuc.edu/Research/vmd/).
 
 Take into account that, depending on the **trajectory size** and the **memory** of the computer, the loading process can take a while. Consider as well that, if the trajectory is big and the project is saved in a **.biomovies** file, this file will contain the trajectory along with the topology. So, consequently, the **final size** of the project file will be **big** as well.
 
