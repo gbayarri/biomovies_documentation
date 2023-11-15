@@ -10,5 +10,7 @@ __pycache__/
 log.*
 *.err
 *.out
+test.*
+*.old.*
 
 .DS_Store
