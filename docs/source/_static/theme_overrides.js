@@ -7,7 +7,7 @@ $(document).ready(function() {
 	$('.wy-side-nav-search .icon.icon-home').html('<img src="' + path + '_static/logo_white.png" class="logo" alt="Logo" style="width:110px;">');
 	$('.wy-breadcrumbs .icon.icon-home').html('biomovies');
 
-	// changelog
+	// releases
 	if($( "h1" ).text().indexOf('Releases') != -1) {
 		var count = 1;
 		fetch('https://api.github.com/repos/gbayarri/biomovies-src/releases')
@@ -50,6 +50,7 @@ $(document).ready(function() {
 						</section>
 					`);
 
+					$( ".toctree-l1.current" ).append(`ul`);
 					$( ".toctree-l1.current ul" ).prepend(`
 						<li class="toctree-l2"><a class="reference internal" href="#id${count}">${item.tag_name}</a></li>
 					`);
