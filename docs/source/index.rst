@@ -1,9 +1,6 @@
 
-Biomovies documentation
-------------------------
-
-Contents
-========
+Biomovies 
+----------
 
 .. toctree::
    :maxdepth: 4
@@ -15,5 +12,3 @@ Contents
    Create Videos <create-videos>
    Utilities <utilities>
 
-`Github repository <https://github.com/gbayarri/biomovies-src>`_.
-======================================================================
