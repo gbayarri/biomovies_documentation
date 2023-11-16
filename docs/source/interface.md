@@ -1,14 +1,14 @@
 (video_editor_target)=
 # Video Editor
 
-<img src="_static/interface/interface.png" style="margin-bottom:0;" />
+![](_static/interface/interface.png)
 
 <span style="font-size:12px;display:flex;justify-content:center;">Video Editor</span>
 
 (video_editor_stage_target)=
 ## Stage
 
-<img src="_static/interface/stage/stage.png" style="max-width:800px;" />
+![](_static/interface/stage/stage.png)
 
 The **stage** is the area where the 3D biological structure is represented, the **tools bar** allows to apply actions to the stage.
 
@@ -16,46 +16,46 @@ The **stage** is the area where the 3D biological structure is represented, the 
 
 The tools menu is at the top left of the **stage** and allows users to make some actions over it.
 
-<img src="_static/interface/stage/tools/tools.png" />
+![](_static/interface/stage/tools/tools.png)
 
 This menu is **draggable** around all the stage and can be **collapsed / expanded** by clicking twice on the handler. For **hiding** it completely, go to _View > Tools_ in the menu. Click in the same menu for **showing** it again.
 
 #### Center
 
-<img src="_static/interface/stage/tools/tools01.png" />
+![](_static/interface/stage/tools/tools01.png)
 
 Clicking this button **centers** the structure(s) position on the **stage**. This button is active only if **one single keyframe** of the timeline has been selected.
 
 #### Background
 
-<img src="_static/interface/stage/tools/tools02.png" />
+![](_static/interface/stage/tools/tools02.png)
 
 Clicking this button opens a **color picker** that allows users to change the **background color** of the **stage**.
 
-<img src="_static/interface/stage/tools/tools02b.png" />
+![](_static/interface/stage/tools/tools02b.png)
 
 Click **again** on the button for **hiding** the color picker.
 
 #### Measurements
 
-<img src="_static/interface/stage/tools/tools03.png" />
+![](_static/interface/stage/tools/tools03.png)
 
 Clicking this button **opens a modal dialog** to edit the **distances and angles** created by users in the stage. For remembering how to draw them, please go to the [**Mouse click actions section**](#mouse-click-actions).
 
 **Measurements** with size and color **by default**:
 
-<img src="_static/interface/stage/tools/tools03a.png" style="max-width:500px;" />
+![](_static/interface/stage/tools/tools03a.png)
 
 (video_editor_distances_target)=
 ##### Distances
 
 **Distances** editor before editing size and color:
 
-<img src="_static/interface/stage/tools/tools03b.png" style="max-width:500px;" />
+![](_static/interface/stage/tools/tools03b.png)
 
 **Distances** editor after editing size and color:
 
-<img src="_static/interface/stage/tools/tools03c.png" style="max-width:525px;" />
+![](_static/interface/stage/tools/tools03c.png)
 
 If **only a distance** is needed (**without label**), please set **0 as Label siz**e.
 
@@ -64,73 +64,73 @@ If **only a distance** is needed (**without label**), please set **0 as Label si
 
 **Angles** editor before editing size and color:
 
-<img src="_static/interface/stage/tools/tools03d.png" style="max-width:500px;" />
+![](_static/interface/stage/tools/tools03d.png)
 
 **Angles** editor after editing size and color:
 
-<img src="_static/interface/stage/tools/tools03e.png" style="max-width:525px;" />
+![](_static/interface/stage/tools/tools03e.png)
 
 If **only the lines** are needed (**without label**), please set **0 as Label size**.
 
 **Measurements** after **size and color edition**:
 
-<img src="_static/interface/stage/tools/tools03f.png" style="max-width:500px;" />
+![](_static/interface/stage/tools/tools03f.png)
 
 (video_editor_labels_target)=
 #### Labels
 
-<img src="_static/interface/stage/tools/tools04.png" />
+![](_static/interface/stage/tools/tools04.png)
 
 Clicking this button **opens a modal dialog** to edit the **labels** created by users in the stage. For remembering how to draw them, please go to the [**Mouse click actions section**](#mouse-click-actions).
 
 **Labels** with size, text and color **by default**:
 
-<img src="_static/interface/stage/tools/tools04a.png" style="max-width:500px;" />
+![](_static/interface/stage/tools/tools04a.png)
 
 **Labels** editor before editing text, size color and background:
 
-<img src="_static/interface/stage/tools/tools04b.png" style="max-width:500px;" />
+![](_static/interface/stage/tools/tools04b.png)
 
 **Labels** editor after editing text, size color and background:
 
-<img src="_static/interface/stage/tools/tools04c.png" style="max-width:500px;" />
+![](_static/interface/stage/tools/tools04c.png)
 
 Label **background** can be modified. Moreover, it can be **disabled** as well with the switch beside the background color **selector**.
 
 **Labels** after **size, text and color edition**:
 
-<img src="_static/interface/stage/tools/tools04d.png" style="max-width:500px;" />
+![](_static/interface/stage/tools/tools04d.png)
 
 #### Camera type
 
-<img src="_static/interface/stage/tools/tools05.png" />
+![](_static/interface/stage/tools/tools05.png)
 
 Switches camera type between **orthographic** and **perspective**.
 
 #### Center view in atom
 
-<img src="_static/interface/stage/tools/tools06.png" />
+![](_static/interface/stage/tools/tools06.png)
 
 Click this button and then, **select an atom** of the structure, the view will be **focused** into this atom position. This button is active only if **one single keyframe** of the timeline has been selected.
 
 (video_editor_legend_target)=
 #### Enable / Disable legend
 
-<img src="_static/interface/stage/tools/tools07.png" />
+![](_static/interface/stage/tools/tools07.png)
 
 Enables / disables a **legend** on the bottom right of the **stage**. This **legend** shows information for the molecule the mouse has hovered over in the next format:
 
 > Model **number** | Chain **ID** | **Residue name (Residue long name) Residue number** Atom name (or Bond)
 
-<img src="_static/interface/stage/tools/tools07b.png" />
+![](_static/interface/stage/tools/tools07b.png)
 
 #### Open keyframe editor
 
-<img src="_static/interface/stage/tools/tools08.png" />
+![](_static/interface/stage/tools/tools08.png)
 
 Clicking this button **opens a keyframe editor**. 
 
-<img src="_static/interface/stage/tools/tools08b.png" />
+![](_static/interface/stage/tools/tools08b.png)
 
 In this editor, users can change the **rotation** and **translation** of the biological structure.
 
@@ -139,17 +139,17 @@ This button is active only if **one single keyframe** of the timeline has been s
 (video_editor_letterboxing_target)=
 #### Enable / Disable letterboxing
 
-<img src="_static/interface/stage/tools/tools09.png" />
+![](_static/interface/stage/tools/tools09.png)
 
 Enables / disables letterboxing on the **stage**. Two **stripes** will appear showing to the user which parts of the stage will be **rendered** and which not in case of [**Creating a New Movie**](create_videos_movie_target). In some cases (when the screen **aspect ratio** is **16:9**) these stripes won’t appear.
 
-<img src="_static/interface/stage/tools/tools09b.png" style="max-width:500px" />
+![](_static/interface/stage/tools/tools09b.png)
 
 Click **again** on the button for **removing** the stripes from the stage.
 
 ### Structure Stage
 
-<img src="_static/interface/stage/stage/stage.png" style="max-width:600px;" />
+![](_static/interface/stage/stage/stage.png)
 
 The **stage** covers the main part of the screen. In the stage the **structure is loaded** and **represented**, and users can interact with it in several ways.
 
@@ -167,7 +167,7 @@ Actions of **zoom in** and **zoom out** can be done with the **scroll mouse or t
 
 All these modifications in the **general orientation** of the structure will be applied to the **selected keyframe**. That means that, in a **clip**, the **first** and the **last frame** can have different **rotation**, **translation** or **zoom**. **Biomovies** will take care of the **interpolation** between frames.
 
-<img src="_static/interface/stage/stage/stage01.gif" style="margin-bottom:0;" />
+![](_static/interface/stage/stage/stage01.gif)
 
 <span style="font-size:12px;">Automatic transition between two frames with different orientations</span>
 
@@ -188,19 +188,19 @@ Passing the mouse over the molecules of the structure will **highlight** them an
 (video_editor_timeline_target)=
 ## Timeline
 
-<img src="_static/interface/timeline/timeline01.png" />
+![](_static/interface/timeline/timeline01.png)
 
 The **Timeline**, placed at the bottom part of the application, allows the users to control and edit the **clips** and the **keyframes** that shape the representation.
 
 ### Timer
 
-<img src="_static/interface/timeline/timeline02.png" />
+![](_static/interface/timeline/timeline02.png)
 
 Placed at the top left corner of the **Timeline**, indicates the **exact time** where the cursor is.
 
 ### Create new timeline item
 
-<img src="_static/interface/timeline/timeline03.png" />
+![](_static/interface/timeline/timeline03.png)
 
 This menu allows to **create new items** in the timeline:
 
@@ -242,26 +242,26 @@ Shortcut: &#8984;/Ctrl + &#x21E7; + D
 
 ### Timeline menu
 
-<img src="_static/interface/timeline/timeline04.png" />
+![](_static/interface/timeline/timeline04.png)
 
 In this **menu**, divided into **four areas**, there can be found all the possible actions to apply to the **Timeline**.
 
 #### Remove
 
-<img src="_static/interface/timeline/timeline05.png" />
+![](_static/interface/timeline/timeline05.png)
 
 The remove button allows the user to **remove** the selected **clip** or **transition**. For the sake of security, the button must be **clicked twice**.
 
 (video_editor_tml_ctrls_target)=
 #### Timeline controls
 
-<img src="_static/interface/timeline/timeline06.png" />
+![](_static/interface/timeline/timeline06.png)
 
 This submenu has the actions for controlling the **Timeline** area.
 
 ##### Reset timeline
 
-<img src="_static/interface/timeline/timeline09.png" />
+![](_static/interface/timeline/timeline09.png)
 
 Clicking this button **resets** the **Timeline editor**: disables the **Pan Mode** (if enabled), resets the **Zoom** to the initial value (if changed) and moves the **cursor** to the beginning.
 
@@ -269,21 +269,21 @@ Shortcut: &#8984;/Ctrl + &#x2325;/Alt + R
 
 ##### Pan mode
 
-<img src="_static/interface/timeline/timeline10.png" />
+![](_static/interface/timeline/timeline10.png)
 
 Clicking this button enables / disables the **Pan Mode**, which allows to **drag the whole Timeline editor**.
 
-<img src="_static/interface/timeline/timeline10b.gif" style="max-width:600px" />
+![](_static/interface/timeline/timeline10b.gif)
 
 Shortcut: &#8984;/Ctrl + &#x2325;/Alt + A
 
 ##### Zoom
 
-<img src="_static/interface/timeline/timeline11.png" />
+![](_static/interface/timeline/timeline11.png)
 
 Clicking this button enables / disables the **Zoom Mode**, which allows to **zoom into the Timeline editor**.
 
-<img src="_static/interface/timeline/timeline11b.gif" style="max-width:600px" />
+![](_static/interface/timeline/timeline11b.gif)
 
 Shortcut: &#8984;/Ctrl + &#x2325;/Alt + Z
 
@@ -291,13 +291,13 @@ Tips: Once the zoom mode is enabled, the **default** zoom type is **Zoom In**. F
 
 #### Keyframes actions
 
-<img src="_static/interface/timeline/timeline07.png" />
+![](_static/interface/timeline/timeline07.png)
 
 This submenu has the actions for controlling the **keyframes** of the **Timeline**.
 
 ##### Align last keyframe
 
-<img src="_static/interface/timeline/timeline12.png" />
+![](_static/interface/timeline/timeline12.png)
 
 Only works with **two keyframes** selected: aligns the **last** keyframe of the selection with the **first** one.
 
@@ -305,7 +305,7 @@ Shortcut: &#8984;/Ctrl + &#x2325;/Alt + &#x21E7; + &#x25C4; / Left for **macOS**
 
 ##### Align first keyframe
 
-<img src="_static/interface/timeline/timeline13.png" />
+![](_static/interface/timeline/timeline13.png)
 
 Only works with **two keyframes** selected: aligns the **firstt** keyframe of the selection with the **las** one.
 
@@ -313,7 +313,7 @@ Shortcut: &#8984;/Ctrl + &#x2325;/Alt + &#x21E7; + &#x25BA; / Right for **macOS*
 
 ##### Select all keyframes
 
-<img src="_static/interface/timeline/timeline14.png" />
+![](_static/interface/timeline/timeline14.png)
 
 Clicking this button select **all the keyframes of the Timeline editor**.
 
@@ -321,33 +321,33 @@ Shortcut: &#8984;/Ctrl + &#x21E7; + K
 
 ##### Move keyframes left
 
-<img src="_static/interface/timeline/timeline15.png" />
+![](_static/interface/timeline/timeline15.png)
 
 Only works with **two or more keyframes** selected: moves **all the selected keyframes to left** in the **Timeline editor**.
 
-<img src="_static/interface/timeline/timeline15b.gif" style="max-width:600px" />
+![](_static/interface/timeline/timeline15b.gif)
 
 Shortcut: &#8984;/Ctrl + &#x21E7; + &#x25C4; / Left
 
 ##### Move keyframes right
 
-<img src="_static/interface/timeline/timeline16.png" />
+![](_static/interface/timeline/timeline16.png)
 
 Only works with **two or more keyframes** selected: moves **all the selected keyframes to right** in the **Timeline editor**.
 
-<img src="_static/interface/timeline/timeline16b.gif" style="max-width:600px" />
+![](_static/interface/timeline/timeline16b.gif)
 
 Shortcut: &#8984;/Ctrl + &#x21E7; + &#x25BA; / Right
 
 #### Player
 
-<img src="_static/interface/timeline/timeline08.png" />
+![](_static/interface/timeline/timeline08.png)
 
 This submenu has the actions for controlling the **cursor** of the **Timeline**.
 
 ##### Go to first frame
 
-<img src="_static/interface/timeline/timeline17.png" />
+![](_static/interface/timeline/timeline17.png)
 
 Clicking this button moves the **cursor** to the **first frame** of the **Timeline**.
 
@@ -355,7 +355,7 @@ Shortcut: &#x21E7; + &#x25B2; / Up
 
 ##### Go to previous frame
 
-<img src="_static/interface/timeline/timeline18.png" />
+![](_static/interface/timeline/timeline18.png)
 
 Clicking this button moves the **cursor** to the **previous frame** in the **Timeline**.
 
@@ -363,7 +363,7 @@ Shortcut: &#x21E7; + &#x25C4; / Left
 
 ##### Play / Pause
 
-<img src="_static/interface/timeline/timeline19.png" />
+![](_static/interface/timeline/timeline19.png)
 
 Clicking this button **plays / pauses the Timeline**.
 
@@ -371,7 +371,7 @@ Shortcut: &#x21E7; + P
 
 ##### Go to next frame
 
-<img src="_static/interface/timeline/timeline20.png" />
+![](_static/interface/timeline/timeline20.png)
 
 Clicking this button moves the **cursor** to the **next frame** in the **Timeline**.
 
@@ -379,7 +379,7 @@ Shortcut: &#x21E7; + &#x25BA; / Right
 
 ##### Go to last frame
 
-<img src="_static/interface/timeline/timeline21.png" />
+![](_static/interface/timeline/timeline21.png)
 
 Clicking this button moves the **cursor** to the **last frame** of the **Timeline**.
 
@@ -387,7 +387,7 @@ Shortcut: &#x21E7; + &#x25BC; / Down
 
 #### Trajectory frames
 
-<img src="_static/interface/timeline/timeline22.png" />
+![](_static/interface/timeline/timeline22.png)
 
 Only when working with a **trajectory**, this section appears at the top right corner of the **Timeline**. It indicates in the first place the **position of the cursor** and the **total frames** of the trajectory, and in the second place, between brackets, the **range of frames** with which the trajectory will be played. [**Click here**](#range) to see how to select this range in the **Trajectory editor**. So, in the above image, the cursor is in the frame number 3792 of a total of 10000 for the whole trajectory, but only the frames between the 3602 and the 6563 will be played. 
 
@@ -395,19 +395,19 @@ Only when working with a **trajectory**, this section appears at the top right c
 
 ### Main structure
 
-<img src="_static/interface/timeline/timeline24.png" />
+![](_static/interface/timeline/timeline24.png)
 
 In the first row of the **Timeline**, the **main structure** can be edited creating / modiying new **clips** and **transitions**.
 
 ### Descriptions
 
-<img src="_static/interface/timeline/timeline25.png" />
+![](_static/interface/timeline/timeline25.png)
 
 In the second row of the **Timeline**, **Descriptions** can be introduced. They can be treated and edited **as clips** with their corresponding **keyframes**. 
 
 ### Timeline editor
 
-<img src="_static/interface/timeline/timeline23.png" />
+![](_static/interface/timeline/timeline23.png)
 
 The main timeline area or editor, is the place where all the actions related to **Timeline** such as select **clip** / **transition**, **move** them, select **keyframes** and so on.
 
@@ -429,19 +429,18 @@ The **Representations** panel is located at right of the stage and is used for:
 * Adjusting the features for each [**selected description text**](#timeline-editor) in the **Timeline**.
  That means that **each description** text can have different **features**.
 
-<div style="display:flex; justify-content:space-evenly;align-items:flex-start;">
-<img src="_static/interface/representations/representations01.png" style="margin-bottom:0; max-width:300px;" />
-<img src="_static/interface/representations/representations02.png" style="margin-bottom:0; max-width:300px;height:auto;" />
-</div>
 
-<div style="display:flex; justify-content:space-evenly;">
+![](_static/interface/representations/representations01.png)
+
 <span style="width:300px; font-size:12px;">Representations for clips and Trajectory settings</span>
+
+![](_static/interface/representations/representations02.png)
+
 <span style="width:300px; font-size:12px;">Description settings</span>
-</div>
 
 ### Keyframes / Clips
 
-<img src="_static/interface/representations/clips/clips01.png" style="max-width:300px;height:auto;" />
+![](_static/interface/representations/clips/clips01.png)
 
 When [**selecting a clip or a keyframe**](#timeline-editor) in the **Timeline**, the above **editor** module appears on the **Representations** area.
 
@@ -451,19 +450,19 @@ This menu is **common** for all the representations of the selected **clip**.
 
 ##### Create new representation
 
-<img src="_static/interface/representations/clips/clips02.png" />
+![](_static/interface/representations/clips/clips02.png)
 
 Clicking this button will create a **new representation** for the **structure** in the **selected clip**.
 
 ##### Hide all
 
-<img src="_static/interface/representations/clips/clips03.png" />
+![](_static/interface/representations/clips/clips03.png)
 
 Clicking this button will **hide** in the stage **all the representations** for the **structure** in the **selected clip**.
 
 ##### Collapse all
 
-<img src="_static/interface/representations/clips/clips04.png" />
+![](_static/interface/representations/clips/clips04.png)
 
 Clicking this button will collapse **all the representations editor** modules for the **structure** in the **selected clip**. It doesn't affect the representation.
 
@@ -473,43 +472,43 @@ Each time we click the [**Create new representation**](#create-new-representatio
 
 ##### Representation menu
 
-<img src="_static/interface/representations/clips/clips05.png" style="max-width:300px" />
+![](_static/interface/representations/clips/clips05.png)
 
 The first line of the editor holds several **actions** related with the **representation**.
 
 ###### Representation name
 
-<img src="_static/interface/representations/clips/clips06.png" style="max-width:120px" />
+![](_static/interface/representations/clips/clips06.png)
 
 Clicking this box allows to **edit the name** of the **representation**.
 
 ###### Hide representation
 
-<img src="_static/interface/representations/clips/clips07.png" />
+![](_static/interface/representations/clips/clips07.png)
 
 Clicking this button will **hide** this **representation** in the **stage**.
 
 ###### Clone representation
 
-<img src="_static/interface/representations/clips/clips08.png" />
+![](_static/interface/representations/clips/clips08.png)
 
 Clicking this button will **clone** this **representation**.
 
 ###### Center in this representation
 
-<img src="_static/interface/representations/clips/clips09.png" />
+![](_static/interface/representations/clips/clips09.png)
 
 Clicking this button will **center** the stage view in the molecules selected in this **representation**.
 
 ###### Remove representation
 
-<img src="_static/interface/representations/clips/clips10.png" />
+![](_static/interface/representations/clips/clips10.png)
 
 Clicking this button will **remove** completely this **representation**.
 
 ###### Collapse representation editor
 
-<img src="_static/interface/representations/clips/clips11.png" />
+![](_static/interface/representations/clips/clips11.png)
 
 Clicking this button will collapse this **representation** editor. It doesn't affect the representation.
 
@@ -558,13 +557,13 @@ By default, **Biomovies** provide a list of predefined selections:
 
 Additionally, a **custom selection** is provided as well. When selected, the dropdown menu described below changes to a **new structure**:
 
-<img src="_static/interface/representations/clips/clips12.png" style="max-width:300px" />
+![](_static/interface/representations/clips/clips12.png)
 
 The custom selection is divided into three sections:
 
 **Back to standard selection button**
 
-<img src="_static/interface/representations/clips/clips12a.png" />
+![](_static/interface/representations/clips/clips12a.png)
 
 Clicking this button backs to the **dropdown menu** with the list of **predefined selections**.
 
@@ -572,33 +571,33 @@ Clicking this button backs to the **dropdown menu** with the list of **predefine
 
 In this text field, users can add a custom selection written in [**NGL viewer Selection Language** <i class="fa-solid fa-up-right-from-square" style="font-size: 12px;"></i>](https://nglviewer.org/ngl/api/manual/usage/selection-language.html). Please visit the [**Selection language section** <i class="fa-solid fa-up-right-from-square" style="font-size: 12px;"></i>](https://nglviewer.org/ngl/api/manual/usage/selection-language.html) of the NGL Viewer manual **before starting** with this section.
 
-<img src="_static/interface/representations/clips/clips13.png" style="max-width:600px;margin-bottom:0;" />
+![](_static/interface/representations/clips/clips13.png)
 
 <span style="font-size:12px;">Two different chains selected via custom selection</span>
 
 **Distance-based selection button**
 
-<img src="_static/interface/representations/clips/clips12b.png" />
+![](_static/interface/representations/clips/clips12b.png)
 
 When clicked, gets the atoms that are within a certain distance of the selection. 
 
-<img src="_static/interface/representations/clips/clips15.png" style="max-width:300px"  />
+![](_static/interface/representations/clips/clips15.png)
 
 It adds two new fields as well: **Whole residues** and **Distance**.
 
-<img src="_static/interface/representations/clips/clips14.png" style="max-width:600px;margin-bottom:0;" />
+![](_static/interface/representations/clips/clips14.png)
 
 <span style="font-size:12px;">Common custom selection: all the molecules of the chain D are represented</span>
 
 When clicking this button, **all the atoms** that are within a certain **distance** of the selection will be given instead of the selection itself.
 
-<img src="_static/interface/representations/clips/clips16.png" style="max-width:600px;margin-bottom:0;" />
+![](_static/interface/representations/clips/clips16.png)
 
 <span style="font-size:12px;">Distance-based custom selection: all the <strong>atoms</strong> within a distance of 7Å of the chain D are represented</span>
 
 If the **Whole residues** switch button is enabled, **all the molecules** that have **at least one atom** within a **distance** of the selection will be given instead of the selection itself.
 
-<img src="_static/interface/representations/clips/clips17.png" style="max-width:600px;margin-bottom:0;" />
+![](_static/interface/representations/clips/clips17.png)
 
 <span style="font-size:12px;">Distance-based custom selection: all the <strong>molecules</strong> that have at least one atom within a distance of 7Å of the chain D are represented</span>
 
@@ -614,7 +613,7 @@ The structure can be displayed using a variety of **molecular representations**:
 
 Cylinders connect successive residues of unbroken chains by their main backbone atoms, which are **.CA** atoms in case of proteins and **C4’/C3’** atoms for RNA/DNA, respectively. The main backbone atoms are displayed as spheres.
 
-<img src="_static/interface/representations/clips/clips18.png" style="max-width:600px;" />
+![](_static/interface/representations/clips/clips18.png)
 
 The **Backbone** representation allows to modify the **radius** of the backbone.
 
@@ -622,7 +621,7 @@ The **Backbone** representation allows to modify the **radius** of the backbone.
 
 Atoms are displayed as spheres (balls) and bonds as cylinders (sticks).
 
-<img src="_static/interface/representations/clips/clips19.png" style="max-width:600px;" />
+![](_static/interface/representations/clips/clips19.png)
 
 The **Ball and stick** representation allows to modify the **radius** of the balls (atoms) and the sticks (bonds).
 
@@ -630,7 +629,7 @@ The **Ball and stick** representation allows to modify the **radius** of the bal
 
 The main backbone atoms (see backbone) of successive residues in unbroken chains are connected by a smooth trace. The trace is expanded perpendicular to its tangent with an elliptical cross-section. The major axis points from **.CA** in the direction of the **.O** in case of proteins and from the **C1’/C3’** to **C2’/O4’** for RNA/DNA, respectively.
 
-<img src="_static/interface/representations/clips/clips20.png" style="max-width:600px;" />
+![](_static/interface/representations/clips/clips20.png)
 
 The **Cartoon** representation allows to modify the **radius** of the trace.
 
@@ -640,13 +639,13 @@ Due to a shortcoming of NGL Viewer, the **cartoon** and **ribbon** representatio
 
 A derivate of the [**ball+stick**](#ball-and-stick) representation (pioneered by [HyperBalls <i class="fa-solid fa-up-right-from-square" style="font-size: 12px;"></i>](http://sourceforge.net/projects/hyperballs/) project) in which atoms are smoothly connected by an elliptic hyperboloid.
 
-<img src="_static/interface/representations/clips/clips21.png" style="max-width:600px;" />
+![](_static/interface/representations/clips/clips21.png)
 
 ###### Licorice
 
 A variant of the [**ball+stick**](#ball-and-stick) representation where balls and sticks have the same radius.
 
-<img src="_static/interface/representations/clips/clips22.png" style="max-width:600px;" />
+![](_static/interface/representations/clips/clips22.png)
 
 The **Licorice** representation allows to modify the **radius** of the balls (atoms) and the sticks (bonds).
 
@@ -654,13 +653,13 @@ The **Licorice** representation allows to modify the **radius** of the balls (at
 
 Bonds are displayed by a flat, unshaded line.
 
-<img src="_static/interface/representations/clips/clips23.png" style="max-width:600px;" />
+![](_static/interface/representations/clips/clips23.png)
 
 ###### Ribbon
 
 A thin ribbon is displayed along the main backbone trace. 
 
-<img src="_static/interface/representations/clips/clips24.png" style="max-width:600px;" />
+![](_static/interface/representations/clips/clips24.png)
 
 Due to a shortcoming of NGL Viewer, the **cartoon** and **ribbon** representations only can show **four or more** consecutive residues.
 
@@ -668,13 +667,13 @@ Due to a shortcoming of NGL Viewer, the **cartoon** and **ribbon** representatio
 
 A rope-like protein fold abstraction well suited for coarse-grained structures. In this representation a tube follows the center points of local axes. The result is similar to what is shown by the [Bendix tool <i class="fa-solid fa-up-right-from-square" style="font-size: 12px;"></i>](http://sbcb.bioch.ox.ac.uk/Bendix/).
 
-<img src="_static/interface/representations/clips/clips25.png" style="max-width:600px;" />
+![](_static/interface/representations/clips/clips25.png)
 
 ###### Spacefill
 
 Atoms are displayed as a set of space-filling spheres.
 
-<img src="_static/interface/representations/clips/clips26.png" style="max-width:600px;" />
+![](_static/interface/representations/clips/clips26.png)
 
 The **Spacefill** representation allows to modify the **radius** of the spheres.
 
@@ -682,25 +681,25 @@ The **Spacefill** representation allows to modify the **radius** of the spheres.
 
 Displays the molecular surface and its variants.
 
-<img src="_static/interface/representations/clips/clips27.png" style="max-width:600px;" />
+![](_static/interface/representations/clips/clips27.png)
 
 ###### Trace
 
 A flat, unshaded line is displayed along the main backbone trace.
 
-<img src="_static/interface/representations/clips/clips28.png" style="max-width:600px;" />
+![](_static/interface/representations/clips/clips28.png)
 
 ###### Tube
 
 Essentially like cartoon but with the aspectRatio fixed at a value of 1.0.
 
-<img src="_static/interface/representations/clips/clips30.png" style="max-width:600px;" />
+![](_static/interface/representations/clips/clips30.png)
 
 ###### Base
 
 Simplified display of **RNA/DNA nucleotides**, best used in conjunction with a cartoon representation. Here, a stick is drawn connecting the sugar backbone with a nitrogen in the base (**.N1** in case of adenine or guanine, **.N3** in case of thymine or cytosine).
 
-<img src="_static/interface/representations/clips/clips31.png" style="max-width:600px;" />
+![](_static/interface/representations/clips/clips31.png)
 
 The **Base** representation allows to modify the **radius** of the sticks.
 
@@ -712,75 +711,75 @@ Each loaded structure can be displayed using a variety of **color schemes**:
 
 Color by atom index.
 
-<img src="_static/interface/representations/clips/clips32.png" style="max-width:600px;" />
+![](_static/interface/representations/clips/clips32.png)
 
 ###### B-factor
 
 Color by b-factor.
 
-<img src="_static/interface/representations/clips/clips33.png" style="max-width:600px;" />
+![](_static/interface/representations/clips/clips33.png)
 
 ###### Chain id
 
 Color by chain id.
 
-<img src="_static/interface/representations/clips/clips34.png" style="max-width:600px;" />
+![](_static/interface/representations/clips/clips34.png)
 
 ###### Chain index
 
 Color by chain index.
 
-<img src="_static/interface/representations/clips/clips35.png" style="max-width:600px;" />
+![](_static/interface/representations/clips/clips35.png)
 
 ###### Element
 
 Color by chemical element.
 
-<img src="_static/interface/representations/clips/clips36.png" style="max-width:600px;" />
+![](_static/interface/representations/clips/clips36.png)
 
 ###### Hydrophobicity
 
 Color by hydrophobicity.
 
-<img src="_static/interface/representations/clips/clips37.png" style="max-width:600px;" />
+![](_static/interface/representations/clips/clips37.png)
 
 ###### Model index
 
 Color by model index.
 
-<img src="_static/interface/representations/clips/clips38.png" style="max-width:600px;" />
+![](_static/interface/representations/clips/clips38.png)
 
 ###### Random
 
 Class by random color.
 
-<img src="_static/interface/representations/clips/clips39.png" style="max-width:600px;" />
+![](_static/interface/representations/clips/clips39.png)
 
 ###### Residue index
 
 Color by residue index.
 
-<img src="_static/interface/representations/clips/clips40.png" style="max-width:600px;" />
+![](_static/interface/representations/clips/clips40.png)
 
 ###### Residue name
 
 Color by residue name.
 
-<img src="_static/interface/representations/clips/clips41.png" style="max-width:600px;" />
+![](_static/interface/representations/clips/clips41.png)
 
 ###### Secondary structure
 
 Color by secondary structure.
 
-<img src="_static/interface/representations/clips/clips42.png" style="max-width:600px;" />
+![](_static/interface/representations/clips/clips42.png)
 
 ###### Uniform
 
 Color by uniform color selected from the **color picker** that appears at right of the dropdown menu when this option is selected.
 
-<img src="_static/interface/representations/clips/clips43.png" style="max-width:150px; display:flex;" />
+![](_static/interface/representations/clips/clips43.png)
 
-<img src="_static/interface/representations/clips/clips44.png" style="max-width:600px; display:flex;" />
+![](_static/interface/representations/clips/clips44.png)
 
 ##### Radius
 
@@ -795,7 +794,7 @@ Through this slider, the **radius** can be modified in the next molecular repres
 
 ### Trajectories
 
-<img src="_static/interface/representations/trajectories/trajectories01.png" style="max-width:300px;height:auto;" />
+![](_static/interface/representations/trajectories/trajectories01.png)
 
 When working with a project with a [**topology and a trajectory**](get_started_trj_target) and [**selecting a clip or a keyframe**](#timeline-editor) in the **Timeline**, the above **editor** module appears on the **Representations** area. 
 
@@ -803,7 +802,7 @@ By default it's disabled. That means that, when we start a new project with a **
 
 #### Enable / Disable trajectory
 
-<img src="_static/interface/representations/trajectories/trajectories02.png" style="max-width:300px;height:auto;" />
+![](_static/interface/representations/trajectories/trajectories02.png)
 
 When enabling the **Play trajectory for this clip** switch button, the editor **expands** all the **settings**. From now on, the **trajectory** is **active** for the clip selected in the **Timeline** and we can check it by clicking for example the [**Play**](#play-pause) button in the **Timeline**, 
 
@@ -840,31 +839,31 @@ Adjust the selected clip in **Timeline** size with the **trajectory lenght**. Be
 
 ### Descriptions
 
-<img src="_static/interface/representations/representations02.png" style="max-width:300px;" />
+![](_static/interface/representations/representations02.png)
 
 As explained in the [**Descriptions**](#descriptions) section, users can add **descriptive texts** to the Timeline. Clicking on a [**keyframe or a description**](#timeline-editor) in the Timeline, the above **editor** module appears on the **Representations** area.
 
-<img src="_static/interface/representations/descriptions/descriptions02.png" style="max-width:300px;" />
+![](_static/interface/representations/descriptions/descriptions02.png)
 
 #### Description text
 
 This text box allows to **edit** the text shown in the **Timeline**.
 
-<img src="_static/interface/representations/descriptions/descriptions03.png" style="max-width:300px;" />
+![](_static/interface/representations/descriptions/descriptions03.png)
 
 #### Font size
 
 Font **size** of the text shown in the **Timeline**.
 
-<img src="_static/interface/representations/descriptions/descriptions04.png" style="max-width:300px;" />
+![](_static/interface/representations/descriptions/descriptions04.png)
 
 #### Font family
 
-<img src="_static/interface/representations/descriptions/descriptions01.png" />
+![](_static/interface/representations/descriptions/descriptions01.png)
 
 Font **family** for the text shown in the **Timeline**. 
 
-<img src="_static/interface/representations/descriptions/descriptions05.png" style="max-width:300px;" />
+![](_static/interface/representations/descriptions/descriptions05.png)
 
 List of available fonts:
 
@@ -879,25 +878,25 @@ List of available fonts:
 
 Font **color** of the text shown in the **Timeline**.
 
-<img src="_static/interface/representations/descriptions/descriptions06.png" style="max-width:300px;" />
+![](_static/interface/representations/descriptions/descriptions06.png)
 
 #### Background Color
 
 Background **color** of the text shown in the **Timeline**.
 
-<img src="_static/interface/representations/descriptions/descriptions07.png" style="max-width:300px;" />
+![](_static/interface/representations/descriptions/descriptions07.png)
 
 #### Background Visibility
 
 Wheter or not to **show** the background of the text shown in the **Timeline**.
 
-<img src="_static/interface/representations/descriptions/descriptions08.png" style="max-width:300px;" />
+![](_static/interface/representations/descriptions/descriptions08.png)
 
 #### Description position
 
 **Ubication** of the text in the stage. 
 
-<img src="_static/interface/representations/descriptions/descriptions09.png" style="max-width:300px;" />
+![](_static/interface/representations/descriptions/descriptions09.png)
 
 There is a list of available predefined positions. The **first** parameter is about **vertical** position while the **second** is about the **horizontal** one:
 
@@ -913,7 +912,7 @@ There is a list of available predefined positions. The **first** parameter is ab
 
 ## Status Bar
 
-<img src="_static/interface/stage/statusbar/statusbar.png" style="margin-bottom:0;" />
+![](_static/interface/stage/statusbar/statusbar.png)
 
 <span style="font-size:12px;">Status bar</span>
 
@@ -921,7 +920,7 @@ The **status bar** is at the **bottom** of the application. It can be **enabled*
 
 ### Tips
 
-<img src="_static/interface/stage/statusbar/statusbar01.png" />
+![](_static/interface/stage/statusbar/statusbar01.png)
 
 This section of the **status bar** shows **tips** depending on the area of the application where the mouse is located. There are tips for:
 
@@ -933,24 +932,24 @@ This section of the **status bar** shows **tips** depending on the area of the a
 
 ### Project status
 
-<img src="_static/interface/stage/statusbar/statusbar02.png" />
+![](_static/interface/stage/statusbar/statusbar02.png)
 
 This section of the **status bar** shows the current **status** of the project: either the last time it was saved or a prompt warning that the project hasn't been saved yet.
 
 ### Version
 
-<img src="_static/interface/stage/statusbar/statusbar03.png" />
+![](_static/interface/stage/statusbar/statusbar03.png)
 
 This section of the **status bar** shows the current **version** of the application.
 
 (video_editor_theme_target)=
 ### Theme
 
-<img src="_static/interface/stage/statusbar/statusbar04.png" />
+![](_static/interface/stage/statusbar/statusbar04.png)
 
 Clicking on this section of the **status bar** the application theme will toggle between **dark** and **light**. This option can be toggled as well via menu (_View > Light Theme_ or _View > Dark Theme_)
 
-<img src="_static/interface/stage/statusbar/statusbar05.gif" style="margin-bottom:0;" />
+![](_static/interface/stage/statusbar/statusbar05.gif)
 
 <span style="font-size:12px;">Toggling between themes</span>
 
