@@ -2,6 +2,10 @@
 Biomovies 
 ----------
 
+.. image:: _static/logo.png
+   :align: center
+   :alt: biomovies logo
+
 .. toctree::
    :maxdepth: 3
 

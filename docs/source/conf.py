@@ -248,7 +248,7 @@ latex_elements = {
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
     (master_doc, 'biomovies.tex', u'Biomovies Documentation',
-     u'biomovies', 'manual'),
+     author, 'manual'),
 ]
 
 latex_engine = "xelatex"

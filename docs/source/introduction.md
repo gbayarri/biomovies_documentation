@@ -1,5 +1,10 @@
 # Biomovies
 
+.. image:: _static/logo.png
+   :width: 200px
+   :align: center
+   :alt: biomovies logo
+
 ![Biomovies logo](_static/logo.png)
 
 ## Brief description
@@ -37,7 +42,7 @@ Though we have put all our effort in making **Biomovies** a fully **cross-platfo
 
 **Feature** | **macOS** |  **Ubuntu** | **Windows**
 
-Create projects | &#x2713; | &#x2713; | &#x2713;
+Create projects | ✅ | &#x2713; | &#x2713;
 
 Run trajectories | &#x2713; | &#x2713; | &#x2713;
 
