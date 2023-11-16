@@ -1,6 +1,6 @@
-![Biomovies logo](_static/logo.png)
+# Biomovies
 
-# Biomovies documentation
+![Biomovies logo](_static/logo.png)
 
 ## Brief description
 
@@ -28,30 +28,30 @@ All the documentation is accessible through [**Read the Docs**](https://biomovie
 
 ## Installation
 
-Please take a look at the [**installation section**](installation.html) in this same documentation.
+Please take a look at the [**installation section**](installation-target) in this same documentation.
 
 ## Features
 
 Though we have put all our effort in making **Biomovies** a fully **cross-platform** software, there are a few **minor features** not available in some of the operating systems:
 
 
-Feature | macOS |  Ubuntu | Windows
+**Feature** | **macOS** |  **Ubuntu** | **Windows**
 
-**Create projects** | &#x2713; | &#x2713; | &#x2713;
+Create projects | &#x2713; | &#x2713; | &#x2713;
 
-**Run trajectories** | &#x2713; | &#x2713; | &#x2713;
+Run trajectories | &#x2713; | &#x2713; | &#x2713;
 
-**Export templates** | &#x2713; | &#x2713; | &#x2713;
+Export templates | &#x2713; | &#x2713; | &#x2713;
 
-**Create preview videos** | &#x2713; | &#x2713; | &#x2713;
+Create preview videos | &#x2713; | &#x2713; | &#x2713;
 
-**Create HD videos** | &#x2713; | &#x2713; | &#x2713;
+Create HD videos | &#x2713; | &#x2713; | &#x2713;
 
-**Create animated GIFs** | &#x2713; | &#x2713; | &#x2713;
+Create animated GIFs | &#x2713; | &#x2713; | &#x2713;
 
-**Dock menu / JumpList** | &#x2713; | &#xd7; | &#x2713;
+Dock menu / JumpList | &#x2713; | &#xd7; | &#x2713;
 
-**Open recent projects** | &#x2713; | &#xd7; | &#xd7;
+Open recent projects | &#x2713; | &#xd7; | &#xd7;
 
 ## Technology
 

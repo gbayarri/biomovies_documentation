@@ -43,82 +43,82 @@
 | Feature | <i class="fa-brands fa-apple"></i> macOS | <i class="fa-brands fa-ubuntu"></i> Ubuntu | <i class="fa-brands fa-windows"></i> Windows
 | :-: | :-: | :-: | :-: |
 | <span class="table-shortcuts-title">About</span>
-| **Hide biomovies** | ⌘H |  | 
-| **Hide Others** | ⌥⌘H |  | 
-| **Quit biomovies** | ⌘Q | Ctrl+Q | Ctrl+Q
+| **Hide biomovies** | &#8984;H |  | 
+| **Hide Others** | &#x2325;&#8984;H |  | 
+| **Quit biomovies** | &#8984;Q | Ctrl+Q | Ctrl+Q
 | <span class="table-shortcuts-title">Project</span>
-| **New Project** | ⇧⌘N | Ctrl+Shift+N | Ctrl+Shift+N
-| **New Project with Trajectory** | ⇧⌘T | Ctrl+Shift+T | Ctrl+Shift+T
-| **Open Project** | ⇧⌘O | Ctrl+Shift+O | Ctrl+Shift+O
-| **Import Template** | ⇧⌘I | Ctrl+Alt+I  | Ctrl+Alt+I 
+| **New Project** | &#x21E7;&#8984;N | Ctrl+Shift+N | Ctrl+Shift+N
+| **New Project with Trajectory** | &#x21E7;&#8984;T | Ctrl+Shift+T | Ctrl+Shift+T
+| **Open Project** | &#x21E7;&#8984;O | Ctrl+Shift+O | Ctrl+Shift+O
+| **Import Template** | &#x21E7;&#8984;I | Ctrl+Alt+I  | Ctrl+Alt+I 
 | <span class="table-shortcuts-title">Help</span>
-| **Documentation** | ⌘D | Ctrl+D | Ctrl+D
+| **Documentation** | &#8984;D | Ctrl+D | Ctrl+D
 
 ### Video Editor
 
 | Feature | <i class="fa-brands fa-apple"></i> macOS | <i class="fa-brands fa-ubuntu"></i> Ubuntu | <i class="fa-brands fa-windows"></i> Windows
 | :-: | :-: | :-: | :-: |
 | <span class="table-shortcuts-title">About</span>
-| **Hide biomovies** | ⌘H |  | 
-| **Hide Others** | ⌥⌘H |  | 
-| **Quit biomovies** | ⌘Q | Ctrl+Q | Ctrl+Q
+| **Hide biomovies** | &#8984;H |  | 
+| **Hide Others** | &#x2325;&#8984;H |  | 
+| **Quit biomovies** | &#8984;Q | Ctrl+Q | Ctrl+Q
 | <span class="table-shortcuts-title">Edit</span>
-| **Undo** | ⌘Z | Ctrl+Z | Ctrl+Z
-| **Redo** | ⇧⌘Z | Ctrl+Shift+Z | Ctrl+Shift+Z
-| **Cut** | ⌘X | Ctrl+X | Ctrl+X
-| **Copy** | ⌘C | Ctrl+C | Ctrl+C
-| **Paste** | ⌘V | Ctrl+V | Ctrl+V
+| **Undo** | &#8984;Z | Ctrl+Z | Ctrl+Z
+| **Redo** | &#x21E7;&#8984;Z | Ctrl+Shift+Z | Ctrl+Shift+Z
+| **Cut** | &#8984;X | Ctrl+X | Ctrl+X
+| **Copy** | &#8984;C | Ctrl+C | Ctrl+C
+| **Paste** | &#8984;V | Ctrl+V | Ctrl+V
 | <span class="table-shortcuts-title">Project</span>
-| **Save Project** | ⌘S | Ctrl+S | Ctrl+S
-| **Save Project As** | ⇧⌘S | Ctrl+Shift+S | Ctrl+Shift+S
-| **Export Project As Template** | ⇧⌘E | Ctrl+Shift+E | Ctrl+Shift+E
-| **Close Project** | ⌘W | Ctrl+W  | Ctrl+W
+| **Save Project** | &#8984;S | Ctrl+S | Ctrl+S
+| **Save Project As** | &#x21E7;&#8984;S | Ctrl+Shift+S | Ctrl+Shift+S
+| **Export Project As Template** | &#x21E7;&#8984;E | Ctrl+Shift+E | Ctrl+Shift+E
+| **Close Project** | &#8984;W | Ctrl+W  | Ctrl+W
 | <span class="table-shortcuts-title">View</span>
-| **Stage** | ⌥⇧S | Alt+Shift+S  | Alt+Shift+S
-| **Timeline** | ⌥⇧T | Alt+Shift+T  | Alt+Shift+T
-| **Representations** | ⌥⇧R | Alt+Shift+R  | Alt+Shift+R
-| **Tools** | ⌥⇧O | Alt+Shift+O  | Alt+Shift+O
-| **Status Bar** | ⌥⇧B | Alt+Shift+B  | Alt+Shift+B
-| **Theme** | ⌥⇧H | Alt+Shift+H  | Alt+Shift+H
+| **Stage** | &#x2325;&#x21E7;S | Alt+Shift+S  | Alt+Shift+S
+| **Timeline** | &#x2325;&#x21E7;T | Alt+Shift+T  | Alt+Shift+T
+| **Representations** | &#x2325;&#x21E7;R | Alt+Shift+R  | Alt+Shift+R
+| **Tools** | &#x2325;&#x21E7;O | Alt+Shift+O  | Alt+Shift+O
+| **Status Bar** | &#x2325;&#x21E7;B | Alt+Shift+B  | Alt+Shift+B
+| **Theme** | &#x2325;&#x21E7;H | Alt+Shift+H  | Alt+Shift+H
 | <span class="table-shortcuts-title">Timeline > New Item</span>
-| **Create New Clip** | ⇧⌘C | Ctrl+Shift+C  | Ctrl+Shift+C
-| **Create New Cloned Clip** | ⌥⌘C | Ctrl+Alt+C | Ctrl+Alt+C
-| **Create New Transition** | ⇧⌘T | Ctrl+Shift+T  | Ctrl+Shift+T
-| **Create New Fade In Transition** | ⇧⌘I | Ctrl+Alt+I | Ctrl+Shift+I
-| **Create New Fade Out Transition** | ⇧⌘O | Ctrl+Shift+O  | Ctrl+Shift+O
-| **Create New Description** | ⇧⌘D | Ctrl+Shift+D  | Ctrl+Shift+D
+| **Create New Clip** | &#x21E7;&#8984;C | Ctrl+Shift+C  | Ctrl+Shift+C
+| **Create New Cloned Clip** | &#x2325;&#8984;C | Ctrl+Alt+C | Ctrl+Alt+C
+| **Create New Transition** | &#x21E7;&#8984;T | Ctrl+Shift+T  | Ctrl+Shift+T
+| **Create New Fade In Transition** | &#x21E7;&#8984;I | Ctrl+Alt+I | Ctrl+Shift+I
+| **Create New Fade Out Transition** | &#x21E7;&#8984;O | Ctrl+Shift+O  | Ctrl+Shift+O
+| **Create New Description** | &#x21E7;&#8984;D | Ctrl+Shift+D  | Ctrl+Shift+D
 | <span class="table-shortcuts-title">Timeline > Controls</span>
-| **Reset Timeline** | ⌥⌘R | Ctrl+Alt+R  | Ctrl+Alt+R
-| **Pan Mode** | ⌥⌘A | Ctrl+Alt+A | Ctrl+Alt+A
-| **Zoom Mode** | ⌥⌘Z | Ctrl+Alt+Z | Ctrl+Alt+Z
+| **Reset Timeline** | &#x2325;&#8984;R | Ctrl+Alt+R  | Ctrl+Alt+R
+| **Pan Mode** | &#x2325;&#8984;A | Ctrl+Alt+A | Ctrl+Alt+A
+| **Zoom Mode** | &#x2325;&#8984;Z | Ctrl+Alt+Z | Ctrl+Alt+Z
 | <span class="table-shortcuts-title">Timeline > Keyframes Actions</span>
-| **Align to First** | ⌥⌘⇧◄ | Ctrl+Left | Ctrl+Alt+Shift+Left   
-| **Align to Last** | ⌥⌘⇧► | Ctrl+Right | Ctrl+Alt+Shift+Right 
-| **Select all Keyframes** | ⇧⌘K | Ctrl+Shift+K | Ctrl+Shift+K
-| **Move to Left** | ⇧⌘◄ | Ctrl+Shift+Left | Ctrl+Shift+Left
-| **Move to Right** | ⇧⌘► | Ctrl+Shift+Right | Ctrl+Shift+Right
+| **Align to First** | &#x2325;&#8984;&#x21E7;&#x25C4; | Ctrl+Left | Ctrl+Alt+Shift+Left   
+| **Align to Last** | &#x2325;&#8984;&#x21E7;&#x25BA; | Ctrl+Right | Ctrl+Alt+Shift+Right 
+| **Select all Keyframes** | &#x21E7;&#8984;K | Ctrl+Shift+K | Ctrl+Shift+K
+| **Move to Left** | &#x21E7;&#8984;&#x25C4; | Ctrl+Shift+Left | Ctrl+Shift+Left
+| **Move to Right** | &#x21E7;&#8984;&#x25BA; | Ctrl+Shift+Right | Ctrl+Shift+Right
 | <span class="table-shortcuts-title">Timeline > Player</span>
-| **Go to First Frame** | ⇧▲ | Shift+Up | Shift+Up
-| **Go to Previous Frame** | ⇧◄ | Shift+Left | Shift+Left 
-| **Play / Pause** | ⇧P | Shift+P | Shift+P
-| **Go to Next Frame** | ⇧► | Shift+Right | Shift+Right
-| **Go to Last Frame** | ⇧▼ | Shift+Down | Shift+Down
+| **Go to First Frame** | &#x21E7;&#x25B2; | Shift+Up | Shift+Up
+| **Go to Previous Frame** | &#x21E7;&#x25C4; | Shift+Left | Shift+Left 
+| **Play / Pause** | &#x21E7;P | Shift+P | Shift+P
+| **Go to Next Frame** | &#x21E7;&#x25BA; | Shift+Right | Shift+Right
+| **Go to Last Frame** | &#x21E7;&#x25BC; | Shift+Down | Shift+Down
 | <span class="table-shortcuts-title">Create Video</span> 
-| **New Preview** | ⌘P | Ctrl+P | Ctrl+P
-| **New Movie** | ⌘M | Ctrl+M | Ctrl+M
-| **New GIF** | ⌘G | Ctrl+G | Ctrl+G
-| **Close Video Window** | ⇧⌘W | Ctrl+Shift+W | Ctrl+Shift+W
+| **New Preview** | &#8984;P | Ctrl+P | Ctrl+P
+| **New Movie** | &#8984;M | Ctrl+M | Ctrl+M
+| **New GIF** | &#8984;G | Ctrl+G | Ctrl+G
+| **Close Video Window** | &#x21E7;&#8984;W | Ctrl+Shift+W | Ctrl+Shift+W
 | <span class="table-shortcuts-title">Help</span>
-| **Documentation** | ⌘D | Ctrl+D | Ctrl+D
+| **Documentation** | &#8984;D | Ctrl+D | Ctrl+D
 
 ### Specific Trajectory shortcuts
 
 | Feature | <i class="fa-brands fa-apple"></i> macOS | <i class="fa-brands fa-ubuntu"></i> Ubuntu | <i class="fa-brands fa-windows"></i> Windows
 | :-: | :-: | :-: | :-: |
-| **Decreases initial frame of trajectory** | ⌥⌘1 | Ctrl+Alt+1 | Ctrl+Alt+1
-| **Increases initial frame of trajectory** | ⌥⌘2 | Ctrl+Alt+2 | Ctrl+Alt+2
-| **Decreases final frame of trajectory** | ⌥⌘3 | Ctrl+Alt+3 | Ctrl+Alt+3
-| **Increases final frame of trajectory** | ⌥⌘4 | Ctrl+Alt+4 | Ctrl+Alt+4
+| **Decreases initial frame of trajectory** | &#x2325;&#8984;1 | Ctrl+Alt+1 | Ctrl+Alt+1
+| **Increases initial frame of trajectory** | &#x2325;&#8984;2 | Ctrl+Alt+2 | Ctrl+Alt+2
+| **Decreases final frame of trajectory** | &#x2325;&#8984;3 | Ctrl+Alt+3 | Ctrl+Alt+3
+| **Increases final frame of trajectory** | &#x2325;&#8984;4 | Ctrl+Alt+4 | Ctrl+Alt+4
 
 ## Tips 
 
@@ -142,7 +142,7 @@ Passing the mouse over the molecules of the structure will **highlight** them an
 
 #### Mouse click actions
 
-* Clicking with the mouse **left button** on an atom while pressing the **Alt or ⌥ key** will **place a Label** close to this atom. [**Click here**](interface.html#labels) to see how to edit labels.
+* Clicking with the mouse **left button** on an atom while pressing the **Alt or &#x2325; key** will **place a Label** close to this atom. [**Click here**](interface.html#labels) to see how to edit labels.
 
 * Clicking **consecutively on two atoms** with the mouse **left button** will draw and calculate the **distance** in **ångströms** between these two atoms. [**Click here**](interface.html#distances) to see how to edit distances.
 
@@ -155,10 +155,10 @@ Apart from the obvious range slider, there two more ways available in order to m
 * On the one hand, **both of the numbers** at the right top of the range are **editable**. Click on both of them in order to introduce the desired frame.
 
 * On the other hand, **range values** can be adjusted via **keyboard** with the following shortcuts:
-    * ⌘/Ctrl + ⌥/Alt + 1 **decreases initial** frame
-    * ⌘/Ctrl + ⌥/Alt + 2 **increases initial** frame
-    * ⌘/Ctrl + ⌥/Alt + 3 **decreases final** frame
-    * ⌘/Ctrl + ⌥/Alt + 4 **increases final** frame
+    * &#8984;/Ctrl + &#x2325;/Alt + 1 **decreases initial** frame
+    * &#8984;/Ctrl + &#x2325;/Alt + 2 **increases initial** frame
+    * &#8984;/Ctrl + &#x2325;/Alt + 3 **decreases final** frame
+    * &#8984;/Ctrl + &#x2325;/Alt + 4 **increases final** frame
 
 ### Timeline
 
@@ -174,7 +174,7 @@ Multiple clips / keyframes can be selected just **clicking** and **dragging** ov
 
 * The **Timeline Editor zoom** can be applied just clicking **Ctrl** (any OS) and scrolling the **mouse wheel**.
 
-* Once the zoom mode is enabled via [**Timeline controls**](interface.html#timeline-controls) menu, the **default** zoom type is **Zoom In**. For doing **Zoom Out**, click **⌘/Ctrl**. 
+* Once the zoom mode is enabled via [**Timeline controls**](interface.html#timeline-controls) menu, the **default** zoom type is **Zoom In**. For doing **Zoom Out**, click **&#8984;/Ctrl**. 
 
 ### Splitter
 
@@ -186,7 +186,7 @@ At the moment of launching the current release, there are **two themes** availab
 
 * Click the [**Theme button**](interface.html#theme) on the status bar.
 * Via menu: _View > Light / Dark Theme_
-* Shortcut: ⌥/Alt + ⇧ + H
+* Shortcut: &#x2325;/Alt + &#x21E7; + H
 
 ### Show / hide Video Editor areas
 
@@ -199,7 +199,7 @@ The **Stage** is the only area of the **Video Editor** that can't be totally hid
 For showing it **occupying the whole application**:
 
 * Via menu: _View > Stage_
-* Shortcut: ⌥/Alt + ⇧ + S
+* Shortcut: &#x2325;/Alt + &#x21E7; + S
 
 It can be partially hidden as well using the [**splitter**](#splitter).
 
@@ -208,7 +208,7 @@ It can be partially hidden as well using the [**splitter**](#splitter).
 For showing the **Timeline** (in case it is **totally** or **partially** hidden):
 
 * Via menu: _View > Timeline_
-* Shortcut: ⌥/Alt + ⇧ + T
+* Shortcut: &#x2325;/Alt + &#x21E7; + T
 
 It can be partially shown / hidden as well using the [**splitter**](#splitter).
 
@@ -217,7 +217,7 @@ It can be partially shown / hidden as well using the [**splitter**](#splitter).
 For showing the **Representations** (in case it is **totally** or **partially** hidden):
 
 * Via menu: _View > Representations_
-* Shortcut: ⌥/Alt + ⇧ + R
+* Shortcut: &#x2325;/Alt + &#x21E7; + R
 
 It can be partially shown / hidden as well using the [**splitter**](#splitter).
 
@@ -226,7 +226,7 @@ It can be partially shown / hidden as well using the [**splitter**](#splitter).
 For showing / hiding the **Tools**:
 
 * Via menu: _View > Tools_
-* Shortcut: ⌥/Alt + ⇧ + O
+* Shortcut: &#x2325;/Alt + &#x21E7; + O
 
 This menu is **draggable** around all the stage and can be **collapsed / expanded** by clicking twice on the handler.
 
@@ -235,7 +235,7 @@ This menu is **draggable** around all the stage and can be **collapsed / expande
 For showing / hiding the **Status Bar**:
 
 * Via menu: _View > Status Bar_
-* Shortcut: ⌥/Alt + ⇧ + B
+* Shortcut: &#x2325;/Alt + &#x21E7; + B
 
 ### Hide mouse when recording Preview Video or GIF
 

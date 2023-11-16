@@ -172,7 +172,7 @@ Passing the mouse over the molecules of the structure will **highlight** them an
 
 ##### Mouse click actions
 
-* Clicking with the mouse **left button** on an atom while pressing the **Alt or ⌥ key** will **place a Label** close to this atom. [**Click here**](#labels) to see how to edit labels.
+* Clicking with the mouse **left button** on an atom while pressing the **Alt or &#x2325; key** will **place a Label** close to this atom. [**Click here**](#labels) to see how to edit labels.
 
 * Clicking **consecutively on two atoms** with the mouse **left button** will draw and calculate the **distance** in **ångströms** between these two atoms. [**Click here**](#distances) to see how to edit distances.
 
@@ -200,37 +200,37 @@ This menu allows to **create new items** in the timeline:
 
 Creates a **new clip** in the timeline. Note that for creating a new clip an existing one must be selected. The new clip will be added **after this selected clip**. If there is not enough space, the new clip will be added at **the end of the timeline**.
 
-Shortcut: ⌘/Ctrl + ⇧ + C
+Shortcut: &#8984;/Ctrl + &#x21E7; + C
 
 #### Cloned Clip
 
 Clones an **existing clip** from the timeline. Note that for cloning a new clip an existing one must be **already selected** in order to clone it. The new clip will be added **after this selected clip**. If there is not enough space, the new clip will be added at **the end of the timeline**.
 
-Shortcut: ⌘/Ctrl + ⌥/Alt + C
+Shortcut: &#8984;/Ctrl + &#x2325;/Alt + C
 
 #### Transition
 
 Creates a **transition between two clips**. Two **consecutive keyframes** of **different clips** with a minimum gap of 400ms between them must be selected before performing this action.
 
-Shortcut: ⌘/Ctrl + ⇧ + T
+Shortcut: &#8984;/Ctrl + &#x21E7; + T
 
 #### Fade In
 
 Creates a **Fade In transition before a clip**. The **initial keyframe** of the clip must be selected before performing this action. There must be a minimum gap of 480ms between the previous keyframe and the one selected. 
 
-Shortcut: ⌘ + ⇧ + I for **macOS**, Ctrl + Alt + I for **Windows** / **Ubuntu**
+Shortcut: &#8984; + &#x21E7; + I for **macOS**, Ctrl + Alt + I for **Windows** / **Ubuntu**
 
 #### Fade Out
 
 Creates a **Fade Out transition after a clip**. The **final keyframe** of the clip must be selected before performing this action. There must be a minimum gap of 480ms between the next keyframe and the one selected.
 
-Shortcut: ⌘/Ctrl + ⇧ + O
+Shortcut: &#8984;/Ctrl + &#x21E7; + O
 
 #### Description
 
 Creates a new **description** in the timeline.
 
-Shortcut: ⌘/Ctrl + ⇧ + D
+Shortcut: &#8984;/Ctrl + &#x21E7; + D
 
 ### Timeline menu
 
@@ -256,7 +256,7 @@ This submenu has the actions for controlling the **Timeline** area.
 
 Clicking this button **resets** the **Timeline editor**: disables the **Pan Mode** (if enabled), resets the **Zoom** to the initial value (if changed) and moves the **cursor** to the beginning.
 
-Shortcut: ⌘/Ctrl + ⌥/Alt + R
+Shortcut: &#8984;/Ctrl + &#x2325;/Alt + R
 
 ##### Pan mode
 
@@ -266,7 +266,7 @@ Clicking this button enables / disables the **Pan Mode**, which allows to **drag
 
 <img src="_static/interface/timeline/timeline10b.gif" style="max-width:600px" />
 
-Shortcut: ⌘/Ctrl + ⌥/Alt + A
+Shortcut: &#8984;/Ctrl + &#x2325;/Alt + A
 
 ##### Zoom
 
@@ -276,9 +276,9 @@ Clicking this button enables / disables the **Zoom Mode**, which allows to **zoo
 
 <img src="_static/interface/timeline/timeline11b.gif" style="max-width:600px" />
 
-Shortcut: ⌘/Ctrl + ⌥/Alt + Z
+Shortcut: &#8984;/Ctrl + &#x2325;/Alt + Z
 
-Tips: Once the zoom mode is enabled, the **default** zoom type is **Zoom In**. For doing **Zoom Out**, click **⌘/Ctrl**. Zoom can be applied as well just clicking **Ctrl** (any OS) and scrolling the **mouse wheel**.
+Tips: Once the zoom mode is enabled, the **default** zoom type is **Zoom In**. For doing **Zoom Out**, click **&#8984;/Ctrl**. Zoom can be applied as well just clicking **Ctrl** (any OS) and scrolling the **mouse wheel**.
 
 #### Keyframes actions
 
@@ -292,7 +292,7 @@ This submenu has the actions for controlling the **keyframes** of the **Timeline
 
 Only works with **two keyframes** selected: aligns the **last** keyframe of the selection with the **first** one.
 
-Shortcut: ⌘/Ctrl + ⌥/Alt + ⇧ + ◄ / Left for **macOS** / **Windows**, Ctrl + Left for **Ubuntu**
+Shortcut: &#8984;/Ctrl + &#x2325;/Alt + &#x21E7; + &#x25C4; / Left for **macOS** / **Windows**, Ctrl + Left for **Ubuntu**
 
 ##### Align first keyframe
 
@@ -300,7 +300,7 @@ Shortcut: ⌘/Ctrl + ⌥/Alt + ⇧ + ◄ / Left for **macOS** / **Windows**, Ctr
 
 Only works with **two keyframes** selected: aligns the **firstt** keyframe of the selection with the **las** one.
 
-Shortcut: ⌘/Ctrl + ⌥/Alt + ⇧ + ► / Right for **macOS** / **Windows**, Ctrl + Right for **Ubuntu**
+Shortcut: &#8984;/Ctrl + &#x2325;/Alt + &#x21E7; + &#x25BA; / Right for **macOS** / **Windows**, Ctrl + Right for **Ubuntu**
 
 ##### Select all keyframes
 
@@ -308,7 +308,7 @@ Shortcut: ⌘/Ctrl + ⌥/Alt + ⇧ + ► / Right for **macOS** / **Windows**, Ct
 
 Clicking this button select **all the keyframes of the Timeline editor**.
 
-Shortcut: ⌘/Ctrl + ⇧ + K
+Shortcut: &#8984;/Ctrl + &#x21E7; + K
 
 ##### Move keyframes left
 
@@ -318,7 +318,7 @@ Only works with **two or more keyframes** selected: moves **all the selected key
 
 <img src="_static/interface/timeline/timeline15b.gif" style="max-width:600px" />
 
-Shortcut: ⌘/Ctrl + ⇧ + ◄ / Left
+Shortcut: &#8984;/Ctrl + &#x21E7; + &#x25C4; / Left
 
 ##### Move keyframes right
 
@@ -328,7 +328,7 @@ Only works with **two or more keyframes** selected: moves **all the selected key
 
 <img src="_static/interface/timeline/timeline16b.gif" style="max-width:600px" />
 
-Shortcut: ⌘/Ctrl + ⇧ + ► / Right
+Shortcut: &#8984;/Ctrl + &#x21E7; + &#x25BA; / Right
 
 #### Player
 
@@ -342,7 +342,7 @@ This submenu has the actions for controlling the **cursor** of the **Timeline**.
 
 Clicking this button moves the **cursor** to the **first frame** of the **Timeline**.
 
-Shortcut: ⇧ + ▲ / Up
+Shortcut: &#x21E7; + &#x25B2; / Up
 
 ##### Go to previous frame
 
@@ -350,7 +350,7 @@ Shortcut: ⇧ + ▲ / Up
 
 Clicking this button moves the **cursor** to the **previous frame** in the **Timeline**.
 
-Shortcut: ⇧ + ◄ / Left
+Shortcut: &#x21E7; + &#x25C4; / Left
 
 ##### Play / Pause
 
@@ -358,7 +358,7 @@ Shortcut: ⇧ + ◄ / Left
 
 Clicking this button **plays / pauses the Timeline**.
 
-Shortcut: ⇧ + P
+Shortcut: &#x21E7; + P
 
 ##### Go to next frame
 
@@ -366,7 +366,7 @@ Shortcut: ⇧ + P
 
 Clicking this button moves the **cursor** to the **next frame** in the **Timeline**.
 
-Shortcut: ⇧ + ► / Right
+Shortcut: &#x21E7; + &#x25BA; / Right
 
 ##### Go to last frame
 
@@ -374,7 +374,7 @@ Shortcut: ⇧ + ► / Right
 
 Clicking this button moves the **cursor** to the **last frame** of the **Timeline**.
 
-Shortcut: ⇧ + ▼ / Down
+Shortcut: &#x21E7; + &#x25BC; / Down
 
 #### Trajectory frames
 
@@ -805,10 +805,10 @@ Taking into account that for **long trajectories**, the modification of the rang
 
 * On the one hand, **both of the numbers** at the right top of the range are **editable**. Click on both of them in order to introduce the desired frame.
 * On the other hand, **range values** can be adjusted via **keyboard** with the following shortcuts:
-    * ⌘/Ctrl + ⌥/Alt + 1 **decreases initial** frame
-    * ⌘/Ctrl + ⌥/Alt + 2 **increases initial** frame
-    * ⌘/Ctrl + ⌥/Alt + 3 **decreases final** frame
-    * ⌘/Ctrl + ⌥/Alt + 4 **increases final** frame
+    * &#8984;/Ctrl + &#x2325;/Alt + 1 **decreases initial** frame
+    * &#8984;/Ctrl + &#x2325;/Alt + 2 **increases initial** frame
+    * &#8984;/Ctrl + &#x2325;/Alt + 3 **decreases final** frame
+    * &#8984;/Ctrl + &#x2325;/Alt + 4 **increases final** frame
 
 For more tips, see the [**tips section**](utilities.html#tips). For more shortcuts, see the [**shortcuts section**](utilities.html#shortcuts).
 
@@ -943,4 +943,4 @@ Clicking on this section of the **status bar** the application theme will toggle
 
 <span style="font-size:12px;">Toggling between themes</span>
 
-Shortcut: ⌥/Alt + ⇧ + H
+Shortcut: &#x2325;/Alt + &#x21E7; + H
