@@ -38,7 +38,7 @@ extensions = [
     'sphinx_rtd_theme',
     'sphinx_markdown_tables',
     'myst_parser',
-    #'recommonmark'
+    # 'recommonmark'
 ]
 
 # Using Google docstring style
@@ -60,7 +60,7 @@ templates_path = ['_templates']
 source_suffix = ['.rst', '.md']
 
 # The encoding of source files.
-# source_encoding = 'utf-8-sig'
+source_encoding = 'utf-8-sig'
 
 # The master toctree document.
 master_doc = 'index'
