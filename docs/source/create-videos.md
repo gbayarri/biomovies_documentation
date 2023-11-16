@@ -54,7 +54,7 @@ Once the _Record_ button is pressed, the **render** process starts. This **rende
 
 After the **render** process is finished, it starts the **video generation**. This part can take more or less time depending on the **resolution** chosen and the **resources** of the computer where **Biomovies** is being executed. Once the **video generation** is finished, a system dialog is shown to ask the user **where to save** the video.
 
-**Tip:** it is **highly recommended** to have the [**Letterboxing tool enabled**](interface.html#enable-disable-letterboxing) during the process of generating a movie. After enabling it, two **stripes** will appear showing to the user which parts of the stage will be **rendered** and which not. In some cases (when the screen **aspect ratio** is **16:9**) these stripes won’t appear.
+**Tip:** it is **highly recommended** to have the [**Letterboxing tool enabled**](video_editor_letterboxing_target) during the process of generating a movie. After enabling it, two **stripes** will appear showing to the user which parts of the stage will be **rendered** and which not. In some cases (when the screen **aspect ratio** is **16:9**) these stripes won’t appear.
 
 ![](_static/interface/stage/tools/tools09b.png)
 

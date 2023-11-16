@@ -13,6 +13,7 @@ Creating a new project with **Biomovies** is as easy as clicking the _Create new
 
 Shortcut: &#8984;/Ctrl + &#x21E7; + N
 
+(get_started_trj_target)=
 ## New Project with Trajectory
 
 ![](_static/get_started/img02.png)
@@ -53,4 +54,4 @@ A broad documentation has been written and is available in this same [**Read the
 
 ## Common shortcuts
 
-When launching the application, a list of **common shortcuts** is shown (see figure _Application home screen_ in this same section). However, a list with all the shortcuts available can be found in the [**Utilities**](utilities.html#shortcuts) section.
+When launching the application, a list of **common shortcuts** is shown (see figure _Application home screen_ in this same section). However, a list with all the shortcuts available can be found in the [**Utilities**](utilities_shortcuts_target) section.

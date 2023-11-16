@@ -19,8 +19,9 @@ Please visit the [**Getting Started section**](get_started_target) of the docume
 Please visit the [**Video Editor section**](video_editor_target) of the documentation. In this section, you will find exhaustive descriptions about all the sections of the editor, such as the [**Stage**](video_editor_stage_target), the [**Timeline**](video_editor_timeline_target) or the [**Representations**](video_editor_representations_target).
 
 ### How to export my own videos?
-Please visit the [**Create Videos section**](create_videos_target) of the documentation. In this section, there is a broad explanation about how to create a [New Preview](create_videos_preview_target) video, a [New Movie](create_videos_movie_target) and a [New GIF](create_videos_gif_target).
+Please visit the [**Create Videos section**](create_videos_target) of the documentation. In this section, there is a broad explanation about how to create a [**New Preview**](create_videos_preview_target) video, a [**New Movie**](create_videos_movie_target) and a [**New GIF**](create_videos_gif_target).
 
+(utilities_shortcuts_target)=
 ## Shortcuts 
 
 ### Home screen
@@ -168,6 +169,7 @@ Decreases final frame of trajectory | &#x2325;&#8984;3 | Ctrl+Alt+3 | Ctrl+Alt+3
 
 Increases final frame of trajectory | &#x2325;&#8984;4 | Ctrl+Alt+4 | Ctrl+Alt+4
 
+(utilities_tips_target)=
 ## Tips 
 
 In this section there is a summary of the Tips already explained in the rest of sections.
@@ -186,15 +188,15 @@ Actions of **zoom in** and **zoom out** can be done with the **scroll mouse or t
 
 #### Mouse over actions
 
-Passing the mouse over the molecules of the structure will **highlight** them and show **their information** in the **legend** on the bottom right of the stage. [**Click here**](interface.html#enable-disable-legend) to see how to enable the legend.
+Passing the mouse over the molecules of the structure will **highlight** them and show **their information** in the **legend** on the bottom right of the stage. [**Click here**](video_editor_legend_target) to see how to enable the legend.
 
 #### Mouse click actions
 
-* Clicking with the mouse **left button** on an atom while pressing the **Alt or &#x2325; key** will **place a Label** close to this atom. [**Click here**](interface.html#labels) to see how to edit labels.
+* Clicking with the mouse **left button** on an atom while pressing the **Alt or &#x2325; key** will **place a Label** close to this atom. [**Click here**](video_editor_labels_target) to see how to edit labels.
 
-* Clicking **consecutively on two atoms** with the mouse **left button** will draw and calculate the **distance** in **ångströms** between these two atoms. [**Click here**](interface.html#distances) to see how to edit distances.
+* Clicking **consecutively on two atoms** with the mouse **left button** will draw and calculate the **distance** in **ångströms** between these two atoms. [**Click here**](video_editor_distances_target) to see how to edit distances.
 
-* Clicking **consecutively on three atoms** with the mouse **right button** while pressing the **Ctrl key** will draw and calculate the **angle** in **degrees** between these three atoms. [**Click here**](interface.html#angles) to see how to edit angles.
+* Clicking **consecutively on three atoms** with the mouse **right button** while pressing the **Ctrl key** will draw and calculate the **angle** in **degrees** between these three atoms. [**Click here**](video_editor_angles_target) to see how to edit angles.
 
 ### Modify trajectory range
 
@@ -222,7 +224,7 @@ Multiple clips / keyframes can be selected just **clicking** and **dragging** ov
 
 * The **Timeline Editor zoom** can be applied just clicking **Ctrl** (any OS) and scrolling the **mouse wheel**.
 
-* Once the zoom mode is enabled via [**Timeline controls**](interface.html#timeline-controls) menu, the **default** zoom type is **Zoom In**. For doing **Zoom Out**, click &#8984;/Ctrl. 
+* Once the zoom mode is enabled via [**Timeline controls**](video_editor_tml_ctrls_target) menu, the **default** zoom type is **Zoom In**. For doing **Zoom Out**, click &#8984;/Ctrl. 
 
 ### Splitter
 
@@ -232,7 +234,7 @@ There is a **splitter** between the three main areas of the **Video Editor**. Fo
 
 At the moment of launching the current release, there are **two themes** available: **Dark** (default) and **Light**. For toggling between them, there are three options:
 
-* Click the [**Theme button**](interface.html#theme) on the status bar.
+* Click the [**Theme button**](video_editor_theme_target) on the status bar.
 * Via menu: _View > Light / Dark Theme_
 * Shortcut: &#x2325;/Alt + &#x21E7; + H
 
@@ -291,6 +293,6 @@ In **macOS**, the process of recording the screen captures the **mouse** as well
 
 ### Use Letterboxing for creating Movies
 
-It is **highly recommended** to have the [**Letterboxing tool enabled**](interface.html#enable-disable-letterboxing) during the process of generating a movie. After enabling it, two **stripes** will appear showing to the user which parts of the stage will be **rendered** and which not. In some cases (when the screen **aspect ratio** is **16:9**) these stripes won’t appear.
+It is **highly recommended** to have the [**Letterboxing tool enabled**](video_editor_letterboxing_target) during the process of generating a movie. After enabling it, two **stripes** will appear showing to the user which parts of the stage will be **rendered** and which not. In some cases (when the screen **aspect ratio** is **16:9**) these stripes won’t appear.
 
 Remember that the **Letterboxing** is useful only **when recording a Movie**, is not necessary for **Previews** or animated **GIFs**.

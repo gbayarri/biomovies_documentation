@@ -46,6 +46,7 @@ Clicking this button **opens a modal dialog** to edit the **distances and angles
 
 <img src="_static/interface/stage/tools/tools03a.png" style="max-width:500px;" />
 
+(video_editor_distances_target)=
 ##### Distances
 
 **Distances** editor before editing size and color:
@@ -58,6 +59,7 @@ Clicking this button **opens a modal dialog** to edit the **distances and angles
 
 If **only a distance** is needed (**without label**), please set **0 as Label siz**e.
 
+(video_editor_angles_target)=
 ##### Angles
 
 **Angles** editor before editing size and color:
@@ -74,6 +76,7 @@ If **only the lines** are needed (**without label**), please set **0 as Label si
 
 <img src="_static/interface/stage/tools/tools03f.png" style="max-width:500px;" />
 
+(video_editor_labels_target)=
 #### Labels
 
 <img src="_static/interface/stage/tools/tools04.png" />
@@ -110,6 +113,7 @@ Switches camera type between **orthographic** and **perspective**.
 
 Click this button and then, **select an atom** of the structure, the view will be **focused** into this atom position. This button is active only if **one single keyframe** of the timeline has been selected.
 
+(video_editor_legend_target)=
 #### Enable / Disable legend
 
 <img src="_static/interface/stage/tools/tools07.png" />
@@ -132,11 +136,12 @@ In this editor, users can change the **rotation** and **translation** of the bio
 
 This button is active only if **one single keyframe** of the timeline has been selected.
 
+(video_editor_letterboxing_target)=
 #### Enable / Disable letterboxing
 
 <img src="_static/interface/stage/tools/tools09.png" />
 
-Enables / disables letterboxing on the **stage**. Two **stripes** will appear showing to the user which parts of the stage will be **rendered** and which not in case of [**Creating a New Movie**](create-videos.html#create-new-movie). In some cases (when the screen **aspect ratio** is **16:9**) these stripes won’t appear.
+Enables / disables letterboxing on the **stage**. Two **stripes** will appear showing to the user which parts of the stage will be **rendered** and which not in case of [**Creating a New Movie**](create_videos_movie_target). In some cases (when the screen **aspect ratio** is **16:9**) these stripes won’t appear.
 
 <img src="_static/interface/stage/tools/tools09b.png" style="max-width:500px" />
 
@@ -247,6 +252,7 @@ In this **menu**, divided into **four areas**, there can be found all the possib
 
 The remove button allows the user to **remove** the selected **clip** or **transition**. For the sake of security, the button must be **clicked twice**.
 
+(video_editor_tml_ctrls_target)=
 #### Timeline controls
 
 <img src="_static/interface/timeline/timeline06.png" />
@@ -411,7 +417,7 @@ The main timeline area or editor, is the place where all the actions related to 
 * The timeline **zoom** can also be applied via **scroll mouse** or **trackpad** and pressing the **Ctrl** key at the **same time**. 
 * **Multiple keyframes** can be selected just **clicking** and **dragging** over the **Timeline Editor**.
 
-For more tips, see the [**tips section**](utilities.html#tips).
+For more tips, see the [**tips section**](utilities_tips_target).
 
 (video_editor_representations_target)=
 ## Representations
@@ -791,7 +797,7 @@ Through this slider, the **radius** can be modified in the next molecular repres
 
 <img src="_static/interface/representations/trajectories/trajectories01.png" style="max-width:300px;height:auto;" />
 
-When working with a project with a [**topology and a trajectory**](get-started.html#new-project-with-trajectory) and [**selecting a clip or a keyframe**](#timeline-editor) in the **Timeline**, the above **editor** module appears on the **Representations** area. 
+When working with a project with a [**topology and a trajectory**](get_started_trj_target) and [**selecting a clip or a keyframe**](#timeline-editor) in the **Timeline**, the above **editor** module appears on the **Representations** area. 
 
 By default it's disabled. That means that, when we start a new project with a **trajectory**, this trajectory is not **applied** to the **structure** until the **Play trajectory for this clip** switch button is **enabled**.
 
@@ -814,7 +820,7 @@ Taking into account that for **long trajectories**, the modification of the rang
     * &#8984;/Ctrl + &#x2325;/Alt + 3 **decreases final** frame
     * &#8984;/Ctrl + &#x2325;/Alt + 4 **increases final** frame
 
-For more tips, see the [**tips section**](utilities.html#tips). For more shortcuts, see the [**shortcuts section**](utilities.html#shortcuts).
+For more tips, see the [**tips section**](utilities_tips_target). For more shortcuts, see the [**shortcuts section**](utilities_shortcuts_target).
 
 #### Step
 
@@ -937,6 +943,7 @@ This section of the **status bar** shows the current **status** of the project: 
 
 This section of the **status bar** shows the current **version** of the application.
 
+(video_editor_theme_target)=
 ### Theme
 
 <img src="_static/interface/stage/statusbar/statusbar04.png" />
