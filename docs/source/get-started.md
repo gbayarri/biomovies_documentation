@@ -1,12 +1,12 @@
 # Getting started
 
-<img src="_static/get_started/home.png" style="max-width:500px; margin-bottom:0;" />
+![](_static/get_started/home.png)
 
 <span style="font-size:12px;">Application home screen</span>
 
 ## New Project 
 
-<img src="_static/get_started/img01.png" style="max-width:200px;" />
+![](_static/get_started/img01.png)
 
 Creating a new project with **Biomovies** is as easy as clicking the _Create new project_ button (or via menu: _Project > New Project_) and selecting a 3D biological structure file (in **PDB** or **MMCIF** format) from the user’s computer.
 
@@ -14,7 +14,7 @@ Shortcut: &#8984;/Ctrl + &#x21E7; + N
 
 ## New Project with Trajectory
 
-<img src="_static/get_started/img02.png" style="max-width:200px;" />
+![](_static/get_started/img02.png)
 
 The process of creating a new project with a **trajectory** starts by clicking the _Create new project with trajectory_ button (or via menu: _Project > New Project with Trajectory_) and selecting a 3D biological structure file (in **PDB** or **MMCIF** format) as a topology and its corresponding trajectory (in **NETCDF**, **XTC** or **DCD** format) from the user’s computer. Note that both files must be selected at the **same time**, so it's recommended to have them in the **same folder** at the time of creating the new project.
 
@@ -28,7 +28,7 @@ Shortcut: &#8984;/Ctrl + &#x21E7; + T
 
 ## Open Project 
 
-<img src="_static/get_started/img03.png" style="max-width:200px;" />
+![](_static/get_started/img03.png)
 
 Just click the _Open project_ button (or via menu: _Project > Open Project_ or _Project > Open Recent_) and select a **.biomovies** file from the user’s computer. A **.biomovies** file contains all the necessary information of the project, including the **3D structure** file and the **trajectory** file (if necessary). 
 
@@ -38,7 +38,7 @@ Shortcut: &#8984;/Ctrl + &#x21E7; + O
 
 ## Import Template
 
-<img src="_static/get_started/img04.png" style="max-width:200px;" />
+![](_static/get_started/img04.png)
 
 Templates are a very interesting option for applying the **same video edition** to **different structures**. They are worth considering too for sharing a project, since a **template** only saves the project information (but not the structure and the trajectory) and, therefore, the **file size** is really **small**. 
 
