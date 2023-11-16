@@ -18,11 +18,11 @@ A universal binary runs natively on **both Apple silicon and Intel-based Mac** c
 
 Download the dmg file, install the application dragging the icon to the Applications folder, and, before opening the application, open **Settings > Security and Privacy** and click **Anywhere** under the _Allow apps downloaded from_ section:
 
-<img src="_static/installation/image4.jpg" style="max-width:600px; margin-bottom:0;" />
+![](_static/installation/image4.jpg)
 
 Note that this option has disappeared from **Mac OS High Sierra** onwards, so in this case, select _App Store and identified developers_. After that, try to open the application and this message will be shown:
 
-<img src="_static/installation/image3.png" style="max-height:300px;" />
+![](_static/installation/image3.png)
 
 Go back to **Settings > Security and Privacy** and, below _App Store and identified developers_ a new message will be shown:
 
@@ -62,7 +62,7 @@ Be sure to put the absolute / relative path, not just the file name.
 
 Right click on **.deb** file, select **Open With Other Application** and select **Software Install**. This opens **Ubuntu Software**. Click Install button:
 
-<img src="_static/installation/image1.png" style="max-width:600px;" />
+![](_static/installation/image1.png)
 
 Now the application is installed in your computer.
 
@@ -96,7 +96,7 @@ For downloading the **Windows** version of **Biomovies**, go to the [**website d
 
 Windows treats the **Biomovies** executable file as an unrecognized app. So, after double clicking the **.exe** file, Windows will open the following window:
 
-<img src="_static/installation/image5.png" style="max-width:400px;" />
+![](_static/installation/image5.png)
 
 Click on _More info_ and then, on _Run anyway_ button for starting the installation.
 
