@@ -28,7 +28,7 @@ All the documentation is accessible through [**Read the Docs**](https://biomovie
 
 ## Installation
 
-Please take a look at the [**installation section**](#installation_target) in this same documentation.
+Please take a look at the [**installation section**](installation_target) in this same documentation.
 
 ## Features
 
