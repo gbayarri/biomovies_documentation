@@ -14,10 +14,7 @@ Visit the [**official website** <i class="fa-solid fa-up-right-from-square" styl
 
 ## Demo
 
-Below there is a video generated with **Biomovies** software. More videos available in the [**website gallery** <i class="fa-solid fa-up-right-from-square" style="font-size: 12px;"></i>](https://gbayarri.github.io/biomovies/#gallery).
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/-cEe-mtP2VU?si=7cT5b4eUvOxmbubg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="margin-bottom: 30px;"></iframe>
-
+Visit the [**website gallery** <i class="fa-solid fa-up-right-from-square" style="font-size: 12px;"></i>](https://gbayarri.github.io/biomovies/#gallery) for seeing demos.
 
 ## Documentation & help
 
@@ -40,21 +37,21 @@ Though we have put all our effort in making **Biomovies** a fully **cross-platfo
 
 Feature | macOS |  Ubuntu | Windows
 
-**Create projects** | ✅ | ✅ | ✅
+**Create projects** | &#x2713; | &#x2713; | &#x2713;
 
-**Run trajectories** | ✅ | ✅ | ✅
+**Run trajectories** | &#x2713; | &#x2713; | &#x2713;
 
-**Export templates** | ✅ | ✅ | ✅
+**Export templates** | &#x2713; | &#x2713; | &#x2713;
 
-**Create preview videos** | ✅ | ✅ | ✅
+**Create preview videos** | &#x2713; | &#x2713; | &#x2713;
 
-**Create HD videos** | ✅ | ✅ | ✅
+**Create HD videos** | &#x2713; | &#x2713; | &#x2713;
 
-**Create animated GIFs** | ✅ | ✅ | ✅
+**Create animated GIFs** | &#x2713; | &#x2713; | &#x2713;
 
-**Dock menu / JumpList** | ✅ | ❌ | ✅
+**Dock menu / JumpList** | &#x2713; | &#xd7; | &#x2713;
 
-**Open recent projects** | ✅ | ❌ | ❌
+**Open recent projects** | &#x2713; | &#xd7; | &#xd7;
 
 ## Technology
 
