@@ -68,7 +68,7 @@ master_doc = 'index'
 # General information about the project.
 project = u'biomovies'
 copyright = u'2023, biomovies'
-author = u'Genís Bayarri, Adam Hospital, Modesto Orozco\n© IRB Barcelona'
+author = u'Genís Bayarri, Adam Hospital, Modesto Orozco'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
@@ -237,10 +237,12 @@ latex_elements = {
     # 'pointsize': '10pt',
 
     # Additional stuff for the LaTeX preamble.
-    'preamble': '',
+    # 'preamble': '',
 
     # Latex figure (float) alignment
     # 'figure_align': 'htbp',
+
+    'extraclassoptions': 'openany',
 }
 
 # Grouping the document tree into LaTeX files. List of tuples
