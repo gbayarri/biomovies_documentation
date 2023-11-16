@@ -1,6 +1,6 @@
 # Biomovies
 
-![Biomovies logo](_static/logo.png | width=100)
+![Biomovies logo](_static/logo.png)
 
 ## Brief description
 
