@@ -164,7 +164,7 @@ Apart from the obvious range slider, there two more ways available in order to m
 
 #### Select single clip in Timeline Editor
 
-For **selecting a clip**, click with the **left mouse** button on the clip clicking **Ctrl key** (for any OS) at the same time. A clip can be selected as well just **clicking** and **dragging** over the **Timeline Editor**, but depending on the amount of clips or transitions and the selrcted zoom for the editor, it can be difficult to select only the desired clip.
+For **selecting a clip**, click with the **left mouse** button on the clip clicking **Ctrl key** (for any OS) at the same time. A clip can be selected as well just **clicking** and **dragging** over the **Timeline Editor**, but depending on the amount of clips or transitions and the selected zoom for the editor, it can be difficult to select only the desired clip.
 
 #### Select clips / keyframes in Timeline Editor
 
