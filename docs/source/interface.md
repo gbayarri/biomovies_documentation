@@ -167,10 +167,6 @@ Actions of **zoom in** and **zoom out** can be done with the **scroll mouse or t
 
 All these modifications in the **general orientation** of the structure will be applied to the **selected keyframe**. That means that, in a **clip**, the **first** and the **last frame** can have different **rotation**, **translation** or **zoom**. **Biomovies** will take care of the **interpolation** between frames.
 
-![](_static/interface/stage/stage/stage01.gif)
-
-<span style="font-size:12px;">Automatic transition between two frames with different orientations</span>
-
 #### Mouse actions
 
 ##### Mouse over actions
@@ -273,8 +269,6 @@ Shortcut: &#8984;/Ctrl + &#x2325;/Alt + R
 
 Clicking this button enables / disables the **Pan Mode**, which allows to **drag the whole Timeline editor**.
 
-![](_static/interface/timeline/timeline10b.gif)
-
 Shortcut: &#8984;/Ctrl + &#x2325;/Alt + A
 
 ##### Zoom
@@ -282,8 +276,6 @@ Shortcut: &#8984;/Ctrl + &#x2325;/Alt + A
 ![](_static/interface/timeline/timeline11.png)
 
 Clicking this button enables / disables the **Zoom Mode**, which allows to **zoom into the Timeline editor**.
-
-![](_static/interface/timeline/timeline11b.gif)
 
 Shortcut: &#8984;/Ctrl + &#x2325;/Alt + Z
 
@@ -325,8 +317,6 @@ Shortcut: &#8984;/Ctrl + &#x21E7; + K
 
 Only works with **two or more keyframes** selected: moves **all the selected keyframes to left** in the **Timeline editor**.
 
-![](_static/interface/timeline/timeline15b.gif)
-
 Shortcut: &#8984;/Ctrl + &#x21E7; + &#x25C4; / Left
 
 ##### Move keyframes right
@@ -334,8 +324,6 @@ Shortcut: &#8984;/Ctrl + &#x21E7; + &#x25C4; / Left
 ![](_static/interface/timeline/timeline16.png)
 
 Only works with **two or more keyframes** selected: moves **all the selected keyframes to right** in the **Timeline editor**.
-
-![](_static/interface/timeline/timeline16b.gif)
 
 Shortcut: &#8984;/Ctrl + &#x21E7; + &#x25BA; / Right
 
@@ -948,9 +936,5 @@ This section of the **status bar** shows the current **version** of the applicat
 ![](_static/interface/stage/statusbar/statusbar04.png)
 
 Clicking on this section of the **status bar** the application theme will toggle between **dark** and **light**. This option can be toggled as well via menu (_View > Light Theme_ or _View > Dark Theme_)
-
-![](_static/interface/stage/statusbar/statusbar05.gif)
-
-<span style="font-size:12px;">Toggling between themes</span>
 
 Shortcut: &#x2325;/Alt + &#x21E7; + H
