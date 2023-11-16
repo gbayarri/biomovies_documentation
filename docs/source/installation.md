@@ -1,4 +1,3 @@
-(installation-target)=
 # Installation
 
 ## macOS

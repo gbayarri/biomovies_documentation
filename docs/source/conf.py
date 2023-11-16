@@ -37,6 +37,7 @@ extensions = [
     'sphinx.ext.napoleon',
     'sphinx_rtd_theme',
     'sphinx_markdown_tables',
+    'myst_parser',
     'recommonmark'
 ]
 
