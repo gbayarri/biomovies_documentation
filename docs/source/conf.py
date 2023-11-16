@@ -251,6 +251,8 @@ latex_documents = [
      u'biomovies', 'manual'),
 ]
 
+latex_engine = "xelatex"
+
 # The name of an image file (relative to this directory) to place at the top of
 # the title page.
 # latex_logo = None
