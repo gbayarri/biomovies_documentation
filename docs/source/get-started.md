@@ -1,3 +1,4 @@
+(get_started_target)=
 # Getting started
 
 ![](_static/get_started/home.png)

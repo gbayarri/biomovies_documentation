@@ -1,6 +1,7 @@
 (installation_target)=
 # Installation
 
+(installation_macos_target)=
 ## macOS
 
 At the moment of launching the current release, the **Biomovies** macOS binaries are **unsigned**. That means that macOS treats them as untrusted software. So, for executing it, please follow the next steps: 
@@ -42,6 +43,7 @@ xattr -r -d com.apple.quarantine /Applications/biomovies.app
 
 Now the application should work properly.
 
+(installation_ubuntu_target)=
 ## Ubuntu
 
 For downloading the **Ubuntu** version of **Biomovies**, go to the [**website download** <i class="fa-solid fa-up-right-from-square" style="font-size: 12px;"></i>](https://gbayarri.github.io/biomovies/#download) section and click the _Ubuntu_ button (**.deb** and **.AppImage** binaries available). At the moment of launching the current release, there is only a **x64 architecture** binary for **Ubuntu**.
@@ -90,6 +92,7 @@ Be sure to put the absolute / relative path, not just the file name.
 
 Double click **.AppImage** file.
 
+(installation_windows_target)=
 ## Windows
 
 For downloading the **Windows** version of **Biomovies**, go to the [**website download** <i class="fa-solid fa-up-right-from-square" style="font-size: 12px;"></i>](https://gbayarri.github.io/biomovies/#download) section and click the _Windows_ button. At the moment of launching the current release, there is only a **x64 architecture** binary for **Windows**.

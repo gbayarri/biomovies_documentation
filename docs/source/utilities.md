@@ -4,29 +4,22 @@
 
 ### How easy is to install Biomovies?
 
-**Biomovies** is not difficult to install, however, depending on the version of your operating system, there are some **workarounds** that worth it to take into account. See the documentation for installing in in <a href="installation.html#macos">macOS</a>, <a href="installation.html#windows">Windows</a> and <a href="installation.html#ubuntu">Ubuntu</a>.
-
+**Biomovies** is not difficult to install, however, depending on the version of your operating system, there are some **workarounds** that worth it to take into account. See the documentation for installing in in [**macOS**](installation_macos_target), [Windows](installation_windows_target) and [Ubuntu](installation_ubuntu_target).
 
 ### Which are the software / hardware requirements?
 These are the recommended **requirements**:
-<ul>
-    <li>**macOS:** Mac OSX 10.12+ supported, 16GB of RAM recommended</li>
-    <li>**Linux:** Ubuntu 18.04 or greater, 16GB of RAM recommended</li>
-    <li>**Windows:** Windows 10, 16GB of RAM recommended</li>
-</ul>
-
+* ***macOS:** Mac OSX 10.12+ supported, 16GB of RAM recommended
+* ***Linux:** Ubuntu 18.04 or greater, 16GB of RAM recommended
+* ***Windows:** Windows 10, 16GB of RAM recommended
 
 ### How to start a new project?
-Please visit the <a href="get-started.html">Getting Started section</a> of the documentation.
-
+Please visit the [**Getting Started section**](get_started_target) of the documentation.
 
 ### How to edit a movie?
-Please visit the <a href="interface.html">Video Editor section</a> of the documentation. In this section, you will find exhaustive descriptions about all the sections of the editor, such as the <a href="interface.html#stage">Stage</a>, the <a href="interface.html#timeline">Timeline</a> or the <a href="interface.html#representations">Representations</a>.
-
+Please visit the [**Video Editor section**](video_editor_target) of the documentation. In this section, you will find exhaustive descriptions about all the sections of the editor, such as the [**Stage**](video_editor_stage_target), the [**Timeline**](video_editor_timeline_target) or the [**Representations**](video_editor_representations_target).
 
 ### How to export my own videos?
-Please visit the <a href="create-videos.html">Create Videos section</a> of the documentation. In this section, there is a broad explanation about how to create a <a href="create-videos.html#create-new-preview">New Preview</a> video, a <a href="create-videos.html#create-new-movie">New Movie</a> and a <a href="create-videos.html#create-new-gif">New GIF</a>.
-
+Please visit the [**Create Videos section**](create_videos_target) of the documentation. In this section, there is a broad explanation about how to create a [New Preview](create_videos_preview_target) video, a [New Movie](create_videos_movie_target) and a [New GIF](create_videos_gif_target).
 
 ## Shortcuts 
 

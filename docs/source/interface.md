@@ -1,9 +1,11 @@
+(video_editor_target)=
 # Video Editor
 
 <img src="_static/interface/interface.png" style="margin-bottom:0;" />
 
 <span style="font-size:12px;display:flex;justify-content:center;">Video Editor</span>
 
+(video_editor_stage_target)=
 ## Stage
 
 <img src="_static/interface/stage/stage.png" style="max-width:800px;" />
@@ -178,6 +180,7 @@ Passing the mouse over the molecules of the structure will **highlight** them an
 
 * Clicking **consecutively on three atoms** with the mouse **right button** while pressing the **Ctrl key** will draw and calculate the **angle** in **degrees** between these three atoms. [**Click here**](#angles) to see how to edit angles.
 
+(video_editor_timeline_target)=
 ## Timeline
 
 <img src="_static/interface/timeline/timeline01.png" />
@@ -410,6 +413,7 @@ The main timeline area or editor, is the place where all the actions related to 
 
 For more tips, see the [**tips section**](utilities.html#tips).
 
+(video_editor_representations_target)=
 ## Representations
 
 The **Representations** panel is located at right of the stage and is used for:
