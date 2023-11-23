@@ -5,7 +5,7 @@
 <details>
   <summary>How easy is to install <strong>Biomovies</strong>?</summary>
   <p>
-    <strong>Biomovies</strong> is not difficult to install, however, depending on the version of your operating system, there are some <strong>workarounds</strong> that worth it to take into account. See the documentation for installing in in <a href="installation.html#macos">macOS</a>, <a href="installation.html#windows">Windows</a> and <a href="installation.html#ubuntu">Ubuntu</a>.
+    <strong>Biomovies</strong> is not difficult to install, however, depending on the version of your operating system, there are some <strong>workarounds</strong> worth taking into account. See the documentation for installing in <a href="installation.html#macos">macOS</a>, <a href="installation.html#windows">Windows</a> and <a href="installation.html#ubuntu">Ubuntu</a>.
   </p>
 </details>
 
@@ -95,6 +95,7 @@
 | **Align to First** | ⌥⌘⇧◄ | Ctrl+Left | Ctrl+Alt+Shift+Left   
 | **Align to Last** | ⌥⌘⇧► | Ctrl+Right | Ctrl+Alt+Shift+Right 
 | **Select all Keyframes** | ⇧⌘K | Ctrl+Shift+K | Ctrl+Shift+K
+| **Associate transition to clip** | ⇧⌘A | Ctrl+Shift+A | Ctrl+Shift+A
 | **Move to Left** | ⇧⌘◄ | Ctrl+Shift+Left | Ctrl+Shift+Left
 | **Move to Right** | ⇧⌘► | Ctrl+Shift+Right | Ctrl+Shift+Right
 | <span class="table-shortcuts-title">Timeline > Player</span>
@@ -150,7 +151,7 @@ Passing the mouse over the molecules of the structure will **highlight** them an
 
 ### Modify trajectory range
 
-Apart from the obvious range slider, there two more ways available in order to modify the trajectory range:
+Apart from the obvious range slider, there are two more ways available in order to modify the trajectory range:
 
 * On the one hand, **both of the numbers** at the right top of the range are **editable**. Click on both of them in order to introduce the desired frame.
 
@@ -164,7 +165,7 @@ Apart from the obvious range slider, there two more ways available in order to m
 
 #### Select single clip in Timeline Editor
 
-For **selecting a clip**, click with the **left mouse** button on the clip clicking **Ctrl key** (for any OS) at the same time. A clip can be selected as well just **clicking** and **dragging** over the **Timeline Editor**, but depending on the amount of clips or transitions and the selected zoom for the editor, it can be difficult to select only the desired clip.
+For **selecting a clip**, click with the **left mouse** button on the clip pressing **Ctrl key** (for any OS) at the same time. A clip can be selected as well just **clicking** and **dragging** over the **Timeline Editor**, but depending on the amount of clips or transitions and the selected zoom for the editor, it can be difficult to select only the desired clip.
 
 #### Select clips / keyframes in Timeline Editor
 
@@ -246,3 +247,7 @@ In **macOS**, the process of recording the screen captures the **mouse** as well
 It is **highly recommended** to have the [**Letterboxing tool enabled**](interface.html#enable-disable-letterboxing) during the process of generating a movie. After enabling it, two **stripes** will appear showing to the user which parts of the stage will be **rendered** and which not. In some cases (when the screen **aspect ratio** is **16:9**) these stripes won’t appear.
 
 Remember that the **Letterboxing** is useful only **when recording a Movie**, is not necessary for **Previews** or animated **GIFs**.
+
+### Use Asociate _Associate transition to clip_ button to fix bugs
+
+As this is an **experimental** software, sometimes it can appear some bug, specially in the **Timeline**. So in case you detect that a **transition** and one of its **corresponding clips** are messed up, try to use this button as explained in the [**interface section**](interface.html#associate-transition-to-clip) 

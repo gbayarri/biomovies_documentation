@@ -298,7 +298,7 @@ Shortcut: ⌘/Ctrl + ⌥/Alt + ⇧ + ◄ / Left for **macOS** / **Windows**, Ctr
 
 <img src="_static/interface/timeline/timeline13.png" />
 
-Only works with **two keyframes** selected: aligns the **firstt** keyframe of the selection with the **las** one.
+Only works with **two keyframes** selected: aligns the **first** keyframe of the selection with the **last** one.
 
 Shortcut: ⌘/Ctrl + ⌥/Alt + ⇧ + ► / Right for **macOS** / **Windows**, Ctrl + Right for **Ubuntu**
 
@@ -309,6 +309,18 @@ Shortcut: ⌘/Ctrl + ⌥/Alt + ⇧ + ► / Right for **macOS** / **Windows**, Ct
 Clicking this button select **all the keyframes of the Timeline editor**.
 
 Shortcut: ⌘/Ctrl + ⇧ + K
+
+##### Associate transition to clip
+
+<img src="_static/interface/timeline/timeline14_bis.png" />
+
+This button has the purpose of **associating** an existing transition with a clip **different** than the one that it was initially associated with.
+
+For example, we create a **transition between two clips**, then we decide to **move** or **remove** one of the two clips and instead of it, generate a new one and **associate** with the **transition**. Just selecting both neighboring keyframes (one for the **clip** and the other for the **transition**) and clicking the button will **reassociate** them and **dissociate** the transition with the initial clip.
+
+<img src="_static/interface/timeline/timeline14_bis_b.gif" style="max-width:600px" />
+
+Shortcut: ⌘/Ctrl + ⇧ + A
 
 ##### Move keyframes left
 
@@ -602,7 +614,7 @@ The structure can be displayed using a variety of **molecular representations**:
 
 ###### Backbone
 
-Cylinders connect successive residues of unbroken chains by their main backbone atoms, which are **.CA** atoms in case of proteins and **C4’/C3’** atoms for RNA/DNA, respectively. The main backbone atoms are displayed as spheres.
+Cylinders connect successive residues of unbroken chains by their main backbone atoms, which are **.CA** atoms in case of proteins and **C4’/C3’** atoms for RNA/DNA, respectively.
 
 <img src="_static/interface/representations/clips/clips18.png" style="max-width:600px;" />
 
@@ -742,7 +754,7 @@ Color by model index.
 
 ###### Random
 
-Class by random color.
+Color atoms / molecules randomly.
 
 <img src="_static/interface/representations/clips/clips39.png" style="max-width:600px;" />
 
@@ -826,7 +838,7 @@ If enabled plays the trajectory **backwards**.
 
 #### Fit clip in timeline
 
-Adjust the selected clip in **Timeline** size with the **trajectory lenght**. Beside the switch button there is a **text** that, dynamically, updates the **number of frames** of the trajectory after modifying the **range** and the **time of the clip** in ms after modifying **step** and / or **timeout**.
+Adjust the selected clip in **Timeline** size with the **trajectory length**. Beside the switch button there is a **text** that, dynamically, updates the **number of frames** of the trajectory after modifying the **range** and the **time of the clip** in ms after modifying **step** and / or **timeout**.
 
 ### Descriptions
 
@@ -885,7 +897,7 @@ Wheter or not to **show** the background of the text shown in the **Timeline**.
 
 #### Description position
 
-**Ubication** of the text in the stage. 
+**Placement** of the text in the stage. 
 
 <img src="_static/interface/representations/descriptions/descriptions09.png" style="max-width:300px;" />
 
