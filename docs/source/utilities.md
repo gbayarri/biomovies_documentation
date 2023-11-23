@@ -248,6 +248,6 @@ It is **highly recommended** to have the [**Letterboxing tool enabled**](interfa
 
 Remember that the **Letterboxing** is useful only **when recording a Movie**, is not necessary for **Previews** or animated **GIFs**.
 
-### Use Asociate _Associate transition to clip_ button to fix bugs
+### Use _Associate transition to clip_ button to fix bugs
 
-As this is an **experimental** software, sometimes it can appear some bug, specially in the **Timeline**. So in case you detect that a **transition** and one of its **corresponding clips** are messed up, try to use this button as explained in the [**interface section**](interface.html#associate-transition-to-clip) 
+As this is an **experimental** software, sometimes it can appear some bug, specially in the **Timeline**. So in case you detect that a **transition** and one of its **corresponding clips** are messed up, try to use this button as explained in the [**interface section**](interface.html#associate-transition-to-clip) .
