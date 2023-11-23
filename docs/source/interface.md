@@ -279,7 +279,7 @@ Clicking this button enables / disables the **Zoom Mode**, which allows to **zoo
 
 Shortcut: &#8984;/Ctrl + &#x2325;/Alt + Z
 
-Tips: Once the zoom mode is enabled, the **default** zoom type is **Zoom In**. For doing **Zoom Out**, click **&#8984;/Ctrl**. Zoom can be applied as well just clicking **Ctrl** (any OS) and scrolling the **mouse wheel**.
+Tips: Once the zoom mode is enabled, the **default** zoom type is **Zoom In**. For doing **Zoom Out**, click &#8984;/Ctrl. Zoom can be applied as well just clicking **Ctrl** (any OS) and scrolling the **mouse wheel**.
 
 #### Keyframes actions
 
@@ -299,7 +299,7 @@ Shortcut: &#8984;/Ctrl + &#x2325;/Alt + &#x21E7; + &#x25C4; / Left for **macOS**
 
 ![](_static/interface/timeline/timeline13.png)
 
-Only works with **two keyframes** selected: aligns the **firstt** keyframe of the selection with the **las** one.
+Only works with **two keyframes** selected: aligns the **first** keyframe of the selection with the **last** one.
 
 Shortcut: &#8984;/Ctrl + &#x2325;/Alt + &#x21E7; + &#x25BA; / Right for **macOS** / **Windows**, Ctrl + Right for **Ubuntu**
 
@@ -310,6 +310,17 @@ Shortcut: &#8984;/Ctrl + &#x2325;/Alt + &#x21E7; + &#x25BA; / Right for **macOS*
 Clicking this button select **all the keyframes of the Timeline editor**.
 
 Shortcut: &#8984;/Ctrl + &#x21E7; + K
+
+(video_editor_associate)=
+##### Associate transition to clip
+
+![](_static/interface/timeline/timeline14_bis.png)
+
+This button has the purpose of **associating** an existing transition with a clip **different** than the one that it was initially associated with.
+
+For example, we create a **transition between two clips**, then we decide to **move** or **remove** one of the two clips and instead of it, generate a new one and **associate** with the **transition**. Just selecting both neighboring keyframes (one for the **clip** and the other for the **transition**) and clicking the button will **reassociate** them and **dissociate** the transition with the initial clip.
+
+Shortcut: ⌘/Ctrl + ⇧ + A
 
 ##### Move keyframes left
 
@@ -599,7 +610,7 @@ The structure can be displayed using a variety of **molecular representations**:
 
 ###### Backbone
 
-Cylinders connect successive residues of unbroken chains by their main backbone atoms, which are **.CA** atoms in case of proteins and **C4’/C3’** atoms for RNA/DNA, respectively. The main backbone atoms are displayed as spheres.
+Cylinders connect successive residues of unbroken chains by their main backbone atoms, which are **.CA** atoms in case of proteins and **C4’/C3’** atoms for RNA/DNA, respectively. 
 
 ![](_static/interface/representations/clips/clips18.png)
 
@@ -739,7 +750,7 @@ Color by model index.
 
 ###### Random
 
-Class by random color.
+Color atoms / molecules randomly.
 
 ![](_static/interface/representations/clips/clips39.png)
 
@@ -823,7 +834,7 @@ If enabled plays the trajectory **backwards**.
 
 #### Fit clip in timeline
 
-Adjust the selected clip in **Timeline** size with the **trajectory lenght**. Beside the switch button there is a **text** that, dynamically, updates the **number of frames** of the trajectory after modifying the **range** and the **time of the clip** in ms after modifying **step** and / or **timeout**.
+Adjust the selected clip in **Timeline** size with the **trajectory length**. Beside the switch button there is a **text** that, dynamically, updates the **number of frames** of the trajectory after modifying the **range** and the **time of the clip** in ms after modifying **step** and / or **timeout**.
 
 ### Descriptions
 
@@ -882,7 +893,7 @@ Wheter or not to **show** the background of the text shown in the **Timeline**.
 
 #### Description position
 
-**Ubication** of the text in the stage. 
+**Placement** of the text in the stage. 
 
 ![](_static/interface/representations/descriptions/descriptions09.png)
 
