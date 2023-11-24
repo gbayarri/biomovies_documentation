@@ -60,7 +60,8 @@ details p { padding-left: 20px; }
 details ul { margin-left: 15px; }
 
 .btn { background: transparent; color: #6b9080; box-shadow: none; margin: 5px 5px 0; border-radius: 5px; border-color: #6b908066;}
-.btn:hover, .btn:focus  { background: #6b9080ee; color: #fff; }    
+.btn:hover, .btn:focus  { background: #6b9080; color: #fff; }    
+.btn:visited { color: #6b9080; }
 .downloads-container { margin-bottom: 20px;}
 
 @media not all and (min-resolution:.001dpcm)
