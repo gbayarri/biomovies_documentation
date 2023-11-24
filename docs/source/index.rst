@@ -18,5 +18,5 @@ Contents
    Tutorials ➚ <https://gbayarri.github.io/biomovies/#tutorials>
    Releases <releases>
 
-`Github repository <https://github.com/gbayarri/biomovies-src>`_.
+`Github repository <https://github.com/gbayarri/biomovies-app>`_.
 ======================================================================
