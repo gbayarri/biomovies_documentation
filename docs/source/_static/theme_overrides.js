@@ -22,8 +22,7 @@ $(document).ready(function() {
 				json.forEach(item => {
 
 					// format date
-					const d = new Date(item.published_at)
-					const publish_date = `${(d.getDate() < 10 ? '0' : '') + d.getDate()}/${(d.getMonth() < 9 ? '0' : '') + (parseInt(d.getMonth()) + 1)}/${d.getFullYear()}`
+					let publish_date = ''
 
 					// format body
 					const body = item.body.split('\r\n')
@@ -34,12 +33,16 @@ $(document).ready(function() {
 					// get type and list body
 					body.forEach((item, index) => {
 						if(index == 0) {
-							if(item.indexOf('Alpha') !== -1) type = 'Alpha'
+							if(item.indexOf('Pre-alpha') !== -1) type = 'Pre-alpha'
+							else if(item.indexOf('Alpha') !== -1) type = 'Alpha'
 							else if(item.indexOf('Beta') !== -1) type = 'Beta'
 							else if(item.indexOf('Release') !== -1) type = 'Release'
 							else type = 'Unknown'							
 						} else {
-							if(item.length && item.indexOf('Full Changelog') === -1) list_body.push(`<li><p>${item.replace(/\- /g, '')}</p></li>`)
+							// get data (except date)
+							if(item.length && item.indexOf('[') === -1 && item.indexOf(']') === -1) list_body.push(`<li><p>${item.replace(/\- /g, '')}</p></li>`)
+							// get date from body
+							if(item.length && item.indexOf('[') !== -1 && item.indexOf(']') !== -1) publish_date = item.replace(/\[/g, '').replace(/\]/g, '')
 						}
 					})
 
