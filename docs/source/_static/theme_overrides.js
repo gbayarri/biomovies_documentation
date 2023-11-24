@@ -31,9 +31,6 @@ $(document).ready(function() {
 					let type = ''
 					let list_body = []
 
-					// get full changelog url
-					const full_changelog = body.filter(item => item.indexOf('Full Changelog') !== -1)[0].split(': ')
-
 					// get type and list body
 					body.forEach((item, index) => {
 						if(index == 0) {
@@ -82,7 +79,6 @@ $(document).ready(function() {
 						<ul class="simple">
 							${list_body.join('')}
 						</ul>
-						<p><a href="${full_changelog[1]}"><strong>Full Changelog</strong> <i class="fa-solid fa-up-right-from-square" style="font-size: 12px;"></i></a></p>
 						</section>
 
 						<div class="downloads-container">${assets}</div>
@@ -97,6 +93,7 @@ $(document).ready(function() {
 				})
 
 			}).catch(function() {
+				console.log("???")
 				// if no data available from github releases show error message
 				$( "h1" ).after(`
 					<p>Unable to connect to GitHub Source code</p>
