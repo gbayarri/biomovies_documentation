@@ -18,7 +18,7 @@ Thanks to its simplicity and the intuitive interface, users can build videos **e
 
 The projects can be saved into **.biomovies** files for the sake of **sharing** or **editing** them later. Templates can be **exported** too, allowing to apply the same edition to different biological structures.
 
-This is a **non-profit experimental** software in its **Beta** version, so be aware that some **bugs** can happen during the execution. Please **save** your projects as often as you can and **let us know** if some bug is found.
+This is a **non-profit experimental** software in its **Beta** version, so be aware that some **bugs** can happen during the execution. Please **save** your projects as often as you can and [**let us know**](https://github.com/gbayarri/biomovies-app/issues/new?assignees=&labels=bug&projects=&template=bug_report.md&title=) if some bug is found.
 
 Visit the [**official website** <i class="fa-solid fa-up-right-from-square" style="font-size: 12px;"></i>](https://gbayarri.github.io/biomovies/) for watching demonstration **videos** and **tutorials**.
 
