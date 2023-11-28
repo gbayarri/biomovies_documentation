@@ -64,6 +64,8 @@ details ul { margin-left: 15px; }
 .btn:visited { color: #6b9080; }
 .downloads-container { margin-bottom: 20px;}
 
+#loading { font-size: 18px; padding: 20px 0;}
+
 @media not all and (min-resolution:.001dpcm)
 { @supports (-webkit-appearance:none) {
 

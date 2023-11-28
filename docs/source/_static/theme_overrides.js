@@ -102,6 +102,8 @@ $(document).ready(function() {
 					<p>Unable to connect to GitHub Source code</p>
 				`);
 			});
+
+		document.querySelector('#loading').remove()
 	}
 
 
