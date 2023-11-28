@@ -95,15 +95,18 @@ $(document).ready(function() {
 					count++;
 				})
 
+				document.querySelector('#loading').remove()
+
 			}).catch(function() {
-				console.log("???")
+
+				document.querySelector('#loading').remove()
+
 				// if no data available from github releases show error message
 				$( "h1" ).after(`
 					<p>Unable to connect to GitHub Source code</p>
 				`);
+				
 			});
-
-		document.querySelector('#loading').remove()
 	}
 
 
