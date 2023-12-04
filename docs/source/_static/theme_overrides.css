@@ -24,6 +24,9 @@ td:first-child, th:first-child { text-align: left!important; }
 
 .wy-nav-content { max-width: 1200px; margin: unset; }
 
+.wy-nav-top { background:#6b9080!important; }
+.wy-nav-top a { color:#fff!important; }
+
 .wy-side-nav-search { background-color: #6b9080; }
 .wy-side-nav-search>a:hover { background:none; }
 .wy-side-nav-search>div.version { color:rgba(255, 255, 255, 1); }
@@ -75,3 +78,8 @@ details ul { margin-left: 15px; }
 
     }
 }}
+
+@media (max-width: 576px) {
+    iframe { width: 100%!important; height: auto!important; }
+    img { max-width: 100%!important; height: auto!important; }
+}
