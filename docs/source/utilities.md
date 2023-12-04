@@ -251,3 +251,7 @@ Remember that the **Letterboxing** is useful only **when recording a Movie**, is
 ### Use _Associate transition to clip_ button to fix bugs
 
 As this is an **experimental** software, sometimes it can appear some bug, specially in the **Timeline**. So in case you detect that a **transition** and one of its **corresponding clips** are messed up, try to use this button as explained in the [**interface section**](interface.html#associate-transition-to-clip) .
+
+### Use _Reset timeline_ button to fix bugs
+
+As this is an **experimental** software, sometimes it can appear some bug, specially in the **Timeline**. So in case you detect that the bounds of the keyframes don't work properly, try to use this button as explained in the [**interface section**](interface.html#reset-timeline) .
