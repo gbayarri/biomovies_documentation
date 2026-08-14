@@ -36,6 +36,6 @@ Genís Bayarri, Adam Hospital.
 
 This software has been developed by the [MMB group](https://mmb.irbbarcelona.org) at the [IRB Barcelona](https://irbbarcelona.org).
 
-© 2023 **Institute for Research in Biomedicine**
+© 2026 **Institute for Research in Biomedicine**
 
 Licensed under the **GNU General Public License v3.0**.

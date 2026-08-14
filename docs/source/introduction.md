@@ -75,6 +75,6 @@ This project has been developed on top of different JavaScript libraries:
 
 This software has been developed by the [**MMB group** <i class="fa-solid fa-up-right-from-square" style="font-size: 12px;"></i>](https://mmb.irbbarcelona.org/) at the [**IRB Barcelona** <i class="fa-solid fa-up-right-from-square" style="font-size: 12px;"></i>](https://irbbarcelona.org/).
 
-© 2023 **Institute for Research in Biomedicine**
+© 2026 **Institute for Research in Biomedicine**
 
 Licensed under the **GPL-3.0 license**
