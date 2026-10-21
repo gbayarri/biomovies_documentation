@@ -19,32 +19,43 @@ $(document).ready(function() {
 
 				$( ".toctree-l1.current" ).append(`<ul></ul>`);
 
+				// markdown headings start at h3, below the h2 of each release
+				marked.use({
+					walkTokens(token) {
+						if(token.type === 'heading') token.depth = Math.max(token.depth, 3)
+					}
+				})
+
 				json.forEach(item => {
 
 					// format date
 					let publish_date = ''
 
 					// format body
-					const body = item.body.split('\r\n')
+					const lines = item.body.split(/\r?\n/)
 
+					// get type from first line
 					let type = ''
-					let list_body = []
+					if(lines[0].indexOf('Pre-alpha') !== -1) type = 'Pre-alpha'
+					else if(lines[0].indexOf('Alpha') !== -1) type = 'Alpha'
+					else if(lines[0].indexOf('Beta') !== -1) type = 'Beta'
+					else if(lines[0].indexOf('Release') !== -1) type = 'Release'
+					else type = 'Unknown'
 
-					// get type and list body
-					body.forEach((item, index) => {
-						if(index == 0) {
-							if(item.indexOf('Pre-alpha') !== -1) type = 'Pre-alpha'
-							else if(item.indexOf('Alpha') !== -1) type = 'Alpha'
-							else if(item.indexOf('Beta') !== -1) type = 'Beta'
-							else if(item.indexOf('Release') !== -1) type = 'Release'
-							else type = 'Unknown'							
-						} else {
-							// get data (except date)
-							if(item.length && item.indexOf('[') === -1 && item.indexOf(']') === -1) list_body.push(`<li><p>${item.replace(/\- /g, '')}</p></li>`)
-							// get date from body
-							if(item.length && item.indexOf('[') !== -1 && item.indexOf(']') !== -1) publish_date = item.replace(/\[/g, '').replace(/\]/g, '')
+					const body_lines = lines.filter((line, index) => {
+						// get date from body: a line like [dd/mm/yyyy]
+						const date = line.match(/^\s*\[([^\]]+)\]\s*$/)
+						if(date) {
+							publish_date = date[1]
+							return false
 						}
+						// a first line that is only a heading (e.g. "## Alpha release") repeats the type
+						if(index == 0 && /^\s*#/.test(line)) return false
+						return true
 					})
+
+					// render markdown
+					const body = marked.parse(body_lines.join('\n'))
 
 					// get assets
 					let assets = ''
@@ -79,9 +90,7 @@ $(document).ready(function() {
 						<section id="id${count}">
 						<h2>${item.tag_name}<a class="headerlink" href="#id${count}" title="Link to this heading"></a></h2>
 						<p>${publish_date} - <a class="reference external" href="${item.html_url}">${type} <i class="fa-solid fa-up-right-from-square" style="font-size: 12px;"></i></a></p>
-						<ul class="simple">
-							${list_body.join('')}
-						</ul>
+						${body}
 						</section>
 
 						<div class="downloads-container">${assets}</div>
